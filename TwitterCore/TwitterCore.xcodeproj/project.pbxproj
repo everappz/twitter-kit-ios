@@ -1405,6 +1405,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 				ko,
@@ -1690,6 +1691,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24AC144A1BE7B22D000029B5 /* libTwitterCore.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1706,6 +1708,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24AC144A1BE7B22D000029B5 /* libTwitterCore.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1722,6 +1725,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24AC144B1BE7B62C000029B5 /* TwitterCoreTests.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1734,6 +1738,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24AC144B1BE7B62C000029B5 /* TwitterCoreTests.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -1747,6 +1752,7 @@
 			baseConfigurationReference = E67CFD441C860B330045F8A2 /* TwitterCore.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1764,6 +1770,7 @@
 			baseConfigurationReference = E67CFD441C860B330045F8A2 /* TwitterCore.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
