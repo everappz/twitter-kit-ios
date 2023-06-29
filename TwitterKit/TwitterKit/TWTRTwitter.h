@@ -107,6 +107,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)logInWithViewController:(nullable UIViewController *)viewController completion:(TWTRLogInCompletion)completion;
 
+- (void)webLogInWithViewController:(nullable UIViewController *)viewController completion:(TWTRLogInCompletion)completion;
+
 /**
  *  Finish the `SFSafariViewController` authentication loop. This method should
  *  be called from application:openURL:options inside the application delegate.

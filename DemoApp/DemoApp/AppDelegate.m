@@ -23,8 +23,16 @@
     NSDictionary *info = [[NSBundle mainBundle] infoDictionary];
     NSString *twitterConsumerKey = [info objectForKey:@"TwitterConsumerKey"];
     NSString *twitterConsumerSecret = [info objectForKey:@"TwitterConsumerSecret"];
+    NSString *twitterCallback = [info objectForKey:@"TwitterCallback"];
 
-    [[Twitter sharedInstance] startWithConsumerKey:twitterConsumerKey consumerSecret:twitterConsumerSecret];
+    NSCParameterAssert(twitterConsumerKey);
+    NSCParameterAssert(twitterConsumerSecret);
+    NSCParameterAssert(twitterCallback);
+    
+    [[Twitter sharedInstance] startWithConsumerKey:twitterConsumerKey
+                                    consumerSecret:twitterConsumerSecret
+                                       accessGroup:nil
+                                          callback:twitterCallback];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = [[RootViewController alloc] init];

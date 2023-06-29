@@ -125,7 +125,17 @@ class LoginViewController: UIViewController {
     }
 
     @objc func login() {
-        TWTRTwitter.sharedInstance().logIn(with: self) { (session, error) in
+//        TWTRTwitter.sharedInstance().logIn(with: self) { (session, error) in
+//            if let session = session {
+//                self.dismiss(animated: true) {
+//                    self.delegate?.loginViewController(viewController: self, didAuthWith: session)
+//                }
+//            } else if let error = error {
+//                UIAlertController.showAlert(with: error, on: self)
+//            }
+//        }
+        
+        TWTRTwitter.sharedInstance().webLogIn(with: self) { (session, error) in
             if let session = session {
                 self.dismiss(animated: true) {
                     self.delegate?.loginViewController(viewController: self, didAuthWith: session)
