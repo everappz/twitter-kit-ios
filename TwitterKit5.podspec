@@ -13,5 +13,16 @@ Pod::Spec.new do |s|
   s.resources = ["iOS/TwitterKit.framework/TwitterKitResources.bundle", "iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle"]
   s.frameworks = "CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"
   s.dependency "TwitterCore", ">= 3.1.0"
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+  s.preserve_paths = 'Frameworks/*.framework'
+  twitterkit_framework_os =  "TwitterKit.framework"
+  twittercore_framework_os =  "TwitterCore.framework"
+  other_frameworks_common =  ["CoreText", "QuartzCore", "CoreData", "CoreGraphics", "Foundation", "Security", "UIKit", "CoreMedia", "AVFoundation", "SafariServices"]
+  other_ldflags_os = '$(inherited) -framework ' + other_frameworks_common.join(' -framework ') + ' -framework ' + twitterkit_framework_os +  ' -framework ' + twittercore_framework_os + 
+    ' -lz -lstdc++ -lc'
+  s.xcconfig     = { 
+    'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TwitterKit5/Frameworks" "$(PODS_ROOT)/TwitterCore/Frameworks"',
+    'OTHER_LDFLAGS[sdk=iphoneos*]'  => other_ldflags_os
+  }
+
 end
