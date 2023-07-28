@@ -161,6 +161,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)init NS_UNAVAILABLE;
 
+- (instancetype)initWithJSONDictionaryV2:(NSDictionary *)dictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END

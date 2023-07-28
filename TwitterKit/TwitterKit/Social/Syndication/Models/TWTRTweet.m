@@ -50,6 +50,17 @@ NSString *const TWTRTweetPerspectivalUserID = @"perspectival_user_id";
 
 #pragma mark - Init
 
+- (instancetype)initWithJSONDictionaryV2:(NSDictionary *)dictionary
+{
+    if (self = [super init]) {
+        _validatedDictionary = [dictionary copy];
+        _text = [dictionary objectForKey:@"text"];
+        _tweetID = [dictionary objectForKey:@"id"];
+    }
+    
+    return self;
+}
+
 - (instancetype)initWithJSONDictionary:(NSDictionary *)dictionary
 {
     NSDictionary<NSString *, id> *validatedDictionary = [[self class] validateJSONDictionary:dictionary];
