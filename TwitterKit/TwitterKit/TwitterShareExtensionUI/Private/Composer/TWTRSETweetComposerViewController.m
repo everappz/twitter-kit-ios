@@ -111,6 +111,8 @@
 #import "TWTRSETweetTextViewContainer.h"
 #import "TWTRSEUIBundle.h"
 #import "UIView+TSEExtensions.h"
+#import "TWTRTwitter.h"
+#import "TWTRComposerAccount.h"
 
 #import <TwitterCore/TWTRColorUtil.h>
 
@@ -284,8 +286,8 @@ static void *TSETweetTextKVOCOntext = &TSETweetTextKVOCOntext;
     twitterLogo.birdColor = [TWTRColorUtil blueColor];
     self.navigationItem.titleView = twitterLogo;
 
-    self.selectedAccount = _configuration.initiallySelectedAccount ?: _configuration.accounts.firstObject;
-
+    [self selectDefaultAccount];
+    
     self.scrollView.alwaysBounceVertical = YES;
 
     self.tableView.bounces = NO;
@@ -721,7 +723,7 @@ static void *TSETweetTextKVOCOntext = &TSETweetTextKVOCOntext;
     self.waitingForLocation = NO;
     TWTRSEAccountSelectionTableViewController *accountSelectionViewController = [[TWTRSEAccountSelectionTableViewController alloc] initWithAccounts:_configuration.accounts selectedAccount:self.selectedAccount imageDownloader:_configuration.imageDownloader networking:_configuration.networking delegate:self];
 
-    [self.navigationController showViewController:accountSelectionViewController sender:self];
+    [self.navigationController pushViewController:accountSelectionViewController animated:YES];
 }
 
 - (void)_tseui_handleLocationSelectionRowTap
@@ -781,6 +783,37 @@ static void *TSETweetTextKVOCOntext = &TSETweetTextKVOCOntext;
     }
 
     [self.navigationController popToViewController:self animated:YES];
+}
+
+- (void)accountSelectionTableViewController:(TWTRSEAccountSelectionTableViewController *)accountSelectionTableViewController didDeleteAccount:(id<TWTRSEAccount>)account
+{
+    [self reloadAccounts];
+}
+
+- (void)accountSelectionTableViewController:(TWTRSEAccountSelectionTableViewController *)accountSelectionTableViewController didAddAccount:(id<TWTRSEAccount>)account
+{
+    [self reloadAccounts];
+}
+
+- (void)selectDefaultAccount {
+    self.selectedAccount = _configuration.initiallySelectedAccount ?: _configuration.accounts.firstObject;
+}
+
+- (void)reloadAccounts {
+    [_configuration updateAccounts:[self loadExistingAccounts]];
+    [self selectDefaultAccount];
+}
+
+- (nullable NSArray<id<TWTRSEAccount>> *)loadExistingAccounts {
+    NSMutableArray<TWTRComposerAccount *> *accounts = [NSMutableArray array];
+
+    TWTRSessionStore *sessionStore = [TWTRTwitter sharedInstance].sessionStore;
+    NSArray *currentSessions = [sessionStore existingUserSessions];
+    for (TWTRSession *session in currentSessions) {
+        [accounts addObject:accountFromSession(session)];
+    }
+
+    return accounts;
 }
 
 #pragma mark - TWTRSELocationSelectionDelegate

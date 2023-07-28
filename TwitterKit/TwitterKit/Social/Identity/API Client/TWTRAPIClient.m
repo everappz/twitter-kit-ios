@@ -154,13 +154,12 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
 
 #pragma mark - Public Methods
 
+/*
 - (void)sendTweetWithText:(NSString *)tweetText completion:(TWTRSendTweetCompletion)completion
 {
     TWTRParameterAssertOrReturn(tweetText);
     TWTRParameterAssertOrReturn(completion);
-
-    //Error Domain=TwitterAPIErrorDomain Code=453 "Request failed: forbidden (403)" UserInfo={NSLocalizedFailureReason=Twitter API error : You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product (code 453), TWTRNetworkingStatusCode=403, NSErrorFailingURLKey=https://api.twitter.com/1.1/statuses/update.json, NSLocalizedDescription=Request failed: forbidden (403)}
-    /*
+    
     [self postToAPIPath:TWTRAPIConstantsCreateTweetPath
              parameters:@{@"status": tweetText}
              completion:^(NSURLResponse *response, NSDictionary *responseDict, NSError *error) {
@@ -172,7 +171,15 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
 
                  [self callGenericResponseBlock:completion withObject:tweet error:error];
              }];
-    */
+}
+*/
+
+- (void)sendTweetWithTextV2:(NSString *)tweetText completion:(TWTRSendTweetCompletion)completion
+{
+    TWTRParameterAssertOrReturn(tweetText);
+    TWTRParameterAssertOrReturn(completion);
+
+    //Error Domain=TwitterAPIErrorDomain Code=453 "Request failed: forbidden (403)" UserInfo={NSLocalizedFailureReason=Twitter API error : You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product (code 453), TWTRNetworkingStatusCode=403, NSErrorFailingURLKey=https://api.twitter.com/1.1/statuses/update.json, NSLocalizedDescription=Request failed: forbidden (403)}
     
     //use API V2
     //https://developer.twitter.com/en/docs/twitter-api/tweets/manage-tweets/api-reference/post-tweets
@@ -303,7 +310,7 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
 
     if (videoData == nil) {
         NSLog(@"Error: video data is empty");
-        [self sendTweetWithText:tweetText completion:completion];
+        [self sendTweetWithTextV2:tweetText completion:completion];
         return;
     } else if (videoData.length == 0) {
         NSLog(@"Error: video data is too small");

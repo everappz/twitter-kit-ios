@@ -107,7 +107,7 @@
         if (image) {
             [client sendTweetWithText:text image:image completion:sendCompletion];
         } else {
-            [client sendTweetWithText:text completion:sendCompletion];
+            [client sendTweetWithTextV2:text completion:sendCompletion];
         }
     }
 }

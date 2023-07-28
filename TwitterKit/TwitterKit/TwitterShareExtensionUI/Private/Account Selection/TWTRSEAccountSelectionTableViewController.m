@@ -18,7 +18,10 @@
 #import "TWTRSEAccountSelectionTableViewController.h"
 #import "TWTRSEAccount.h"
 #import "TWTRSEAccountTableViewCell.h"
+#import "TWTRSESimpleAccountTableViewCell.h"
 #import "TWTRSELocalizedString.h"
+#import "TWTRTwitter.h"
+#import "TWTRComposerAccount.h"
 
 #pragma mark -
 
@@ -51,6 +54,8 @@
         _delegate = delegate;
 
         self.title = [TSELocalized localizedString:TSEUI_LOCALIZABLE_SHARE_EXT_ACCOUNT];
+        
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(actionAddAccount:)];
     }
 
     return self;
@@ -60,18 +65,47 @@
 {
     [super viewDidLoad];
 
-    [self.tableView registerClass:[TWTRSEAccountTableViewCell class] forCellReuseIdentifier:TWTRSEAccountTableViewCell.reuseIdentifier];
+    [self.tableView registerClass:[TWTRSESimpleAccountTableViewCell class] forCellReuseIdentifier:TWTRSEAccountTableViewCell.reuseIdentifier];
 }
 
 - (void)setSelectedAccount:(id<TWTRSEAccount>)selectedAccount
 {
-    if (selectedAccount != _selectedAccount) {
-        _selectedAccount = selectedAccount;
-
-        [self.delegate accountSelectionTableViewController:self didSelectAccount:selectedAccount];
-
+    _selectedAccount = selectedAccount;
+    dispatch_async(dispatch_get_main_queue(), ^{
         [self.tableView reloadData];
+    });
+}
+
+- (void)actionAddAccount:(id)sender
+{
+    [[TWTRTwitter sharedInstance] webLogInWithViewController:self completion:^(TWTRSession * _Nullable session, NSError * _Nullable error) {
+        [self sessionDidConnect:session];
+    }];
+}
+
+- (void)sessionDidConnect:(TWTRSession * _Nullable)session
+{
+    if (session == nil) {
+        return;
     }
+    
+    TWTRComposerAccount *account = accountFromSession(session);
+    if (account == nil) {
+        return;
+    }
+    
+    NSMutableArray<id<TWTRSEAccount>> *accountsModified = [self.accounts mutableCopy];
+    [accountsModified addObject:account];
+    _accounts = accountsModified;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.delegate accountSelectionTableViewController:self didAddAccount:account];
+        
+        self.selectedAccount = account;
+        [self.delegate accountSelectionTableViewController:self didSelectAccount:self.selectedAccount];
+        
+        [self.tableView reloadData];
+    });
 }
 
 #pragma mark - UITableViewDataSource
@@ -81,22 +115,57 @@
     return (NSInteger)self.accounts.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 48.0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     id<TWTRSEAccount> account = self.accounts[(NSUInteger)indexPath.row];
 
-    TWTRSEAccountTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TWTRSEAccountTableViewCell.reuseIdentifier forIndexPath:indexPath];
+    TWTRSESimpleAccountTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:TWTRSEAccountTableViewCell.reuseIdentifier forIndexPath:indexPath];
 
-    [cell configureWithAccount:account isSelected:account == self.selectedAccount imageDownloader:self.imageDownloader networking:self.networking];
+    [cell configureWithAccount:account isSelected:account == self.selectedAccount];
 
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     self.selectedAccount = self.accounts[(NSUInteger)indexPath.row];
 
     [self.delegate accountSelectionTableViewController:self didSelectAccount:self.selectedAccount];
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        id<TWTRSEAccount> removedAccount = self.accounts[(NSUInteger)indexPath.row];
+        
+        NSString *userID = [NSString stringWithFormat:@"%@",@(removedAccount.userID)];
+        [TWTRTwitter.sharedInstance.sessionStore logOutUserID:userID];
+        
+        NSMutableArray<id<TWTRSEAccount>> *accountsModified = [self.accounts mutableCopy];
+        [accountsModified removeObject:removedAccount];
+        _accounts = accountsModified;
+        
+        [self.delegate accountSelectionTableViewController:self didDeleteAccount:removedAccount];
+        
+        if (self.selectedAccount.userID == removedAccount.userID) {
+            self.selectedAccount = [accountsModified firstObject];
+            [self.delegate accountSelectionTableViewController:self didSelectAccount:self.selectedAccount];
+        }
+        
+        [tableView reloadData];
+    }
 }
 
 @end

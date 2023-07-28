@@ -45,7 +45,7 @@
     if ((self = [super init])) {
         _initialTweet = [config.initialTweet copy] ?: [TWTRSETweet emptyTweet];
         _composedTweet = [_initialTweet copy];
-        _allowsAccountSelection = config.accounts.count > 1;
+        _allowsAccountSelection = YES;//config.accounts.count > 1;
         _allowsGeoTagging = allowsGeoTagging;
         _locationStatus = TWTRSETweetComposerTableViewDataSourceLocationStatusUnknown;
         _textSelection = (NSRange){.location = NSNotFound, .length = 0};

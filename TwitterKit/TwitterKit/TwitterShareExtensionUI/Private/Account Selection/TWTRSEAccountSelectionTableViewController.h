@@ -35,6 +35,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)accountSelectionTableViewController:(TWTRSEAccountSelectionTableViewController *)accountSelectionTableViewController didSelectAccount:(id<TWTRSEAccount>)account;
 
+- (void)accountSelectionTableViewController:(TWTRSEAccountSelectionTableViewController *)accountSelectionTableViewController didDeleteAccount:(id<TWTRSEAccount>)account;
+
+- (void)accountSelectionTableViewController:(TWTRSEAccountSelectionTableViewController *)accountSelectionTableViewController didAddAccount:(id<TWTRSEAccount>)account;
+
 @end
 
 @interface TWTRSEAccountSelectionTableViewController : TWTRSESelectionTableViewController

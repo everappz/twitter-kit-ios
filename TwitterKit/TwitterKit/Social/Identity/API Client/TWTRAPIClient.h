@@ -210,7 +210,7 @@ typedef void (^TWTRRequestEmailCompletion)(NSString *_Nullable email, NSError *_
  *  @param tweetText    (required) The text for a Tweet
  *  @param completion   Completion block to be called on response. Called on main queue.
  */
-- (void)sendTweetWithText:(NSString *)tweetText completion:(TWTRSendTweetCompletion)completion;
+- (void)sendTweetWithTextV2:(NSString *)tweetText completion:(TWTRSendTweetCompletion)completion;
 
 /**
  *  Upload media and create a Tweet. Returns TWTRTweet to be used when debugging.

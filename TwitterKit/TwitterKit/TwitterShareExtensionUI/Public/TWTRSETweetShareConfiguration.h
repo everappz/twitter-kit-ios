@@ -72,6 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)init NS_UNAVAILABLE;
 
+- (void)updateAccounts:(NSArray<id<TWTRSEAccount>> *)accounts;
+
 @end
 
 NS_ASSUME_NONNULL_END

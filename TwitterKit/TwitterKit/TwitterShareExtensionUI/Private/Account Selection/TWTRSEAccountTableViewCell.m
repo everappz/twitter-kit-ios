@@ -220,8 +220,8 @@ static const CGFloat kNameLabelsFontPointSizeMultiplier = (CGFloat)1.25;
 
     self.lastProvidedAccountOrUser = account;
 
-    self.fullNameLabel.text = nil;
-    self.usernameLabel.text = TWTRSEAccountDisplayUsername(account);
+    self.fullNameLabel.text = TWTRSEAccountDisplayUsername(account);
+    self.usernameLabel.text = nil;
     self.accessoryType = isSelected ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
 
     __weak typeof(self) weakSelf = self;

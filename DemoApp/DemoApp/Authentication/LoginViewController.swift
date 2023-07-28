@@ -56,11 +56,11 @@ class LoginViewController: UIViewController {
     private lazy var customLoginButton: UIButton = { [unowned self] in
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Log In with a Custom Button", for: .normal)
+        button.setTitle("Web Log In with a Custom Button", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .pubplatPurple
         button.layer.cornerRadius = 4.0
-        button.addTarget(self, action: #selector(login), for: .touchUpInside)
+        button.addTarget(self, action: #selector(webLogIn), for: .touchUpInside)
         return button
     }()
 
@@ -124,18 +124,20 @@ class LoginViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
 
-    @objc func login() {
-//        TWTRTwitter.sharedInstance().logIn(with: self) { (session, error) in
-//            if let session = session {
-//                self.dismiss(animated: true) {
-//                    self.delegate?.loginViewController(viewController: self, didAuthWith: session)
-//                }
-//            } else if let error = error {
-//                UIAlertController.showAlert(with: error, on: self)
-//            }
-//        }
-        
+    @objc func webLogIn() {
         TWTRTwitter.sharedInstance().webLogIn(with: self) { (session, error) in
+            if let session = session {
+                self.dismiss(animated: true) {
+                    self.delegate?.loginViewController(viewController: self, didAuthWith: session)
+                }
+            } else if let error = error {
+                UIAlertController.showAlert(with: error, on: self)
+            }
+        }
+    }
+    
+    @objc func logIn() {
+        TWTRTwitter.sharedInstance().logIn(with: self) { (session, error) in
             if let session = session {
                 self.dismiss(animated: true) {
                     self.delegate?.loginViewController(viewController: self, didAuthWith: session)

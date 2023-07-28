@@ -57,7 +57,14 @@
 
     _composerViewController = [[TWTRSETweetComposerViewController alloc] initWithConfiguration:_configuration];
     _navigationController = [[TWTRSETweetShareNavigationController alloc] initWithRootViewController:_composerViewController];
-
+    
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance *navBarAppearance = [UINavigationBarAppearance new];
+        [navBarAppearance configureWithOpaqueBackground];
+        _navigationController.navigationBar.scrollEdgeAppearance = navBarAppearance;
+        _navigationController.navigationBar.standardAppearance = navBarAppearance;
+    }
+    
     // This controller acts as a façade to hide the navigation controller.
     // Embed as a child:
     [self addChildViewController:_navigationController];

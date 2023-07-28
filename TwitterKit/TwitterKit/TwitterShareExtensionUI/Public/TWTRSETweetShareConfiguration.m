@@ -58,4 +58,9 @@
     return self;
 }
 
+- (void)updateAccounts:(NSArray<id<TWTRSEAccount>> *)accounts {
+    _accounts = [accounts copy];
+    _initiallySelectedAccount = nil;
+}
+
 @end
