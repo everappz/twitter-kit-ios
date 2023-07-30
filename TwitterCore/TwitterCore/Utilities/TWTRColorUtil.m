@@ -283,6 +283,18 @@
     return imagePlaceholderColor;
 }
 
++ (UIColor *)selectedCellBackgroundColor
+{
+    static UIColor *color;
+    static dispatch_once_t onceToken;
+
+    dispatch_once(&onceToken, ^{
+        color = [[UIColor lightGrayColor] colorWithAlphaComponent:0.2];
+    });
+
+    return color;
+}
+
 #pragma mark - Utilities
 
 + (NSInteger)hexWithColor:(UIColor *)color

@@ -17,6 +17,7 @@
 
 #import "TWTRSEConfigurationSelectionTableViewCell.h"
 #import "UIView+TSEExtensions.h"
+#import <TwitterCore/TWTRColorUtil.h>
 
 static const CGFloat kLabelMinHorizontalSeparation = 10.0;
 
@@ -36,12 +37,19 @@ static const CGFloat kLabelMinHorizontalSeparation = 10.0;
         _configurationNameLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         _configurationValueLabel = [[UILabel alloc] initWithFrame:CGRectZero];
 
-        _configurationValueLabel.textColor = [UIColor grayColor];
+        _configurationNameLabel.textColor = [TWTRColorUtil textColor];
+        _configurationNameLabel.textAlignment = NSTextAlignmentLeft;
+        
+        _configurationValueLabel.textColor = [TWTRColorUtil darkGrayTextColor];
         _configurationValueLabel.textAlignment = NSTextAlignmentRight;
 
         _loadingIndicatorView = [[UIActivityIndicatorView alloc] initWithFrame:CGRectZero];
-        _loadingIndicatorView.color = [UIColor grayColor];
+        _loadingIndicatorView.color = [TWTRColorUtil darkGrayColor];
         _loadingIndicatorView.hidesWhenStopped = YES;
+        
+        UIView *selectedBackgroundView = [UIView new];
+        selectedBackgroundView.backgroundColor = [TWTRColorUtil selectedCellBackgroundColor];
+        self.selectedBackgroundView = selectedBackgroundView;
 
         [self.contentView addSubview:_configurationNameLabel];
         [self.contentView addSubview:_configurationValueLabel];

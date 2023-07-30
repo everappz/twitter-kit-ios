@@ -82,16 +82,16 @@ static dispatch_once_t onceToken;
     return YES;
 }
 
-- (void)showFromViewController:(UIViewController *)fromController completion:(nullable TWTRComposerCompletion)completion
+- (void)presentFromViewController:(UIViewController *)fromController didPresentHandler:(void (^ __nullable)(void))didPresentHandler completionHandler:(nullable TWTRComposerCompletion)completionHandler
 {
-    self.completion = [completion copy];
+    self.completion = [completionHandler copy];
 
     if ([[TWTRTwitter sharedInstance].sessionStore hasLoggedInUsers]) {
-        [self presentFromViewController:fromController];
+        [self presentFromViewController:fromController didPresentHandler:didPresentHandler];
     } else {
         [[TWTRTwitter sharedInstance] logInWithCompletion:^(TWTRSession *session, NSError *error) {
             if (session) {
-                [self presentFromViewController:fromController];
+                [self presentFromViewController:fromController didPresentHandler:didPresentHandler];
             } else {
                 NSLog(@"[TwitterKit] No users for composer.");
                 if (self.completion) {
@@ -104,12 +104,12 @@ static dispatch_once_t onceToken;
 
 #pragma mark - Internal
 
-- (void)presentFromViewController:(UIViewController *)controller
+- (void)presentFromViewController:(UIViewController *)controller didPresentHandler:(void (^ __nullable)(void))didPresentHandler
 {
     TWTRComposerViewController *composer = [[TWTRComposerViewController alloc] initWithInitialText:[self textForComposer] image:self.initialImage videoURL:nil];
     composer.delegate = self;
 
-    [controller presentViewController:composer animated:YES completion:nil];
+    [controller presentViewController:composer animated:YES completion:didPresentHandler];
 }
 
 // Chose text based on which properties are set

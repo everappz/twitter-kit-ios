@@ -61,6 +61,9 @@
     if (@available(iOS 13.0, *)) {
         UINavigationBarAppearance *navBarAppearance = [UINavigationBarAppearance new];
         [navBarAppearance configureWithOpaqueBackground];
+        navBarAppearance.backgroundColor = [UIColor whiteColor];
+        navBarAppearance.shadowColor = [UIColor lightGrayColor];
+        navBarAppearance.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor blackColor]};
         _navigationController.navigationBar.scrollEdgeAppearance = navBarAppearance;
         _navigationController.navigationBar.standardAppearance = navBarAppearance;
     }

@@ -66,6 +66,9 @@
     [super viewDidLoad];
 
     [self.tableView registerClass:[TWTRSESimpleAccountTableViewCell class] forCellReuseIdentifier:TWTRSEAccountTableViewCell.reuseIdentifier];
+    self.tableView.backgroundColor = [UIColor whiteColor];
+    self.tableView.rowHeight = 48.0;
+    self.tableView.estimatedRowHeight = 48.0;
 }
 
 - (void)setSelectedAccount:(id<TWTRSEAccount>)selectedAccount
@@ -113,11 +116,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return (NSInteger)self.accounts.count;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 48.0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -69,9 +69,10 @@ class TweetComposerViewController: UIViewController {
     }
 
     private func presentTweetComposer() {
-        composer.show(from: self) { [weak self] _ in
+        composer.present(from: self, didPresentHandler: nil, completionHandler: {
+            [weak self] _ in
             self?.dismiss(animated: false, completion: nil)
-        }
+        })
     }
 
     private func presentTweetViewController() {

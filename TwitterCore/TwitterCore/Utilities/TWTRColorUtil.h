@@ -76,6 +76,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)textColor;
 + (UIColor *)imagePlaceholderColor;
++ (UIColor *)selectedCellBackgroundColor;
 
 #pragma mark - Utilities
 

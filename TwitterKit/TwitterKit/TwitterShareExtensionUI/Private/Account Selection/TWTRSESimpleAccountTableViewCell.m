@@ -16,7 +16,7 @@
 #import "TWTRSETwitterUser.h"
 #import "TWTRSEUIBundle.h"
 #import "UIView+TSEExtensions.h"
-
+#import <TwitterCore/TWTRColorUtil.h>
 
 @interface TWTRSESimpleAccountTableViewCell ()
 
@@ -30,6 +30,14 @@
     if (self) {
         self.textLabel.font = [TWTRSEFonts userUsernameFont];
         self.textLabel.textColor = [TWTRSEFonts userUsernameColor];
+        
+        UIView *selectedBackgroundView = [UIView new];
+        selectedBackgroundView.backgroundColor = [TWTRColorUtil selectedCellBackgroundColor];
+        self.selectedBackgroundView = selectedBackgroundView;
+        
+        UIView *backgroundView = [UIView new];
+        backgroundView.backgroundColor = [UIColor whiteColor];
+        self.backgroundView = backgroundView;
     }
 
     return self;

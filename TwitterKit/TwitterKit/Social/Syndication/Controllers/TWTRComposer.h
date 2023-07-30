@@ -76,7 +76,7 @@ typedef void (^TWTRComposerCompletion)(TWTRComposerResult result);
  * @param fromController The controller in which to present the composer from.
  * @param completion completion The completion handler, which has a single parameter indicating whether the user finished or cancelled the Tweet composition.
  */
-- (void)showFromViewController:(UIViewController *)fromController completion:(nullable TWTRComposerCompletion)completion;
+- (void)presentFromViewController:(UIViewController *)fromController didPresentHandler:(void (^ __nullable)(void))didShowHandler completionHandler:(nullable TWTRComposerCompletion)completionHandler;
 
 @end
 

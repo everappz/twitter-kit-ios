@@ -294,8 +294,8 @@ static void *TSETweetTextKVOCOntext = &TSETweetTextKVOCOntext;
 
     self.tableView.dataSource = self.dataSource;
 
-    self.tableView.rowHeight = 44;
-    self.tableView.estimatedRowHeight = 44;
+    self.tableView.rowHeight = 48.0;
+    self.tableView.estimatedRowHeight = 48.0;
 
     self.tableView.separatorInset = UIEdgeInsetsZero;
 
