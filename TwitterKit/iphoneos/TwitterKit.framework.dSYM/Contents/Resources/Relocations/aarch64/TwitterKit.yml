@@ -102,8 +102,8 @@ relocations:
   - { offsetInCU: 0x89A, offset: 0x1FC6, size: 0x8, addend: 0x0, symName: '-[TWTRAPIResponseValidator validateResponse:data:error:]', symObjAddr: 0xC94, symBinAddr: 0xA3BC, symSize: 0x13C }
   - { offsetInCU: 0x8A2, offset: 0x1FCE, size: 0x8, addend: 0x0, symName: '_OBJC_CLASS_$_TWTRAPINetworkErrorsShim', symObjAddr: 0xDD0, symBinAddr: 0x173B60, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x2354, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatters serverParsingDateFormatter]', symObjAddr: 0x0, symBinAddr: 0xA4F8, symSize: 0x20C }
-  - { offsetInCU: 0xA7, offset: 0x23D4, size: 0x8, addend: 0x0, symName: _internalCache, symObjAddr: 0xB0D8, symBinAddr: 0x17B620, symSize: 0x0 }
-  - { offsetInCU: 0xF2, offset: 0x241F, size: 0x8, addend: 0x0, symName: _internalLocale, symObjAddr: 0xB0E0, symBinAddr: 0x17B628, symSize: 0x0 }
+  - { offsetInCU: 0xA7, offset: 0x23D4, size: 0x8, addend: 0x0, symName: _internalCache, symObjAddr: 0x3858, symBinAddr: 0x17B620, symSize: 0x0 }
+  - { offsetInCU: 0xF2, offset: 0x241F, size: 0x8, addend: 0x0, symName: _internalLocale, symObjAddr: 0x3860, symBinAddr: 0x17B628, symSize: 0x0 }
   - { offsetInCU: 0x17C, offset: 0x24A9, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatters serverParsingDateFormatter]', symObjAddr: 0x0, symBinAddr: 0xA4F8, symSize: 0x20C }
   - { offsetInCU: 0x184, offset: 0x24B1, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatters HTTPDateHeaderParsingFormatter]', symObjAddr: 0x20C, symBinAddr: 0xA704, symSize: 0x1C0 }
   - { offsetInCU: 0x1D5, offset: 0x2502, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatters HTTPDateHeaderParsingFormatter]', symObjAddr: 0x20C, symBinAddr: 0xA704, symSize: 0x1C0 }
@@ -178,12 +178,12 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x46BD, size: 0x8, addend: 0x0, symName: '-[TWTRNetworking initWithAuthConfig:]', symObjAddr: 0x0, symBinAddr: 0xD7C8, symSize: 0xD4 }
   - { offsetInCU: 0x38, offset: 0x46CE, size: 0x8, addend: 0x0, symName: '+[TWTRNetworking URLSession]', symObjAddr: 0x910, symBinAddr: 0xE0AC, symSize: 0xB4 }
   - { offsetInCU: 0x40, offset: 0x46D6, size: 0x8, addend: 0x0, symName: '___28+[TWTRNetworking URLSession]_block_invoke', symObjAddr: 0x9C4, symBinAddr: 0xE160, symSize: 0x110 }
-  - { offsetInCU: 0x66, offset: 0x46FC, size: 0x8, addend: 0x0, symName: _URLSession.URLSession, symObjAddr: 0x16940, symBinAddr: 0x17B630, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x4711, size: 0x8, addend: 0x0, symName: _URLSession.onceToken, symObjAddr: 0x16948, symBinAddr: 0x17B638, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x46FC, size: 0x8, addend: 0x0, symName: _URLSession.URLSession, symObjAddr: 0x7458, symBinAddr: 0x17B630, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x4711, size: 0x8, addend: 0x0, symName: _URLSession.onceToken, symObjAddr: 0x7460, symBinAddr: 0x17B638, symSize: 0x0 }
   - { offsetInCU: 0xC4F, offset: 0x52E5, size: 0x8, addend: 0x0, symName: '-[TWTRNetworking operationQueue]', symObjAddr: 0x1154, symBinAddr: 0xE8F0, symSize: 0x80 }
   - { offsetInCU: 0xC57, offset: 0x52ED, size: 0x8, addend: 0x0, symName: '___32-[TWTRNetworking operationQueue]_block_invoke', symObjAddr: 0x11D4, symBinAddr: 0xE970, symSize: 0x4C }
-  - { offsetInCU: 0xC7D, offset: 0x5313, size: 0x8, addend: 0x0, symName: _operationQueue._operationQueue, symObjAddr: 0x16950, symBinAddr: 0x17B640, symSize: 0x0 }
-  - { offsetInCU: 0xC92, offset: 0x5328, size: 0x8, addend: 0x0, symName: _operationQueue.onceToken, symObjAddr: 0x16958, symBinAddr: 0x17B648, symSize: 0x0 }
+  - { offsetInCU: 0xC7D, offset: 0x5313, size: 0x8, addend: 0x0, symName: _operationQueue._operationQueue, symObjAddr: 0x7468, symBinAddr: 0x17B640, symSize: 0x0 }
+  - { offsetInCU: 0xC92, offset: 0x5328, size: 0x8, addend: 0x0, symName: _operationQueue.onceToken, symObjAddr: 0x7470, symBinAddr: 0x17B648, symSize: 0x0 }
   - { offsetInCU: 0xD80, offset: 0x5416, size: 0x8, addend: 0x0, symName: '-[TWTRNetworking initWithAuthConfig:]', symObjAddr: 0x0, symBinAddr: 0xD7C8, symSize: 0xD4 }
   - { offsetInCU: 0xD88, offset: 0x541E, size: 0x8, addend: 0x0, symName: '-[TWTRNetworking URLRequestForGETMethodWithURLString:parameters:]', symObjAddr: 0xD4, symBinAddr: 0xD89C, symSize: 0xA0 }
   - { offsetInCU: 0xDCB, offset: 0x5461, size: 0x8, addend: 0x0, symName: '-[TWTRNetworking URLRequestForGETMethodWithURLString:parameters:]', symObjAddr: 0xD4, symBinAddr: 0xD89C, symSize: 0xA0 }
@@ -263,88 +263,88 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x7527, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil blackColor]', symObjAddr: 0x0, symBinAddr: 0xF8F8, symSize: 0x30 }
   - { offsetInCU: 0x38, offset: 0x7538, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil blueColor]', symObjAddr: 0x60, symBinAddr: 0xF958, symSize: 0x80 }
   - { offsetInCU: 0x40, offset: 0x7540, size: 0x8, addend: 0x0, symName: '___26+[TWTRColorUtil blueColor]_block_invoke', symObjAddr: 0xE0, symBinAddr: 0xF9D8, symSize: 0x54 }
-  - { offsetInCU: 0x66, offset: 0x7566, size: 0x8, addend: 0x0, symName: _blueColor.blueColor, symObjAddr: 0x21A80, symBinAddr: 0x17B650, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x757B, size: 0x8, addend: 0x0, symName: _blueColor.onceToken, symObjAddr: 0x21A88, symBinAddr: 0x17B658, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x7566, size: 0x8, addend: 0x0, symName: _blueColor.blueColor, symObjAddr: 0xB508, symBinAddr: 0x17B650, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x757B, size: 0x8, addend: 0x0, symName: _blueColor.onceToken, symObjAddr: 0xB510, symBinAddr: 0x17B658, symSize: 0x0 }
   - { offsetInCU: 0x3D6, offset: 0x78D6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil blueTextColor]', symObjAddr: 0x134, symBinAddr: 0xFA2C, symSize: 0x80 }
   - { offsetInCU: 0x3DE, offset: 0x78DE, size: 0x8, addend: 0x0, symName: '___30+[TWTRColorUtil blueTextColor]_block_invoke', symObjAddr: 0x1B4, symBinAddr: 0xFAAC, symSize: 0x54 }
-  - { offsetInCU: 0x404, offset: 0x7904, size: 0x8, addend: 0x0, symName: _blueTextColor.color, symObjAddr: 0x21A90, symBinAddr: 0x17B660, symSize: 0x0 }
-  - { offsetInCU: 0x419, offset: 0x7919, size: 0x8, addend: 0x0, symName: _blueTextColor.onceToken, symObjAddr: 0x21A98, symBinAddr: 0x17B668, symSize: 0x0 }
+  - { offsetInCU: 0x404, offset: 0x7904, size: 0x8, addend: 0x0, symName: _blueTextColor.color, symObjAddr: 0xB518, symBinAddr: 0x17B660, symSize: 0x0 }
+  - { offsetInCU: 0x419, offset: 0x7919, size: 0x8, addend: 0x0, symName: _blueTextColor.onceToken, symObjAddr: 0xB520, symBinAddr: 0x17B668, symSize: 0x0 }
   - { offsetInCU: 0x466, offset: 0x7966, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil lightBlueColor]', symObjAddr: 0x208, symBinAddr: 0xFB00, symSize: 0x80 }
   - { offsetInCU: 0x46E, offset: 0x796E, size: 0x8, addend: 0x0, symName: '___31+[TWTRColorUtil lightBlueColor]_block_invoke', symObjAddr: 0x288, symBinAddr: 0xFB80, symSize: 0x54 }
-  - { offsetInCU: 0x494, offset: 0x7994, size: 0x8, addend: 0x0, symName: _lightBlueColor.lightBlueColor, symObjAddr: 0x21AA0, symBinAddr: 0x17B670, symSize: 0x0 }
-  - { offsetInCU: 0x4A9, offset: 0x79A9, size: 0x8, addend: 0x0, symName: _lightBlueColor.onceToken, symObjAddr: 0x21AA8, symBinAddr: 0x17B678, symSize: 0x0 }
+  - { offsetInCU: 0x494, offset: 0x7994, size: 0x8, addend: 0x0, symName: _lightBlueColor.lightBlueColor, symObjAddr: 0xB528, symBinAddr: 0x17B670, symSize: 0x0 }
+  - { offsetInCU: 0x4A9, offset: 0x79A9, size: 0x8, addend: 0x0, symName: _lightBlueColor.onceToken, symObjAddr: 0xB530, symBinAddr: 0x17B678, symSize: 0x0 }
   - { offsetInCU: 0x4F6, offset: 0x79F6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil mediumBlueColor]', symObjAddr: 0x2DC, symBinAddr: 0xFBD4, symSize: 0x80 }
   - { offsetInCU: 0x4FE, offset: 0x79FE, size: 0x8, addend: 0x0, symName: '___32+[TWTRColorUtil mediumBlueColor]_block_invoke', symObjAddr: 0x35C, symBinAddr: 0xFC54, symSize: 0x54 }
-  - { offsetInCU: 0x524, offset: 0x7A24, size: 0x8, addend: 0x0, symName: _mediumBlueColor.mediumBlueColor, symObjAddr: 0x21AB0, symBinAddr: 0x17B680, symSize: 0x0 }
-  - { offsetInCU: 0x539, offset: 0x7A39, size: 0x8, addend: 0x0, symName: _mediumBlueColor.onceToken, symObjAddr: 0x21AB8, symBinAddr: 0x17B688, symSize: 0x0 }
+  - { offsetInCU: 0x524, offset: 0x7A24, size: 0x8, addend: 0x0, symName: _mediumBlueColor.mediumBlueColor, symObjAddr: 0xB538, symBinAddr: 0x17B680, symSize: 0x0 }
+  - { offsetInCU: 0x539, offset: 0x7A39, size: 0x8, addend: 0x0, symName: _mediumBlueColor.onceToken, symObjAddr: 0xB540, symBinAddr: 0x17B688, symSize: 0x0 }
   - { offsetInCU: 0x586, offset: 0x7A86, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkBlueColor]', symObjAddr: 0x3B0, symBinAddr: 0xFCA8, symSize: 0x80 }
   - { offsetInCU: 0x58E, offset: 0x7A8E, size: 0x8, addend: 0x0, symName: '___30+[TWTRColorUtil darkBlueColor]_block_invoke', symObjAddr: 0x430, symBinAddr: 0xFD28, symSize: 0x54 }
-  - { offsetInCU: 0x5B4, offset: 0x7AB4, size: 0x8, addend: 0x0, symName: _darkBlueColor.darkBlueColor, symObjAddr: 0x21AC0, symBinAddr: 0x17B690, symSize: 0x0 }
-  - { offsetInCU: 0x5C9, offset: 0x7AC9, size: 0x8, addend: 0x0, symName: _darkBlueColor.onceToken, symObjAddr: 0x21AC8, symBinAddr: 0x17B698, symSize: 0x0 }
+  - { offsetInCU: 0x5B4, offset: 0x7AB4, size: 0x8, addend: 0x0, symName: _darkBlueColor.darkBlueColor, symObjAddr: 0xB548, symBinAddr: 0x17B690, symSize: 0x0 }
+  - { offsetInCU: 0x5C9, offset: 0x7AC9, size: 0x8, addend: 0x0, symName: _darkBlueColor.onceToken, symObjAddr: 0xB550, symBinAddr: 0x17B698, symSize: 0x0 }
   - { offsetInCU: 0x616, offset: 0x7B16, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil redColor]', symObjAddr: 0x484, symBinAddr: 0xFD7C, symSize: 0x80 }
   - { offsetInCU: 0x61E, offset: 0x7B1E, size: 0x8, addend: 0x0, symName: '___25+[TWTRColorUtil redColor]_block_invoke', symObjAddr: 0x504, symBinAddr: 0xFDFC, symSize: 0x54 }
-  - { offsetInCU: 0x644, offset: 0x7B44, size: 0x8, addend: 0x0, symName: _redColor.redColor, symObjAddr: 0x21AD0, symBinAddr: 0x17B6A0, symSize: 0x0 }
-  - { offsetInCU: 0x659, offset: 0x7B59, size: 0x8, addend: 0x0, symName: _redColor.onceToken, symObjAddr: 0x21AD8, symBinAddr: 0x17B6A8, symSize: 0x0 }
+  - { offsetInCU: 0x644, offset: 0x7B44, size: 0x8, addend: 0x0, symName: _redColor.redColor, symObjAddr: 0xB558, symBinAddr: 0x17B6A0, symSize: 0x0 }
+  - { offsetInCU: 0x659, offset: 0x7B59, size: 0x8, addend: 0x0, symName: _redColor.onceToken, symObjAddr: 0xB560, symBinAddr: 0x17B6A8, symSize: 0x0 }
   - { offsetInCU: 0x6A6, offset: 0x7BA6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkRedColor]', symObjAddr: 0x558, symBinAddr: 0xFE50, symSize: 0x80 }
   - { offsetInCU: 0x6AE, offset: 0x7BAE, size: 0x8, addend: 0x0, symName: '___29+[TWTRColorUtil darkRedColor]_block_invoke', symObjAddr: 0x5D8, symBinAddr: 0xFED0, symSize: 0x54 }
-  - { offsetInCU: 0x6D4, offset: 0x7BD4, size: 0x8, addend: 0x0, symName: _darkRedColor.darkRedColor, symObjAddr: 0x21AE0, symBinAddr: 0x17B6B0, symSize: 0x0 }
-  - { offsetInCU: 0x6E9, offset: 0x7BE9, size: 0x8, addend: 0x0, symName: _darkRedColor.onceToken, symObjAddr: 0x21AE8, symBinAddr: 0x17B6B8, symSize: 0x0 }
+  - { offsetInCU: 0x6D4, offset: 0x7BD4, size: 0x8, addend: 0x0, symName: _darkRedColor.darkRedColor, symObjAddr: 0xB568, symBinAddr: 0x17B6B0, symSize: 0x0 }
+  - { offsetInCU: 0x6E9, offset: 0x7BE9, size: 0x8, addend: 0x0, symName: _darkRedColor.onceToken, symObjAddr: 0xB570, symBinAddr: 0x17B6B8, symSize: 0x0 }
   - { offsetInCU: 0x736, offset: 0x7C36, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkPurpleColor]', symObjAddr: 0x62C, symBinAddr: 0xFF24, symSize: 0x80 }
   - { offsetInCU: 0x73E, offset: 0x7C3E, size: 0x8, addend: 0x0, symName: '___32+[TWTRColorUtil darkPurpleColor]_block_invoke', symObjAddr: 0x6AC, symBinAddr: 0xFFA4, symSize: 0x54 }
-  - { offsetInCU: 0x764, offset: 0x7C64, size: 0x8, addend: 0x0, symName: _darkPurpleColor.darkPurpleColor, symObjAddr: 0x21AF0, symBinAddr: 0x17B6C0, symSize: 0x0 }
-  - { offsetInCU: 0x779, offset: 0x7C79, size: 0x8, addend: 0x0, symName: _darkPurpleColor.onceToken, symObjAddr: 0x21AF8, symBinAddr: 0x17B6C8, symSize: 0x0 }
+  - { offsetInCU: 0x764, offset: 0x7C64, size: 0x8, addend: 0x0, symName: _darkPurpleColor.darkPurpleColor, symObjAddr: 0xB578, symBinAddr: 0x17B6C0, symSize: 0x0 }
+  - { offsetInCU: 0x779, offset: 0x7C79, size: 0x8, addend: 0x0, symName: _darkPurpleColor.onceToken, symObjAddr: 0xB580, symBinAddr: 0x17B6C8, symSize: 0x0 }
   - { offsetInCU: 0x7C6, offset: 0x7CC6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil deepPurpleColor]', symObjAddr: 0x700, symBinAddr: 0xFFF8, symSize: 0x80 }
   - { offsetInCU: 0x7CE, offset: 0x7CCE, size: 0x8, addend: 0x0, symName: '___32+[TWTRColorUtil deepPurpleColor]_block_invoke', symObjAddr: 0x780, symBinAddr: 0x10078, symSize: 0x54 }
-  - { offsetInCU: 0x7F4, offset: 0x7CF4, size: 0x8, addend: 0x0, symName: _deepPurpleColor.deepPurpleColor, symObjAddr: 0x21B00, symBinAddr: 0x17B6D0, symSize: 0x0 }
-  - { offsetInCU: 0x809, offset: 0x7D09, size: 0x8, addend: 0x0, symName: _deepPurpleColor.onceToken, symObjAddr: 0x21B08, symBinAddr: 0x17B6D8, symSize: 0x0 }
+  - { offsetInCU: 0x7F4, offset: 0x7CF4, size: 0x8, addend: 0x0, symName: _deepPurpleColor.deepPurpleColor, symObjAddr: 0xB588, symBinAddr: 0x17B6D0, symSize: 0x0 }
+  - { offsetInCU: 0x809, offset: 0x7D09, size: 0x8, addend: 0x0, symName: _deepPurpleColor.onceToken, symObjAddr: 0xB590, symBinAddr: 0x17B6D8, symSize: 0x0 }
   - { offsetInCU: 0x856, offset: 0x7D56, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil mediumPurpleColor]', symObjAddr: 0x7D4, symBinAddr: 0x100CC, symSize: 0x80 }
   - { offsetInCU: 0x85E, offset: 0x7D5E, size: 0x8, addend: 0x0, symName: '___34+[TWTRColorUtil mediumPurpleColor]_block_invoke', symObjAddr: 0x854, symBinAddr: 0x1014C, symSize: 0x54 }
-  - { offsetInCU: 0x884, offset: 0x7D84, size: 0x8, addend: 0x0, symName: _mediumPurpleColor.mediumPurpleColor, symObjAddr: 0x21B10, symBinAddr: 0x17B6E0, symSize: 0x0 }
-  - { offsetInCU: 0x899, offset: 0x7D99, size: 0x8, addend: 0x0, symName: _mediumPurpleColor.onceToken, symObjAddr: 0x21B18, symBinAddr: 0x17B6E8, symSize: 0x0 }
+  - { offsetInCU: 0x884, offset: 0x7D84, size: 0x8, addend: 0x0, symName: _mediumPurpleColor.mediumPurpleColor, symObjAddr: 0xB598, symBinAddr: 0x17B6E0, symSize: 0x0 }
+  - { offsetInCU: 0x899, offset: 0x7D99, size: 0x8, addend: 0x0, symName: _mediumPurpleColor.onceToken, symObjAddr: 0xB5A0, symBinAddr: 0x17B6E8, symSize: 0x0 }
   - { offsetInCU: 0x8E6, offset: 0x7DE6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil grayColor]', symObjAddr: 0x8A8, symBinAddr: 0x101A0, symSize: 0x80 }
   - { offsetInCU: 0x8EE, offset: 0x7DEE, size: 0x8, addend: 0x0, symName: '___26+[TWTRColorUtil grayColor]_block_invoke', symObjAddr: 0x928, symBinAddr: 0x10220, symSize: 0x54 }
-  - { offsetInCU: 0x914, offset: 0x7E14, size: 0x8, addend: 0x0, symName: _grayColor.grayColor, symObjAddr: 0x21B20, symBinAddr: 0x17B6F0, symSize: 0x0 }
-  - { offsetInCU: 0x929, offset: 0x7E29, size: 0x8, addend: 0x0, symName: _grayColor.onceToken, symObjAddr: 0x21B28, symBinAddr: 0x17B6F8, symSize: 0x0 }
+  - { offsetInCU: 0x914, offset: 0x7E14, size: 0x8, addend: 0x0, symName: _grayColor.grayColor, symObjAddr: 0xB5A8, symBinAddr: 0x17B6F0, symSize: 0x0 }
+  - { offsetInCU: 0x929, offset: 0x7E29, size: 0x8, addend: 0x0, symName: _grayColor.onceToken, symObjAddr: 0xB5B0, symBinAddr: 0x17B6F8, symSize: 0x0 }
   - { offsetInCU: 0x976, offset: 0x7E76, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil borderGrayColor]', symObjAddr: 0x97C, symBinAddr: 0x10274, symSize: 0x80 }
   - { offsetInCU: 0x97E, offset: 0x7E7E, size: 0x8, addend: 0x0, symName: '___32+[TWTRColorUtil borderGrayColor]_block_invoke', symObjAddr: 0x9FC, symBinAddr: 0x102F4, symSize: 0x70 }
-  - { offsetInCU: 0x9A4, offset: 0x7EA4, size: 0x8, addend: 0x0, symName: _borderGrayColor.borderGrayColor, symObjAddr: 0x21B30, symBinAddr: 0x17B700, symSize: 0x0 }
-  - { offsetInCU: 0x9B9, offset: 0x7EB9, size: 0x8, addend: 0x0, symName: _borderGrayColor.onceToken, symObjAddr: 0x21B38, symBinAddr: 0x17B708, symSize: 0x0 }
+  - { offsetInCU: 0x9A4, offset: 0x7EA4, size: 0x8, addend: 0x0, symName: _borderGrayColor.borderGrayColor, symObjAddr: 0xB5B8, symBinAddr: 0x17B700, symSize: 0x0 }
+  - { offsetInCU: 0x9B9, offset: 0x7EB9, size: 0x8, addend: 0x0, symName: _borderGrayColor.onceToken, symObjAddr: 0xB5C0, symBinAddr: 0x17B708, symSize: 0x0 }
   - { offsetInCU: 0xA06, offset: 0x7F06, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkBorderGrayColor]', symObjAddr: 0xA6C, symBinAddr: 0x10364, symSize: 0x80 }
   - { offsetInCU: 0xA0E, offset: 0x7F0E, size: 0x8, addend: 0x0, symName: '___36+[TWTRColorUtil darkBorderGrayColor]_block_invoke', symObjAddr: 0xAEC, symBinAddr: 0x103E4, symSize: 0x6C }
-  - { offsetInCU: 0xA34, offset: 0x7F34, size: 0x8, addend: 0x0, symName: _darkBorderGrayColor.darkBorderGrayColor, symObjAddr: 0x21B40, symBinAddr: 0x17B710, symSize: 0x0 }
-  - { offsetInCU: 0xA49, offset: 0x7F49, size: 0x8, addend: 0x0, symName: _darkBorderGrayColor.onceToken, symObjAddr: 0x21B48, symBinAddr: 0x17B718, symSize: 0x0 }
+  - { offsetInCU: 0xA34, offset: 0x7F34, size: 0x8, addend: 0x0, symName: _darkBorderGrayColor.darkBorderGrayColor, symObjAddr: 0xB5C8, symBinAddr: 0x17B710, symSize: 0x0 }
+  - { offsetInCU: 0xA49, offset: 0x7F49, size: 0x8, addend: 0x0, symName: _darkBorderGrayColor.onceToken, symObjAddr: 0xB5D0, symBinAddr: 0x17B718, symSize: 0x0 }
   - { offsetInCU: 0xA96, offset: 0x7F96, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil grayTextColor]', symObjAddr: 0xB58, symBinAddr: 0x10450, symSize: 0x80 }
   - { offsetInCU: 0xA9E, offset: 0x7F9E, size: 0x8, addend: 0x0, symName: '___30+[TWTRColorUtil grayTextColor]_block_invoke', symObjAddr: 0xBD8, symBinAddr: 0x104D0, symSize: 0x54 }
-  - { offsetInCU: 0xAC4, offset: 0x7FC4, size: 0x8, addend: 0x0, symName: _grayTextColor.color, symObjAddr: 0x21B50, symBinAddr: 0x17B720, symSize: 0x0 }
-  - { offsetInCU: 0xAD9, offset: 0x7FD9, size: 0x8, addend: 0x0, symName: _grayTextColor.onceToken, symObjAddr: 0x21B58, symBinAddr: 0x17B728, symSize: 0x0 }
+  - { offsetInCU: 0xAC4, offset: 0x7FC4, size: 0x8, addend: 0x0, symName: _grayTextColor.color, symObjAddr: 0xB5D8, symBinAddr: 0x17B720, symSize: 0x0 }
+  - { offsetInCU: 0xAD9, offset: 0x7FD9, size: 0x8, addend: 0x0, symName: _grayTextColor.onceToken, symObjAddr: 0xB5E0, symBinAddr: 0x17B728, symSize: 0x0 }
   - { offsetInCU: 0xB26, offset: 0x8026, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkGrayTextColor]', symObjAddr: 0xC2C, symBinAddr: 0x10524, symSize: 0x80 }
   - { offsetInCU: 0xB2E, offset: 0x802E, size: 0x8, addend: 0x0, symName: '___34+[TWTRColorUtil darkGrayTextColor]_block_invoke', symObjAddr: 0xCAC, symBinAddr: 0x105A4, symSize: 0x54 }
-  - { offsetInCU: 0xB54, offset: 0x8054, size: 0x8, addend: 0x0, symName: _darkGrayTextColor.color, symObjAddr: 0x21B60, symBinAddr: 0x17B730, symSize: 0x0 }
-  - { offsetInCU: 0xB69, offset: 0x8069, size: 0x8, addend: 0x0, symName: _darkGrayTextColor.onceToken, symObjAddr: 0x21B68, symBinAddr: 0x17B738, symSize: 0x0 }
+  - { offsetInCU: 0xB54, offset: 0x8054, size: 0x8, addend: 0x0, symName: _darkGrayTextColor.color, symObjAddr: 0xB5E8, symBinAddr: 0x17B730, symSize: 0x0 }
+  - { offsetInCU: 0xB69, offset: 0x8069, size: 0x8, addend: 0x0, symName: _darkGrayTextColor.onceToken, symObjAddr: 0xB5F0, symBinAddr: 0x17B738, symSize: 0x0 }
   - { offsetInCU: 0xBB6, offset: 0x80B6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil faintGrayColor]', symObjAddr: 0xD00, symBinAddr: 0x105F8, symSize: 0x80 }
   - { offsetInCU: 0xBBE, offset: 0x80BE, size: 0x8, addend: 0x0, symName: '___31+[TWTRColorUtil faintGrayColor]_block_invoke', symObjAddr: 0xD80, symBinAddr: 0x10678, symSize: 0x54 }
-  - { offsetInCU: 0xBE4, offset: 0x80E4, size: 0x8, addend: 0x0, symName: _faintGrayColor.faintGrayColor, symObjAddr: 0x21B70, symBinAddr: 0x17B740, symSize: 0x0 }
-  - { offsetInCU: 0xBF9, offset: 0x80F9, size: 0x8, addend: 0x0, symName: _faintGrayColor.onceToken, symObjAddr: 0x21B78, symBinAddr: 0x17B748, symSize: 0x0 }
+  - { offsetInCU: 0xBE4, offset: 0x80E4, size: 0x8, addend: 0x0, symName: _faintGrayColor.faintGrayColor, symObjAddr: 0xB5F8, symBinAddr: 0x17B740, symSize: 0x0 }
+  - { offsetInCU: 0xBF9, offset: 0x80F9, size: 0x8, addend: 0x0, symName: _faintGrayColor.onceToken, symObjAddr: 0xB600, symBinAddr: 0x17B748, symSize: 0x0 }
   - { offsetInCU: 0xC46, offset: 0x8146, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil mediumGrayColor]', symObjAddr: 0xDD4, symBinAddr: 0x106CC, symSize: 0x80 }
   - { offsetInCU: 0xC4E, offset: 0x814E, size: 0x8, addend: 0x0, symName: '___32+[TWTRColorUtil mediumGrayColor]_block_invoke', symObjAddr: 0xE54, symBinAddr: 0x1074C, symSize: 0x54 }
-  - { offsetInCU: 0xC74, offset: 0x8174, size: 0x8, addend: 0x0, symName: _mediumGrayColor.mediumGrayColor, symObjAddr: 0x21B80, symBinAddr: 0x17B750, symSize: 0x0 }
-  - { offsetInCU: 0xC89, offset: 0x8189, size: 0x8, addend: 0x0, symName: _mediumGrayColor.onceToken, symObjAddr: 0x21B88, symBinAddr: 0x17B758, symSize: 0x0 }
+  - { offsetInCU: 0xC74, offset: 0x8174, size: 0x8, addend: 0x0, symName: _mediumGrayColor.mediumGrayColor, symObjAddr: 0xB608, symBinAddr: 0x17B750, symSize: 0x0 }
+  - { offsetInCU: 0xC89, offset: 0x8189, size: 0x8, addend: 0x0, symName: _mediumGrayColor.onceToken, symObjAddr: 0xB610, symBinAddr: 0x17B758, symSize: 0x0 }
   - { offsetInCU: 0xCD6, offset: 0x81D6, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil darkGrayColor]', symObjAddr: 0xEA8, symBinAddr: 0x107A0, symSize: 0x80 }
   - { offsetInCU: 0xCDE, offset: 0x81DE, size: 0x8, addend: 0x0, symName: '___30+[TWTRColorUtil darkGrayColor]_block_invoke', symObjAddr: 0xF28, symBinAddr: 0x10820, symSize: 0x54 }
-  - { offsetInCU: 0xD04, offset: 0x8204, size: 0x8, addend: 0x0, symName: _darkGrayColor.darkGrayColor, symObjAddr: 0x21B90, symBinAddr: 0x17B760, symSize: 0x0 }
-  - { offsetInCU: 0xD19, offset: 0x8219, size: 0x8, addend: 0x0, symName: _darkGrayColor.onceToken, symObjAddr: 0x21B98, symBinAddr: 0x17B768, symSize: 0x0 }
+  - { offsetInCU: 0xD04, offset: 0x8204, size: 0x8, addend: 0x0, symName: _darkGrayColor.darkGrayColor, symObjAddr: 0xB618, symBinAddr: 0x17B760, symSize: 0x0 }
+  - { offsetInCU: 0xD19, offset: 0x8219, size: 0x8, addend: 0x0, symName: _darkGrayColor.onceToken, symObjAddr: 0xB620, symBinAddr: 0x17B768, symSize: 0x0 }
   - { offsetInCU: 0xD66, offset: 0x8266, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil textColor]', symObjAddr: 0xF7C, symBinAddr: 0x10874, symSize: 0x80 }
   - { offsetInCU: 0xD6E, offset: 0x826E, size: 0x8, addend: 0x0, symName: '___26+[TWTRColorUtil textColor]_block_invoke', symObjAddr: 0xFFC, symBinAddr: 0x108F4, symSize: 0x54 }
-  - { offsetInCU: 0xD96, offset: 0x8296, size: 0x8, addend: 0x0, symName: _textColor.textColor, symObjAddr: 0x21BA0, symBinAddr: 0x17B770, symSize: 0x0 }
-  - { offsetInCU: 0xDAC, offset: 0x82AC, size: 0x8, addend: 0x0, symName: _textColor.onceToken, symObjAddr: 0x21BA8, symBinAddr: 0x17B778, symSize: 0x0 }
+  - { offsetInCU: 0xD96, offset: 0x8296, size: 0x8, addend: 0x0, symName: _textColor.textColor, symObjAddr: 0xB628, symBinAddr: 0x17B770, symSize: 0x0 }
+  - { offsetInCU: 0xDAC, offset: 0x82AC, size: 0x8, addend: 0x0, symName: _textColor.onceToken, symObjAddr: 0xB630, symBinAddr: 0x17B778, symSize: 0x0 }
   - { offsetInCU: 0xDFA, offset: 0x82FA, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil imagePlaceholderColor]', symObjAddr: 0x1050, symBinAddr: 0x10948, symSize: 0x80 }
   - { offsetInCU: 0xE02, offset: 0x8302, size: 0x8, addend: 0x0, symName: '___38+[TWTRColorUtil imagePlaceholderColor]_block_invoke', symObjAddr: 0x10D0, symBinAddr: 0x109C8, symSize: 0x54 }
-  - { offsetInCU: 0xE2A, offset: 0x832A, size: 0x8, addend: 0x0, symName: _imagePlaceholderColor.imagePlaceholderColor, symObjAddr: 0x21BB0, symBinAddr: 0x17B780, symSize: 0x0 }
-  - { offsetInCU: 0xE40, offset: 0x8340, size: 0x8, addend: 0x0, symName: _imagePlaceholderColor.onceToken, symObjAddr: 0x21BB8, symBinAddr: 0x17B788, symSize: 0x0 }
+  - { offsetInCU: 0xE2A, offset: 0x832A, size: 0x8, addend: 0x0, symName: _imagePlaceholderColor.imagePlaceholderColor, symObjAddr: 0xB638, symBinAddr: 0x17B780, symSize: 0x0 }
+  - { offsetInCU: 0xE40, offset: 0x8340, size: 0x8, addend: 0x0, symName: _imagePlaceholderColor.onceToken, symObjAddr: 0xB640, symBinAddr: 0x17B788, symSize: 0x0 }
   - { offsetInCU: 0xE8E, offset: 0x838E, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil selectedCellBackgroundColor]', symObjAddr: 0x1124, symBinAddr: 0x10A1C, symSize: 0x80 }
   - { offsetInCU: 0xE96, offset: 0x8396, size: 0x8, addend: 0x0, symName: '___44+[TWTRColorUtil selectedCellBackgroundColor]_block_invoke', symObjAddr: 0x11A4, symBinAddr: 0x10A9C, symSize: 0x70 }
-  - { offsetInCU: 0xEBE, offset: 0x83BE, size: 0x8, addend: 0x0, symName: _selectedCellBackgroundColor.color, symObjAddr: 0x21BC0, symBinAddr: 0x17B790, symSize: 0x0 }
-  - { offsetInCU: 0xED4, offset: 0x83D4, size: 0x8, addend: 0x0, symName: _selectedCellBackgroundColor.onceToken, symObjAddr: 0x21BC8, symBinAddr: 0x17B798, symSize: 0x0 }
+  - { offsetInCU: 0xEBE, offset: 0x83BE, size: 0x8, addend: 0x0, symName: _selectedCellBackgroundColor.color, symObjAddr: 0xB648, symBinAddr: 0x17B790, symSize: 0x0 }
+  - { offsetInCU: 0xED4, offset: 0x83D4, size: 0x8, addend: 0x0, symName: _selectedCellBackgroundColor.onceToken, symObjAddr: 0xB650, symBinAddr: 0x17B798, symSize: 0x0 }
   - { offsetInCU: 0xF22, offset: 0x8422, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil mediaBackgroundColorFromBackgroundColor:]', symObjAddr: 0x18B8, symBinAddr: 0x111B0, symSize: 0xD4 }
   - { offsetInCU: 0xF2A, offset: 0x842A, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil logoColorFromBackgroundColor:]', symObjAddr: 0x198C, symBinAddr: 0x11284, symSize: 0xA4 }
   - { offsetInCU: 0xFF4, offset: 0x84F4, size: 0x8, addend: 0x0, symName: '+[TWTRColorUtil contrastingTextColorFromBackgroundColor:]', symObjAddr: 0x1A30, symBinAddr: 0x11328, symSize: 0xD0 }
@@ -421,8 +421,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xA520, size: 0x8, addend: 0x0, symName: '+[TWTRFileManager cacheDirectory]', symObjAddr: 0x0, symBinAddr: 0x117A8, symSize: 0x110 }
   - { offsetInCU: 0x38, offset: 0xA531, size: 0x8, addend: 0x0, symName: '+[TWTRFileManager cacheDirectory]', symObjAddr: 0x0, symBinAddr: 0x117A8, symSize: 0x110 }
   - { offsetInCU: 0x40, offset: 0xA539, size: 0x8, addend: 0x0, symName: '___33+[TWTRFileManager cacheDirectory]_block_invoke', symObjAddr: 0x110, symBinAddr: 0x118B8, symSize: 0x144 }
-  - { offsetInCU: 0x7B, offset: 0xA574, size: 0x8, addend: 0x0, symName: _cacheDirectory.dirPath, symObjAddr: 0x9D20, symBinAddr: 0x17B7A0, symSize: 0x0 }
-  - { offsetInCU: 0x90, offset: 0xA589, size: 0x8, addend: 0x0, symName: _cacheDirectory.onceToken, symObjAddr: 0x9D28, symBinAddr: 0x17B7A8, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0xA574, size: 0x8, addend: 0x0, symName: _cacheDirectory.dirPath, symObjAddr: 0x3218, symBinAddr: 0x17B7A0, symSize: 0x0 }
+  - { offsetInCU: 0x90, offset: 0xA589, size: 0x8, addend: 0x0, symName: _cacheDirectory.onceToken, symObjAddr: 0x3220, symBinAddr: 0x17B7A8, symSize: 0x0 }
   - { offsetInCU: 0x530, offset: 0xAA29, size: 0x8, addend: 0x0, symName: '___33+[TWTRFileManager cacheDirectory]_block_invoke', symObjAddr: 0x110, symBinAddr: 0x118B8, symSize: 0x144 }
   - { offsetInCU: 0x5A3, offset: 0xAA9C, size: 0x8, addend: 0x0, symName: '+[TWTRFileManager createFileWithName:inDirectory:]', symObjAddr: 0x2B8, symBinAddr: 0x119FC, symSize: 0x194 }
   - { offsetInCU: 0x5AB, offset: 0xAAA4, size: 0x8, addend: 0x0, symName: '+[TWTRFileManager writeDictionary:toFileName:inDirectory:]', symObjAddr: 0x44C, symBinAddr: 0x11B90, symSize: 0x158 }
@@ -434,8 +434,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xAF21, size: 0x8, addend: 0x0, symName: '-[TWTRGuestSessionRefreshStrategy initWithAuthConfig:APIServiceConfig:]', symObjAddr: 0x0, symBinAddr: 0x11EB8, symSize: 0x234 }
   - { offsetInCU: 0x46, offset: 0xAF40, size: 0x8, addend: 0x0, symName: '+[TWTRGuestSessionRefreshStrategy expiredStatusCodes]', symObjAddr: 0x234, symBinAddr: 0x120EC, symSize: 0x80 }
   - { offsetInCU: 0x4E, offset: 0xAF48, size: 0x8, addend: 0x0, symName: '___53+[TWTRGuestSessionRefreshStrategy expiredStatusCodes]_block_invoke', symObjAddr: 0x2B4, symBinAddr: 0x1216C, symSize: 0x90 }
-  - { offsetInCU: 0x74, offset: 0xAF6E, size: 0x8, addend: 0x0, symName: _expiredStatusCodes.validCodes, symObjAddr: 0x168D8, symBinAddr: 0x17B7B0, symSize: 0x0 }
-  - { offsetInCU: 0x89, offset: 0xAF83, size: 0x8, addend: 0x0, symName: _expiredStatusCodes.onceToken, symObjAddr: 0x168E0, symBinAddr: 0x17B7B8, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0xAF6E, size: 0x8, addend: 0x0, symName: _expiredStatusCodes.validCodes, symObjAddr: 0x7258, symBinAddr: 0x17B7B0, symSize: 0x0 }
+  - { offsetInCU: 0x89, offset: 0xAF83, size: 0x8, addend: 0x0, symName: _expiredStatusCodes.onceToken, symObjAddr: 0x7260, symBinAddr: 0x17B7B8, symSize: 0x0 }
   - { offsetInCU: 0x4A5, offset: 0xB39F, size: 0x8, addend: 0x0, symName: '-[TWTRGuestSessionRefreshStrategy initWithAuthConfig:APIServiceConfig:]', symObjAddr: 0x0, symBinAddr: 0x11EB8, symSize: 0x234 }
   - { offsetInCU: 0x4AD, offset: 0xB3A7, size: 0x8, addend: 0x0, symName: '+[TWTRGuestSessionRefreshStrategy expiredStatusCodes]', symObjAddr: 0x234, symBinAddr: 0x120EC, symSize: 0x80 }
   - { offsetInCU: 0x5A7, offset: 0xB4A1, size: 0x8, addend: 0x0, symName: '___53+[TWTRGuestSessionRefreshStrategy expiredStatusCodes]_block_invoke', symObjAddr: 0x2B4, symBinAddr: 0x1216C, symSize: 0x90 }
@@ -462,7 +462,7 @@ relocations:
   - { offsetInCU: 0x45, offset: 0xC51E, size: 0x8, addend: 0x0, symName: _TWTRResourcesUtilLanguageType, symObjAddr: 0x10B0, symBinAddr: 0x134D60, symSize: 0x0 }
   - { offsetInCU: 0xC3, offset: 0xC59C, size: 0x8, addend: 0x0, symName: _TWTRResourcesUtilFallbackLanguage, symObjAddr: 0x10B8, symBinAddr: 0x134D68, symSize: 0x0 }
   - { offsetInCU: 0xD9, offset: 0xC5B2, size: 0x8, addend: 0x0, symName: _TWTRResourcesUtilDefaultValue, symObjAddr: 0x10C0, symBinAddr: 0x134D70, symSize: 0x0 }
-  - { offsetInCU: 0xFC, offset: 0xC5D5, size: 0x8, addend: 0x0, symName: _kitVersion, symObjAddr: 0xD9E0, symBinAddr: 0x17B7C0, symSize: 0x0 }
+  - { offsetInCU: 0xFC, offset: 0xC5D5, size: 0x8, addend: 0x0, symName: _kitVersion, symObjAddr: 0x4018, symBinAddr: 0x17B7C0, symSize: 0x0 }
   - { offsetInCU: 0x10D, offset: 0xC5E6, size: 0x8, addend: 0x0, symName: '+[TWTRResourcesUtil bundleWithBundlePath:]', symObjAddr: 0x0, symBinAddr: 0x12C2C, symSize: 0x16C }
   - { offsetInCU: 0x115, offset: 0xC5EE, size: 0x8, addend: 0x0, symName: '+[TWTRResourcesUtil localizedBundleWithBundle:]', symObjAddr: 0x16C, symBinAddr: 0x12D98, symSize: 0xD8 }
   - { offsetInCU: 0x190, offset: 0xC669, size: 0x8, addend: 0x0, symName: '+[TWTRResourcesUtil localizedBundleWithBundle:]', symObjAddr: 0x16C, symBinAddr: 0x12D98, symSize: 0xD8 }
@@ -644,8 +644,8 @@ relocations:
   - { offsetInCU: 0x45, offset: 0x10DBD, size: 0x8, addend: 0x0, symName: _TWTRGenericKeychainItemErrorDomain, symObjAddr: 0x3880, symBinAddr: 0x134F20, symSize: 0x0 }
   - { offsetInCU: 0xC4, offset: 0x10E3C, size: 0x8, addend: 0x0, symName: '+[TWTRGenericKeychainItem synchronouslyAccessKeychain:]', symObjAddr: 0x14D0, symBinAddr: 0x1865C, symSize: 0x1FC }
   - { offsetInCU: 0xCC, offset: 0x10E44, size: 0x8, addend: 0x0, symName: '___55+[TWTRGenericKeychainItem synchronouslyAccessKeychain:]_block_invoke', symObjAddr: 0x16CC, symBinAddr: 0x18858, symSize: 0x48 }
-  - { offsetInCU: 0xEE, offset: 0x10E66, size: 0x8, addend: 0x0, symName: '_synchronouslyAccessKeychain:.queue', symObjAddr: 0x29F00, symBinAddr: 0x17B7C8, symSize: 0x0 }
-  - { offsetInCU: 0x103, offset: 0x10E7B, size: 0x8, addend: 0x0, symName: '_synchronouslyAccessKeychain:.onceToken', symObjAddr: 0x29F08, symBinAddr: 0x17B7D0, symSize: 0x0 }
+  - { offsetInCU: 0xEE, offset: 0x10E66, size: 0x8, addend: 0x0, symName: '_synchronouslyAccessKeychain:.queue', symObjAddr: 0xDCC0, symBinAddr: 0x17B7C8, symSize: 0x0 }
+  - { offsetInCU: 0x103, offset: 0x10E7B, size: 0x8, addend: 0x0, symName: '_synchronouslyAccessKeychain:.onceToken', symObjAddr: 0xDCC8, symBinAddr: 0x17B7D0, symSize: 0x0 }
   - { offsetInCU: 0x366, offset: 0x110DE, size: 0x8, addend: 0x0, symName: '-[TWTRGenericKeychainQuery initWithService:account:genericValue:accessGroup:]', symObjAddr: 0x0, symBinAddr: 0x171F0, symSize: 0x1A4 }
   - { offsetInCU: 0x36E, offset: 0x110E6, size: 0x8, addend: 0x0, symName: '+[TWTRGenericKeychainQuery queryForAllItems]', symObjAddr: 0x1A4, symBinAddr: 0x17394, symSize: 0x40 }
   - { offsetInCU: 0x3DB, offset: 0x11153, size: 0x8, addend: 0x0, symName: '+[TWTRGenericKeychainQuery queryForAllItems]', symObjAddr: 0x1A4, symBinAddr: 0x17394, symSize: 0x40 }
@@ -748,8 +748,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x12A9D, size: 0x8, addend: 0x0, symName: '-[TWTRNetworkingPipeline initWithURLSession:responseValidator:]', symObjAddr: 0x0, symBinAddr: 0x1A1E8, symSize: 0x250 }
   - { offsetInCU: 0xA9, offset: 0x12B1F, size: 0x8, addend: 0x0, symName: '-[TWTRNetworkingPipeline userQueueForUser:]', symObjAddr: 0x784, symBinAddr: 0x1A96C, symSize: 0x1B8 }
   - { offsetInCU: 0xB1, offset: 0x12B27, size: 0x8, addend: 0x0, symName: '___43-[TWTRNetworkingPipeline userQueueForUser:]_block_invoke', symObjAddr: 0x93C, symBinAddr: 0x1AB24, symSize: 0x48 }
-  - { offsetInCU: 0xD7, offset: 0x12B4D, size: 0x8, addend: 0x0, symName: '_userQueueForUser:.serialQueue', symObjAddr: 0x14C40, symBinAddr: 0x17B7D8, symSize: 0x0 }
-  - { offsetInCU: 0xEC, offset: 0x12B62, size: 0x8, addend: 0x0, symName: '_userQueueForUser:.onceToken', symObjAddr: 0x14C48, symBinAddr: 0x17B7E0, symSize: 0x0 }
+  - { offsetInCU: 0xD7, offset: 0x12B4D, size: 0x8, addend: 0x0, symName: '_userQueueForUser:.serialQueue', symObjAddr: 0x6D30, symBinAddr: 0x17B7D8, symSize: 0x0 }
+  - { offsetInCU: 0xEC, offset: 0x12B62, size: 0x8, addend: 0x0, symName: '_userQueueForUser:.onceToken', symObjAddr: 0x6D38, symBinAddr: 0x17B7E0, symSize: 0x0 }
   - { offsetInCU: 0xD77, offset: 0x137ED, size: 0x8, addend: 0x0, symName: '-[TWTRNetworkingPipeline initWithURLSession:responseValidator:]', symObjAddr: 0x0, symBinAddr: 0x1A1E8, symSize: 0x250 }
   - { offsetInCU: 0xD7F, offset: 0x137F5, size: 0x8, addend: 0x0, symName: '-[TWTRNetworkingPipeline enqueueRequest:sessionStore:]', symObjAddr: 0x250, symBinAddr: 0x1A438, symSize: 0x9C }
   - { offsetInCU: 0xDD0, offset: 0x13846, size: 0x8, addend: 0x0, symName: '-[TWTRNetworkingPipeline enqueueRequest:sessionStore:]', symObjAddr: 0x250, symBinAddr: 0x1A438, symSize: 0x9C }
@@ -806,8 +806,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x14C04, size: 0x8, addend: 0x0, symName: '+[TWTRAPIServiceConfigRegistry defaultRegistry]', symObjAddr: 0x0, symBinAddr: 0x1B5BC, symSize: 0x80 }
   - { offsetInCU: 0x38, offset: 0x14C15, size: 0x8, addend: 0x0, symName: '+[TWTRAPIServiceConfigRegistry defaultRegistry]', symObjAddr: 0x0, symBinAddr: 0x1B5BC, symSize: 0x80 }
   - { offsetInCU: 0x40, offset: 0x14C1D, size: 0x8, addend: 0x0, symName: '___47+[TWTRAPIServiceConfigRegistry defaultRegistry]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x1B63C, symSize: 0x4C }
-  - { offsetInCU: 0x66, offset: 0x14C43, size: 0x8, addend: 0x0, symName: _defaultRegistry.registry, symObjAddr: 0x76B8, symBinAddr: 0x17B7E8, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x14C58, size: 0x8, addend: 0x0, symName: _defaultRegistry.onceToken, symObjAddr: 0x76C0, symBinAddr: 0x17B7F0, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x14C43, size: 0x8, addend: 0x0, symName: _defaultRegistry.registry, symObjAddr: 0x1F60, symBinAddr: 0x17B7E8, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x14C58, size: 0x8, addend: 0x0, symName: _defaultRegistry.onceToken, symObjAddr: 0x1F68, symBinAddr: 0x17B7F0, symSize: 0x0 }
   - { offsetInCU: 0x26C, offset: 0x14E49, size: 0x8, addend: 0x0, symName: '___47+[TWTRAPIServiceConfigRegistry defaultRegistry]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x1B63C, symSize: 0x4C }
   - { offsetInCU: 0x274, offset: 0x14E51, size: 0x8, addend: 0x0, symName: '-[TWTRAPIServiceConfigRegistry init]', symObjAddr: 0xCC, symBinAddr: 0x1B688, symSize: 0xD0 }
   - { offsetInCU: 0x29A, offset: 0x14E77, size: 0x8, addend: 0x0, symName: '-[TWTRAPIServiceConfigRegistry init]', symObjAddr: 0xCC, symBinAddr: 0x1B688, symSize: 0xD0 }
@@ -871,9 +871,9 @@ relocations:
   - { offsetInCU: 0xFA, offset: 0x172DD, size: 0x8, addend: 0x0, symName: '+[TWTROAuth1aAuthRequestSigner signedURLRequest:authConfig:session:]', symObjAddr: 0x0, symBinAddr: 0x1D334, symSize: 0x410 }
   - { offsetInCU: 0x27, offset: 0x1782E, size: 0x8, addend: 0x0, symName: '-[TWTRGCOAuth initWithConsumerKey:consumerSecret:accessToken:tokenSecret:]', symObjAddr: 0x0, symBinAddr: 0x1D744, symSize: 0x348 }
   - { offsetInCU: 0x2F, offset: 0x17836, size: 0x8, addend: 0x0, symName: '_OBJC_CLASS_$_TWTRGCOAuth', symObjAddr: 0x2F60, symBinAddr: 0x174510, symSize: 0x0 }
-  - { offsetInCU: 0x44, offset: 0x1784B, size: 0x8, addend: 0x0, symName: _TWTRGCOAuthUserAgent, symObjAddr: 0x1F338, symBinAddr: 0x17B7F8, symSize: 0x0 }
+  - { offsetInCU: 0x44, offset: 0x1784B, size: 0x8, addend: 0x0, symName: _TWTRGCOAuthUserAgent, symObjAddr: 0x9B58, symBinAddr: 0x17B7F8, symSize: 0x0 }
   - { offsetInCU: 0xE8, offset: 0x178EF, size: 0x8, addend: 0x0, symName: _TWTRGCOAuthUseHTTPSCookieStorage, symObjAddr: 0x3AC0, symBinAddr: 0x178B38, symSize: 0x0 }
-  - { offsetInCU: 0x10F, offset: 0x17916, size: 0x8, addend: 0x0, symName: _TWTRGCOAuthTimestampOffset, symObjAddr: 0x1F340, symBinAddr: 0x17B800, symSize: 0x0 }
+  - { offsetInCU: 0x10F, offset: 0x17916, size: 0x8, addend: 0x0, symName: _TWTRGCOAuthTimestampOffset, symObjAddr: 0x9B60, symBinAddr: 0x17B800, symSize: 0x0 }
   - { offsetInCU: 0x582, offset: 0x17D89, size: 0x8, addend: 0x0, symName: '-[TWTRGCOAuth initWithConsumerKey:consumerSecret:accessToken:tokenSecret:]', symObjAddr: 0x0, symBinAddr: 0x1D744, symSize: 0x348 }
   - { offsetInCU: 0x58A, offset: 0x17D91, size: 0x8, addend: 0x0, symName: '-[TWTRGCOAuth request]', symObjAddr: 0x348, symBinAddr: 0x1DA8C, symSize: 0x180 }
   - { offsetInCU: 0x5F7, offset: 0x17DFE, size: 0x8, addend: 0x0, symName: '-[TWTRGCOAuth request]', symObjAddr: 0x348, symBinAddr: 0x1DA8C, symSize: 0x180 }
@@ -940,8 +940,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x19126, size: 0x8, addend: 0x0, symName: '+[TWTRAppInstallationUUID appInstallationUUID]', symObjAddr: 0x0, symBinAddr: 0x20640, symSize: 0x80 }
   - { offsetInCU: 0x9B, offset: 0x1919A, size: 0x8, addend: 0x0, symName: '+[TWTRAppInstallationUUID appInstallationUUID]', symObjAddr: 0x0, symBinAddr: 0x20640, symSize: 0x80 }
   - { offsetInCU: 0xA3, offset: 0x191A2, size: 0x8, addend: 0x0, symName: '___46+[TWTRAppInstallationUUID appInstallationUUID]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x206C0, symSize: 0x100 }
-  - { offsetInCU: 0xC9, offset: 0x191C8, size: 0x8, addend: 0x0, symName: _appInstallationUUID.sUUIDString, symObjAddr: 0x4D48, symBinAddr: 0x17B808, symSize: 0x0 }
-  - { offsetInCU: 0xDE, offset: 0x191DD, size: 0x8, addend: 0x0, symName: _appInstallationUUID.onceToken, symObjAddr: 0x4D50, symBinAddr: 0x17B810, symSize: 0x0 }
+  - { offsetInCU: 0xC9, offset: 0x191C8, size: 0x8, addend: 0x0, symName: _appInstallationUUID.sUUIDString, symObjAddr: 0x15A0, symBinAddr: 0x17B808, symSize: 0x0 }
+  - { offsetInCU: 0xDE, offset: 0x191DD, size: 0x8, addend: 0x0, symName: _appInstallationUUID.onceToken, symObjAddr: 0x15A8, symBinAddr: 0x17B810, symSize: 0x0 }
   - { offsetInCU: 0x1FD, offset: 0x192FC, size: 0x8, addend: 0x0, symName: '___46+[TWTRAppInstallationUUID appInstallationUUID]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x206C0, symSize: 0x100 }
   - { offsetInCU: 0x27, offset: 0x194CA, size: 0x8, addend: 0x0, symName: '+[TWTRNetworkSessionProvider userSessionWithAuthConfig:APIServiceConfig:completion:]', symObjAddr: 0x0, symBinAddr: 0x207C0, symSize: 0x55C }
   - { offsetInCU: 0x20F, offset: 0x196B2, size: 0x8, addend: 0x0, symName: '+[TWTRNetworkSessionProvider userSessionWithAuthConfig:APIServiceConfig:completion:]', symObjAddr: 0x0, symBinAddr: 0x207C0, symSize: 0x55C }
@@ -986,8 +986,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x1B774, size: 0x8, addend: 0x0, symName: '-[TWTRSessionStore initWithAuthConfig:APIServiceConfig:refreshStrategies:URLSession:]', symObjAddr: 0x0, symBinAddr: 0x23FEC, symSize: 0x108 }
   - { offsetInCU: 0xDA, offset: 0x1B827, size: 0x8, addend: 0x0, symName: '+[TWTRSessionStore concurrentSessionQueue]', symObjAddr: 0x3470, symBinAddr: 0x27260, symSize: 0x80 }
   - { offsetInCU: 0xE2, offset: 0x1B82F, size: 0x8, addend: 0x0, symName: '___42+[TWTRSessionStore concurrentSessionQueue]_block_invoke', symObjAddr: 0x34F0, symBinAddr: 0x272E0, symSize: 0x4C }
-  - { offsetInCU: 0x10A, offset: 0x1B857, size: 0x8, addend: 0x0, symName: _concurrentSessionQueue.queue, symObjAddr: 0x4F4E8, symBinAddr: 0x17B818, symSize: 0x0 }
-  - { offsetInCU: 0x120, offset: 0x1B86D, size: 0x8, addend: 0x0, symName: _concurrentSessionQueue.onceToken, symObjAddr: 0x4F4F0, symBinAddr: 0x17B820, symSize: 0x0 }
+  - { offsetInCU: 0x10A, offset: 0x1B857, size: 0x8, addend: 0x0, symName: _concurrentSessionQueue.queue, symObjAddr: 0x19878, symBinAddr: 0x17B818, symSize: 0x0 }
+  - { offsetInCU: 0x120, offset: 0x1B86D, size: 0x8, addend: 0x0, symName: _concurrentSessionQueue.onceToken, symObjAddr: 0x19880, symBinAddr: 0x17B820, symSize: 0x0 }
   - { offsetInCU: 0x19F, offset: 0x1B8EC, size: 0x8, addend: 0x0, symName: '-[TWTRSessionStore guestSessionServiceName]', symObjAddr: 0x353C, symBinAddr: 0x2732C, symSize: 0x34 }
   - { offsetInCU: 0x1A7, offset: 0x1B8F4, size: 0x8, addend: 0x0, symName: '-[TWTRSessionStore userSessionServiceName]', symObjAddr: 0x3570, symBinAddr: 0x27360, symSize: 0x34 }
   - { offsetInCU: 0x1F3, offset: 0x1B940, size: 0x8, addend: 0x0, symName: '-[TWTRSessionStore userSessionServiceName]', symObjAddr: 0x3570, symBinAddr: 0x27360, symSize: 0x34 }
@@ -1338,8 +1338,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x23DF5, size: 0x8, addend: 0x0, symName: '+[TWTRCoreLanguage preferredLanguage]', symObjAddr: 0x0, symBinAddr: 0x2FB50, symSize: 0x80 }
   - { offsetInCU: 0x38, offset: 0x23E06, size: 0x8, addend: 0x0, symName: '+[TWTRCoreLanguage preferredLanguage]', symObjAddr: 0x0, symBinAddr: 0x2FB50, symSize: 0x80 }
   - { offsetInCU: 0x40, offset: 0x23E0E, size: 0x8, addend: 0x0, symName: '___37+[TWTRCoreLanguage preferredLanguage]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x2FBD0, symSize: 0x68 }
-  - { offsetInCU: 0x66, offset: 0x23E34, size: 0x8, addend: 0x0, symName: _preferredLanguage.preferred, symObjAddr: 0x3E10, symBinAddr: 0x17B828, symSize: 0x0 }
-  - { offsetInCU: 0x7B, offset: 0x23E49, size: 0x8, addend: 0x0, symName: _preferredLanguage.onceToken, symObjAddr: 0x3E18, symBinAddr: 0x17B830, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x23E34, size: 0x8, addend: 0x0, symName: _preferredLanguage.preferred, symObjAddr: 0x1118, symBinAddr: 0x17B828, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x23E49, size: 0x8, addend: 0x0, symName: _preferredLanguage.onceToken, symObjAddr: 0x1120, symBinAddr: 0x17B830, symSize: 0x0 }
   - { offsetInCU: 0x1FD, offset: 0x23FCB, size: 0x8, addend: 0x0, symName: '___37+[TWTRCoreLanguage preferredLanguage]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x2FBD0, symSize: 0x68 }
   - { offsetInCU: 0x27, offset: 0x240BA, size: 0x8, addend: 0x0, symName: '-[TWTRSession initWithSessionDictionary:]', symObjAddr: 0x0, symBinAddr: 0x2FC38, symSize: 0x264 }
   - { offsetInCU: 0x128, offset: 0x241BB, size: 0x8, addend: 0x0, symName: '-[TWTRSession initWithSessionDictionary:]', symObjAddr: 0x0, symBinAddr: 0x2FC38, symSize: 0x264 }
@@ -1580,8 +1580,8 @@ relocations:
   - { offsetInCU: 0x2F, offset: 0x2BE4E, size: 0x8, addend: 0x0, symName: '_OBJC_CLASS_$_TWTRServerTrustEvaluator', symObjAddr: 0x5E0, symBinAddr: 0x174A60, symSize: 0x0 }
   - { offsetInCU: 0x38, offset: 0x2BE57, size: 0x8, addend: 0x0, symName: '+[TWTRServerTrustEvaluator initialize]', symObjAddr: 0x0, symBinAddr: 0x38EFC, symSize: 0xA8 }
   - { offsetInCU: 0x40, offset: 0x2BE5F, size: 0x8, addend: 0x0, symName: '___38+[TWTRServerTrustEvaluator initialize]_block_invoke', symObjAddr: 0xA8, symBinAddr: 0x38FA4, symSize: 0x4C }
-  - { offsetInCU: 0x62, offset: 0x2BE81, size: 0x8, addend: 0x0, symName: _initialize.onceToken, symObjAddr: 0x9A38, symBinAddr: 0x17B838, symSize: 0x0 }
-  - { offsetInCU: 0xFB, offset: 0x2BF1A, size: 0x8, addend: 0x0, symName: _TWTRCertificateCache, symObjAddr: 0x9A40, symBinAddr: 0x17B840, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x2BE81, size: 0x8, addend: 0x0, symName: _initialize.onceToken, symObjAddr: 0x2EC0, symBinAddr: 0x17B838, symSize: 0x0 }
+  - { offsetInCU: 0xFB, offset: 0x2BF1A, size: 0x8, addend: 0x0, symName: _TWTRCertificateCache, symObjAddr: 0x2EC8, symBinAddr: 0x17B840, symSize: 0x0 }
   - { offsetInCU: 0x1FE, offset: 0x2C01D, size: 0x8, addend: 0x0, symName: _TWTR_TWITTER_PINS, symObjAddr: 0x698, symBinAddr: 0x178EB0, symSize: 0x0 }
   - { offsetInCU: 0x32B, offset: 0x2C14A, size: 0x8, addend: 0x0, symName: '___38+[TWTRServerTrustEvaluator initialize]_block_invoke', symObjAddr: 0xA8, symBinAddr: 0x38FA4, symSize: 0x4C }
   - { offsetInCU: 0x333, offset: 0x2C152, size: 0x8, addend: 0x0, symName: '-[TWTRServerTrustEvaluator evaluateServerTrust:forDomain:]', symObjAddr: 0xF4, symBinAddr: 0x38FF0, symSize: 0x58 }
@@ -1623,14 +1623,14 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x2D385, size: 0x8, addend: 0x0, symName: '+[TWTRTweetViewSizeCalculator cachedTweetViewForStyle:]', symObjAddr: 0x0, symBinAddr: 0x39FAC, symSize: 0x74 }
   - { offsetInCU: 0x40, offset: 0x2D39E, size: 0x8, addend: 0x0, symName: _TWTRCalculatorLockSentinel, symObjAddr: 0x898, symBinAddr: 0x179210, symSize: 0x0 }
   - { offsetInCU: 0xA7, offset: 0x2D405, size: 0x8, addend: 0x0, symName: '+[TWTRTweetViewSizeCalculator regularTweetView]', symObjAddr: 0x74, symBinAddr: 0x3A020, symSize: 0x80 }
-  - { offsetInCU: 0xD0, offset: 0x2D42E, size: 0x8, addend: 0x0, symName: _regularTweetView.tweetView, symObjAddr: 0x16F68, symBinAddr: 0x17B848, symSize: 0x0 }
-  - { offsetInCU: 0xE5, offset: 0x2D443, size: 0x8, addend: 0x0, symName: _regularTweetView.onceToken, symObjAddr: 0x16F70, symBinAddr: 0x17B850, symSize: 0x0 }
+  - { offsetInCU: 0xD0, offset: 0x2D42E, size: 0x8, addend: 0x0, symName: _regularTweetView.tweetView, symObjAddr: 0x8588, symBinAddr: 0x17B848, symSize: 0x0 }
+  - { offsetInCU: 0xE5, offset: 0x2D443, size: 0x8, addend: 0x0, symName: _regularTweetView.onceToken, symObjAddr: 0x8590, symBinAddr: 0x17B850, symSize: 0x0 }
   - { offsetInCU: 0x1CDF, offset: 0x2F03D, size: 0x8, addend: 0x0, symName: '+[TWTRTweetViewSizeCalculator compactTweetView]', symObjAddr: 0x164, symBinAddr: 0x3A110, symSize: 0x80 }
-  - { offsetInCU: 0x1D08, offset: 0x2F066, size: 0x8, addend: 0x0, symName: _compactTweetView.tweetView, symObjAddr: 0x16F78, symBinAddr: 0x17B858, symSize: 0x0 }
-  - { offsetInCU: 0x1D1D, offset: 0x2F07B, size: 0x8, addend: 0x0, symName: _compactTweetView.onceToken, symObjAddr: 0x16F80, symBinAddr: 0x17B860, symSize: 0x0 }
+  - { offsetInCU: 0x1D08, offset: 0x2F066, size: 0x8, addend: 0x0, symName: _compactTweetView.tweetView, symObjAddr: 0x8598, symBinAddr: 0x17B858, symSize: 0x0 }
+  - { offsetInCU: 0x1D1D, offset: 0x2F07B, size: 0x8, addend: 0x0, symName: _compactTweetView.onceToken, symObjAddr: 0x85A0, symBinAddr: 0x17B860, symSize: 0x0 }
   - { offsetInCU: 0x1D64, offset: 0x2F0C2, size: 0x8, addend: 0x0, symName: '+[TWTRTweetViewSizeCalculator heightCache]', symObjAddr: 0x254, symBinAddr: 0x3A200, symSize: 0x80 }
-  - { offsetInCU: 0x1D8D, offset: 0x2F0EB, size: 0x8, addend: 0x0, symName: _heightCache.heights, symObjAddr: 0x16F88, symBinAddr: 0x17B868, symSize: 0x0 }
-  - { offsetInCU: 0x1DA2, offset: 0x2F100, size: 0x8, addend: 0x0, symName: _heightCache.onceToken, symObjAddr: 0x16F90, symBinAddr: 0x17B870, symSize: 0x0 }
+  - { offsetInCU: 0x1D8D, offset: 0x2F0EB, size: 0x8, addend: 0x0, symName: _heightCache.heights, symObjAddr: 0x85A8, symBinAddr: 0x17B868, symSize: 0x0 }
+  - { offsetInCU: 0x1DA2, offset: 0x2F100, size: 0x8, addend: 0x0, symName: _heightCache.onceToken, symObjAddr: 0x85B0, symBinAddr: 0x17B870, symSize: 0x0 }
   - { offsetInCU: 0x1E6A, offset: 0x2F1C8, size: 0x8, addend: 0x0, symName: '+[TWTRTweetViewSizeCalculator cachedTweetViewForStyle:]', symObjAddr: 0x0, symBinAddr: 0x39FAC, symSize: 0x74 }
   - { offsetInCU: 0x1F42, offset: 0x2F2A0, size: 0x8, addend: 0x0, symName: '___47+[TWTRTweetViewSizeCalculator regularTweetView]_block_invoke', symObjAddr: 0xF4, symBinAddr: 0x3A0A0, symSize: 0x70 }
   - { offsetInCU: 0x1F6C, offset: 0x2F2CA, size: 0x8, addend: 0x0, symName: '___47+[TWTRTweetViewSizeCalculator compactTweetView]_block_invoke', symObjAddr: 0x1E4, symBinAddr: 0x3A190, symSize: 0x70 }
@@ -1915,15 +1915,15 @@ relocations:
   - { offsetInCU: 0x251, offset: 0x45D9B, size: 0x8, addend: 0x0, symName: '+[TWTRURLSessionConfig defaultAdditionalHeaders]', symObjAddr: 0x194, symBinAddr: 0x4692C, symSize: 0xC4 }
   - { offsetInCU: 0x27, offset: 0x461C7, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatter elapsedTimeStringSinceDate:]', symObjAddr: 0x0, symBinAddr: 0x469F0, symSize: 0x1D4 }
   - { offsetInCU: 0x34, offset: 0x461D4, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatter _tinyRelativeTimeAgoStringForDate:]', symObjAddr: 0x1D4, symBinAddr: 0x46BC4, symSize: 0x118 }
-  - { offsetInCU: 0x5D, offset: 0x461FD, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.seconds', symObjAddr: 0x9FF8, symBinAddr: 0x17B878, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x46212, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.second', symObjAddr: 0xA000, symBinAddr: 0x17B880, symSize: 0x0 }
-  - { offsetInCU: 0x87, offset: 0x46227, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.minutes', symObjAddr: 0xA008, symBinAddr: 0x17B888, symSize: 0x0 }
-  - { offsetInCU: 0x9C, offset: 0x4623C, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.minute', symObjAddr: 0xA010, symBinAddr: 0x17B890, symSize: 0x0 }
-  - { offsetInCU: 0xB1, offset: 0x46251, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.hours', symObjAddr: 0xA018, symBinAddr: 0x17B898, symSize: 0x0 }
-  - { offsetInCU: 0xC6, offset: 0x46266, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.hour', symObjAddr: 0xA020, symBinAddr: 0x17B8A0, symSize: 0x0 }
-  - { offsetInCU: 0xDB, offset: 0x4627B, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.days', symObjAddr: 0xA028, symBinAddr: 0x17B8A8, symSize: 0x0 }
-  - { offsetInCU: 0xF0, offset: 0x46290, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.day', symObjAddr: 0xA030, symBinAddr: 0x17B8B0, symSize: 0x0 }
-  - { offsetInCU: 0x105, offset: 0x462A5, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.onceToken', symObjAddr: 0xA038, symBinAddr: 0x17B8B8, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x461FD, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.seconds', symObjAddr: 0x3140, symBinAddr: 0x17B878, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x46212, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.second', symObjAddr: 0x3148, symBinAddr: 0x17B880, symSize: 0x0 }
+  - { offsetInCU: 0x87, offset: 0x46227, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.minutes', symObjAddr: 0x3150, symBinAddr: 0x17B888, symSize: 0x0 }
+  - { offsetInCU: 0x9C, offset: 0x4623C, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.minute', symObjAddr: 0x3158, symBinAddr: 0x17B890, symSize: 0x0 }
+  - { offsetInCU: 0xB1, offset: 0x46251, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.hours', symObjAddr: 0x3160, symBinAddr: 0x17B898, symSize: 0x0 }
+  - { offsetInCU: 0xC6, offset: 0x46266, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.hour', symObjAddr: 0x3168, symBinAddr: 0x17B8A0, symSize: 0x0 }
+  - { offsetInCU: 0xDB, offset: 0x4627B, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.days', symObjAddr: 0x3170, symBinAddr: 0x17B8A8, symSize: 0x0 }
+  - { offsetInCU: 0xF0, offset: 0x46290, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.day', symObjAddr: 0x3178, symBinAddr: 0x17B8B0, symSize: 0x0 }
+  - { offsetInCU: 0x105, offset: 0x462A5, size: 0x8, addend: 0x0, symName: '__tinyRelativeTimeAgoStringForDate:.onceToken', symObjAddr: 0x3180, symBinAddr: 0x17B8B8, symSize: 0x0 }
   - { offsetInCU: 0x2D8, offset: 0x46478, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatter elapsedTimeStringSinceDate:]', symObjAddr: 0x0, symBinAddr: 0x469F0, symSize: 0x1D4 }
   - { offsetInCU: 0x403, offset: 0x465A3, size: 0x8, addend: 0x0, symName: '___55+[TWTRDateFormatter _tinyRelativeTimeAgoStringForDate:]_block_invoke', symObjAddr: 0x2EC, symBinAddr: 0x46CDC, symSize: 0x164 }
   - { offsetInCU: 0x42D, offset: 0x465CD, size: 0x8, addend: 0x0, symName: '+[TWTRDateFormatter _relativeTimeAgoStringForDate:withFormatForSeconds:second:minutes:minute:hours:hour:days:day:]', symObjAddr: 0x450, symBinAddr: 0x46E40, symSize: 0x3AC }
@@ -1952,11 +1952,11 @@ relocations:
   - { offsetInCU: 0xEE, offset: 0x4797E, size: 0x8, addend: 0x0, symName: _NSStringFromTWTRMediaType, symObjAddr: 0xE4, symBinAddr: 0x4836C, symSize: 0xA4 }
   - { offsetInCU: 0x27, offset: 0x479D9, size: 0x8, addend: 0x0, symName: '+[TWTRImageSequenceConfiguration heartImageSequenceConfigurationWithSize:]', symObjAddr: 0x0, symBinAddr: 0x48420, symSize: 0x8C }
   - { offsetInCU: 0x34, offset: 0x479E6, size: 0x8, addend: 0x0, symName: '+[TWTRImageSequenceConfiguration heartImageSequenceConfigurationWithRegularSize]', symObjAddr: 0x8C, symBinAddr: 0x484AC, symSize: 0xB4 }
-  - { offsetInCU: 0x5D, offset: 0x47A0F, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithRegularSize.config, symObjAddr: 0x12268, symBinAddr: 0x17B8C0, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x47A24, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithRegularSize.onceToken, symObjAddr: 0x12270, symBinAddr: 0x17B8C8, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x47A0F, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithRegularSize.config, symObjAddr: 0x5EA8, symBinAddr: 0x17B8C0, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x47A24, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithRegularSize.onceToken, symObjAddr: 0x5EB0, symBinAddr: 0x17B8C8, symSize: 0x0 }
   - { offsetInCU: 0xDDE, offset: 0x48790, size: 0x8, addend: 0x0, symName: '+[TWTRImageSequenceConfiguration heartImageSequenceConfigurationWithLargeSize]', symObjAddr: 0x210, symBinAddr: 0x48630, symSize: 0xB4 }
-  - { offsetInCU: 0xE07, offset: 0x487B9, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithLargeSize.config, symObjAddr: 0x12278, symBinAddr: 0x17B8D0, symSize: 0x0 }
-  - { offsetInCU: 0xE1C, offset: 0x487CE, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithLargeSize.onceToken, symObjAddr: 0x12280, symBinAddr: 0x17B8D8, symSize: 0x0 }
+  - { offsetInCU: 0xE07, offset: 0x487B9, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithLargeSize.config, symObjAddr: 0x5EB8, symBinAddr: 0x17B8D0, symSize: 0x0 }
+  - { offsetInCU: 0xE1C, offset: 0x487CE, size: 0x8, addend: 0x0, symName: _heartImageSequenceConfigurationWithLargeSize.onceToken, symObjAddr: 0x5EC0, symBinAddr: 0x17B8D8, symSize: 0x0 }
   - { offsetInCU: 0xE9E, offset: 0x48850, size: 0x8, addend: 0x0, symName: '+[TWTRImageSequenceConfiguration heartImageSequenceConfigurationWithSize:]', symObjAddr: 0x0, symBinAddr: 0x48420, symSize: 0x8C }
   - { offsetInCU: 0xF76, offset: 0x48928, size: 0x8, addend: 0x0, symName: '___80+[TWTRImageSequenceConfiguration heartImageSequenceConfigurationWithRegularSize]_block_invoke', symObjAddr: 0x140, symBinAddr: 0x48560, symSize: 0xA4 }
   - { offsetInCU: 0xFE3, offset: 0x48995, size: 0x8, addend: 0x0, symName: _CGSizeMake, symObjAddr: 0x1E4, symBinAddr: 0x48604, symSize: 0x2C }
@@ -2099,8 +2099,8 @@ relocations:
   - { offsetInCU: 0x8CE, offset: 0x49EB1, size: 0x8, addend: 0x0, symName: _TWTRAPIConstantsStatusFieldUserMentionEntityScreenName, symObjAddr: 0x1318, symBinAddr: 0x135C30, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x49EEF, size: 0x8, addend: 0x0, symName: '+[TWTRTweetRepository sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4929C, symSize: 0xB4 }
   - { offsetInCU: 0x97, offset: 0x49F5F, size: 0x8, addend: 0x0, symName: '+[TWTRTweetRepository sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x4929C, symSize: 0xB4 }
-  - { offsetInCU: 0xC0, offset: 0x49F88, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1A420, symBinAddr: 0x17B8E0, symSize: 0x0 }
-  - { offsetInCU: 0xD5, offset: 0x49F9D, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x1A428, symBinAddr: 0x17B8E8, symSize: 0x0 }
+  - { offsetInCU: 0xC0, offset: 0x49F88, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x8658, symBinAddr: 0x17B8E0, symSize: 0x0 }
+  - { offsetInCU: 0xD5, offset: 0x49F9D, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x8660, symBinAddr: 0x17B8E8, symSize: 0x0 }
   - { offsetInCU: 0x2FC, offset: 0x4A1C4, size: 0x8, addend: 0x0, symName: '___37+[TWTRTweetRepository sharedInstance]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x49350, symSize: 0xB4 }
   - { offsetInCU: 0x369, offset: 0x4A231, size: 0x8, addend: 0x0, symName: '-[TWTRTweetRepository initWithCache:]', symObjAddr: 0x168, symBinAddr: 0x49404, symSize: 0xD4 }
   - { offsetInCU: 0x3AD, offset: 0x4A275, size: 0x8, addend: 0x0, symName: '-[TWTRTweetRepository loadTweetsWithIDs:APIClient:additionalParameters:completion:]', symObjAddr: 0x23C, symBinAddr: 0x494D8, symSize: 0x578 }
@@ -2234,8 +2234,8 @@ relocations:
   - { offsetInCU: 0x1582, offset: 0x56670, size: 0x8, addend: 0x0, symName: '-[TWTRTimelineMessageView .cxx_destruct]', symObjAddr: 0x8D0, symBinAddr: 0x50578, symSize: 0x70 }
   - { offsetInCU: 0x27, offset: 0x5670F, size: 0x8, addend: 0x0, symName: '+[TWTRStore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x505E8, symSize: 0x80 }
   - { offsetInCU: 0x34, offset: 0x5671C, size: 0x8, addend: 0x0, symName: '+[TWTRStore sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x505E8, symSize: 0x80 }
-  - { offsetInCU: 0x5D, offset: 0x56745, size: 0x8, addend: 0x0, symName: _sharedInstance.store, symObjAddr: 0xD700, symBinAddr: 0x17B8F0, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x5675A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xD708, symBinAddr: 0x17B8F8, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x56745, size: 0x8, addend: 0x0, symName: _sharedInstance.store, symObjAddr: 0x3F88, symBinAddr: 0x17B8F0, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x5675A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x3F90, symBinAddr: 0x17B8F8, symSize: 0x0 }
   - { offsetInCU: 0x228, offset: 0x56910, size: 0x8, addend: 0x0, symName: '___27+[TWTRStore sharedInstance]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x50668, symSize: 0x4C }
   - { offsetInCU: 0x252, offset: 0x5693A, size: 0x8, addend: 0x0, symName: '-[TWTRStore init]', symObjAddr: 0xCC, symBinAddr: 0x506B4, symSize: 0xD4 }
   - { offsetInCU: 0x288, offset: 0x56970, size: 0x8, addend: 0x0, symName: '-[TWTRStore subscribeSubscriber:toClass:objectID:]', symObjAddr: 0x1A0, symBinAddr: 0x50788, symSize: 0x100 }
@@ -2252,8 +2252,8 @@ relocations:
   - { offsetInCU: 0x6E9, offset: 0x56DD1, size: 0x8, addend: 0x0, symName: '-[TWTRStore .cxx_destruct]', symObjAddr: 0xDF4, symBinAddr: 0x512B4, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x571FD, size: 0x8, addend: 0x0, symName: '+[TWTRSEUIBundle imageNamed:]', symObjAddr: 0x0, symBinAddr: 0x512E4, symSize: 0xA4 }
   - { offsetInCU: 0x34, offset: 0x5720A, size: 0x8, addend: 0x0, symName: __TSEUIBundle, symObjAddr: 0xA4, symBinAddr: 0x51388, symSize: 0x78 }
-  - { offsetInCU: 0x5A, offset: 0x57230, size: 0x8, addend: 0x0, symName: __TSEUIBundle.sTSEUIBundle, symObjAddr: 0xB8B8, symBinAddr: 0x17B900, symSize: 0x0 }
-  - { offsetInCU: 0x6F, offset: 0x57245, size: 0x8, addend: 0x0, symName: __TSEUIBundle.onceToken, symObjAddr: 0xB8C0, symBinAddr: 0x17B908, symSize: 0x0 }
+  - { offsetInCU: 0x5A, offset: 0x57230, size: 0x8, addend: 0x0, symName: __TSEUIBundle.sTSEUIBundle, symObjAddr: 0x4360, symBinAddr: 0x17B900, symSize: 0x0 }
+  - { offsetInCU: 0x6F, offset: 0x57245, size: 0x8, addend: 0x0, symName: __TSEUIBundle.onceToken, symObjAddr: 0x4368, symBinAddr: 0x17B908, symSize: 0x0 }
   - { offsetInCU: 0x869, offset: 0x57A3F, size: 0x8, addend: 0x0, symName: '+[TWTRSEUIBundle imageNamed:]', symObjAddr: 0x0, symBinAddr: 0x512E4, symSize: 0xA4 }
   - { offsetInCU: 0x941, offset: 0x57B17, size: 0x8, addend: 0x0, symName: ____TSEUIBundle_block_invoke, symObjAddr: 0x11C, symBinAddr: 0x51400, symSize: 0xF0 }
   - { offsetInCU: 0x27, offset: 0x58249, size: 0x8, addend: 0x0, symName: _userFromUser, symObjAddr: 0x0, symBinAddr: 0x514F0, symSize: 0x198 }
@@ -2269,7 +2269,7 @@ relocations:
   - { offsetInCU: 0x68F, offset: 0x588B1, size: 0x8, addend: 0x0, symName: '-[TWTRComposerUser verified]', symObjAddr: 0x2D4, symBinAddr: 0x517C4, symSize: 0x20 }
   - { offsetInCU: 0x6C6, offset: 0x588E8, size: 0x8, addend: 0x0, symName: '-[TWTRComposerUser setVerified:]', symObjAddr: 0x2F4, symBinAddr: 0x517E4, symSize: 0x30 }
   - { offsetInCU: 0x706, offset: 0x58928, size: 0x8, addend: 0x0, symName: '-[TWTRComposerUser .cxx_destruct]', symObjAddr: 0x324, symBinAddr: 0x51814, symSize: 0x58 }
-  - { offsetInCU: 0x35, offset: 0x58A3A, size: 0x8, addend: 0x0, symName: _TSELocalized, symObjAddr: 0x14D0, symBinAddr: 0x17BBA8, symSize: 0x0 }
+  - { offsetInCU: 0x35, offset: 0x58A3A, size: 0x8, addend: 0x0, symName: _TSELocalized, symObjAddr: 0x5C0, symBinAddr: 0x17BBA8, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x58A89, size: 0x8, addend: 0x0, symName: '+[TWTRLocalizedResources localizedString:]', symObjAddr: 0x0, symBinAddr: 0x5186C, symSize: 0x68 }
   - { offsetInCU: 0x73, offset: 0x58AD5, size: 0x8, addend: 0x0, symName: '+[TWTRLocalizedResources localizedString:]', symObjAddr: 0x0, symBinAddr: 0x5186C, symSize: 0x68 }
   - { offsetInCU: 0x27, offset: 0x58B8C, size: 0x8, addend: 0x0, symName: '-[TWTRSessionMigrator runMigrationWithDestination:removeOnSuccess:]', symObjAddr: 0x0, symBinAddr: 0x518D4, symSize: 0x78 }
@@ -2360,8 +2360,8 @@ relocations:
   - { offsetInCU: 0x266, offset: 0x5FA59, size: 0x8, addend: 0x0, symName: _TWTRLoggedInUserIDKey, symObjAddr: 0x600, symBinAddr: 0x135F28, symSize: 0x0 }
   - { offsetInCU: 0x27, offset: 0x5FA97, size: 0x8, addend: 0x0, symName: '+[TWTRFontUtil fullnameFont]', symObjAddr: 0x0, symBinAddr: 0x54794, symSize: 0x2C }
   - { offsetInCU: 0x5F, offset: 0x5FACF, size: 0x8, addend: 0x0, symName: '+[TWTRFontUtil defaultFontSize]', symObjAddr: 0x3C4, symBinAddr: 0x54B58, symSize: 0x80 }
-  - { offsetInCU: 0x88, offset: 0x5FAF8, size: 0x8, addend: 0x0, symName: _defaultFontSize.fontSize, symObjAddr: 0xCC58, symBinAddr: 0x17B910, symSize: 0x0 }
-  - { offsetInCU: 0x9D, offset: 0x5FB0D, size: 0x8, addend: 0x0, symName: _defaultFontSize.onceToken, symObjAddr: 0xCC60, symBinAddr: 0x17B918, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x5FAF8, size: 0x8, addend: 0x0, symName: _defaultFontSize.fontSize, symObjAddr: 0x4640, symBinAddr: 0x17B910, symSize: 0x0 }
+  - { offsetInCU: 0x9D, offset: 0x5FB0D, size: 0x8, addend: 0x0, symName: _defaultFontSize.onceToken, symObjAddr: 0x4648, symBinAddr: 0x17B918, symSize: 0x0 }
   - { offsetInCU: 0x451, offset: 0x5FEC1, size: 0x8, addend: 0x0, symName: '+[TWTRFontUtil fullnameFont]', symObjAddr: 0x0, symBinAddr: 0x54794, symSize: 0x2C }
   - { offsetInCU: 0x487, offset: 0x5FEF7, size: 0x8, addend: 0x0, symName: '+[TWTRFontUtil usernameFontForStyle:]', symObjAddr: 0x2C, symBinAddr: 0x547C0, symSize: 0xA4 }
   - { offsetInCU: 0x4CB, offset: 0x5FF3B, size: 0x8, addend: 0x0, symName: '+[TWTRFontUtil timestampFontForStyle:]', symObjAddr: 0xD0, symBinAddr: 0x54864, symSize: 0x34 }
@@ -2671,8 +2671,8 @@ relocations:
   - { offsetInCU: 0x3C1, offset: 0x7BA3C, size: 0x8, addend: 0x0, symName: '-[TWTRTimelineFilter .cxx_destruct]', symObjAddr: 0x64C, symBinAddr: 0x63994, symSize: 0x68 }
   - { offsetInCU: 0x27, offset: 0x7BB12, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRPunycodeAdditions) longCharactersWithCount:]', symObjAddr: 0x0, symBinAddr: 0x639FC, symSize: 0x90 }
   - { offsetInCU: 0x34, offset: 0x7BB1F, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRPunycodeAdditions) stringByDeletingIgnoredCharacters]', symObjAddr: 0x90, symBinAddr: 0x63A8C, symSize: 0xD0 }
-  - { offsetInCU: 0x5D, offset: 0x7BB48, size: 0x8, addend: 0x0, symName: _stringByDeletingIgnoredCharacters.regex, symObjAddr: 0x16C78, symBinAddr: 0x17B920, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x7BB5D, size: 0x8, addend: 0x0, symName: _stringByDeletingIgnoredCharacters.onceToken, symObjAddr: 0x16C80, symBinAddr: 0x17B928, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x7BB48, size: 0x8, addend: 0x0, symName: _stringByDeletingIgnoredCharacters.regex, symObjAddr: 0x72D8, symBinAddr: 0x17B920, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x7BB5D, size: 0x8, addend: 0x0, symName: _stringByDeletingIgnoredCharacters.onceToken, symObjAddr: 0x72E0, symBinAddr: 0x17B928, symSize: 0x0 }
   - { offsetInCU: 0x278, offset: 0x7BD63, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRPunycodeAdditions) longCharactersWithCount:]', symObjAddr: 0x0, symBinAddr: 0x639FC, symSize: 0x90 }
   - { offsetInCU: 0x35F, offset: 0x7BE4A, size: 0x8, addend: 0x0, symName: '___68-[NSString(TWTRPunycodeAdditions) stringByDeletingIgnoredCharacters]_block_invoke', symObjAddr: 0x160, symBinAddr: 0x63B5C, symSize: 0x5C }
   - { offsetInCU: 0x389, offset: 0x7BE74, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRPunycodeAdditions) punycodeEncodedString]', symObjAddr: 0x1BC, symBinAddr: 0x63BB8, symSize: 0x528 }
@@ -3007,11 +3007,11 @@ relocations:
   - { offsetInCU: 0xA3, offset: 0x9356A, size: 0x8, addend: 0x0, symName: _TWTRMediaTypeMP4, symObjAddr: 0x18D8, symBinAddr: 0x1366D8, symSize: 0x0 }
   - { offsetInCU: 0xB8, offset: 0x9357F, size: 0x8, addend: 0x0, symName: _TWTRMediaTypeM3u8, symObjAddr: 0x18E0, symBinAddr: 0x1366E0, symSize: 0x0 }
   - { offsetInCU: 0xC1, offset: 0x93588, size: 0x8, addend: 0x0, symName: '+[TWTRVideoMetaDataVariant JSONValidator]', symObjAddr: 0x638, symBinAddr: 0x7AC20, symSize: 0x80 }
-  - { offsetInCU: 0xEA, offset: 0x935B1, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x18A40, symBinAddr: 0x17B930, symSize: 0x0 }
-  - { offsetInCU: 0xFF, offset: 0x935C6, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x18A48, symBinAddr: 0x17B938, symSize: 0x0 }
+  - { offsetInCU: 0xEA, offset: 0x935B1, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x6F80, symBinAddr: 0x17B930, symSize: 0x0 }
+  - { offsetInCU: 0xFF, offset: 0x935C6, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x6F88, symBinAddr: 0x17B938, symSize: 0x0 }
   - { offsetInCU: 0x183, offset: 0x9364A, size: 0x8, addend: 0x0, symName: '+[TWTRVideoMetaData JSONValidator]', symObjAddr: 0x1230, symBinAddr: 0x7B818, symSize: 0x80 }
-  - { offsetInCU: 0x1AC, offset: 0x93673, size: 0x8, addend: 0x0, symName: _JSONValidator.validator.109, symObjAddr: 0x18A50, symBinAddr: 0x17B940, symSize: 0x0 }
-  - { offsetInCU: 0x1C1, offset: 0x93688, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken.110, symObjAddr: 0x18A58, symBinAddr: 0x17B948, symSize: 0x0 }
+  - { offsetInCU: 0x1AC, offset: 0x93673, size: 0x8, addend: 0x0, symName: _JSONValidator.validator.109, symObjAddr: 0x6F90, symBinAddr: 0x17B940, symSize: 0x0 }
+  - { offsetInCU: 0x1C1, offset: 0x93688, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken.110, symObjAddr: 0x6F98, symBinAddr: 0x17B948, symSize: 0x0 }
   - { offsetInCU: 0x677, offset: 0x93B3E, size: 0x8, addend: 0x0, symName: '-[TWTRVideoMetaDataVariant initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0x7A5E8, symSize: 0xD8 }
   - { offsetInCU: 0x6CA, offset: 0x93B91, size: 0x8, addend: 0x0, symName: '-[TWTRVideoMetaDataVariant initWithValidatedDictionary:]', symObjAddr: 0xD8, symBinAddr: 0x7A6C0, symSize: 0xF4 }
   - { offsetInCU: 0x70E, offset: 0x93BD5, size: 0x8, addend: 0x0, symName: '-[TWTRVideoMetaDataVariant setPropertiesFromValidatedDictionary:]', symObjAddr: 0x1CC, symBinAddr: 0x7A7B4, symSize: 0x110 }
@@ -3066,50 +3066,50 @@ relocations:
   - { offsetInCU: 0x288, offset: 0x94B8F, size: 0x8, addend: 0x0, symName: '-[TWTRTwitterCardsServiceConfig serviceName]', symObjAddr: 0xE0, symBinAddr: 0x7C118, symSize: 0x1C }
   - { offsetInCU: 0x27, offset: 0x94C1E, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText entitiesInText:]', symObjAddr: 0x0, symBinAddr: 0x7C134, symSize: 0x534 }
   - { offsetInCU: 0x8F, offset: 0x94C86, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validHashtagBoundaryCharacterSet]', symObjAddr: 0x2458, symBinAddr: 0x7E58C, symSize: 0x80 }
-  - { offsetInCU: 0xBB, offset: 0x94CB2, size: 0x8, addend: 0x0, symName: _validHashtagBoundaryCharacterSet.charSet, symObjAddr: 0x334A8, symBinAddr: 0x17B950, symSize: 0x0 }
-  - { offsetInCU: 0xD2, offset: 0x94CC9, size: 0x8, addend: 0x0, symName: _validHashtagBoundaryCharacterSet.onceToken, symObjAddr: 0x334B0, symBinAddr: 0x17B958, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x94CB2, size: 0x8, addend: 0x0, symName: _validHashtagBoundaryCharacterSet.charSet, symObjAddr: 0x14D58, symBinAddr: 0x17B950, symSize: 0x0 }
+  - { offsetInCU: 0xD2, offset: 0x94CC9, size: 0x8, addend: 0x0, symName: _validHashtagBoundaryCharacterSet.onceToken, symObjAddr: 0x14D60, symBinAddr: 0x17B958, symSize: 0x0 }
   - { offsetInCU: 0x29B, offset: 0x94E92, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText simplifiedValidURLRegexp]', symObjAddr: 0x2BA4, symBinAddr: 0x7ECD8, symSize: 0x80 }
-  - { offsetInCU: 0x2C7, offset: 0x94EBE, size: 0x8, addend: 0x0, symName: _simplifiedValidURLRegexp.regexp, symObjAddr: 0x334B8, symBinAddr: 0x17B960, symSize: 0x0 }
-  - { offsetInCU: 0x2DE, offset: 0x94ED5, size: 0x8, addend: 0x0, symName: _simplifiedValidURLRegexp.onceToken, symObjAddr: 0x334C0, symBinAddr: 0x17B968, symSize: 0x0 }
+  - { offsetInCU: 0x2C7, offset: 0x94EBE, size: 0x8, addend: 0x0, symName: _simplifiedValidURLRegexp.regexp, symObjAddr: 0x14D68, symBinAddr: 0x17B960, symSize: 0x0 }
+  - { offsetInCU: 0x2DE, offset: 0x94ED5, size: 0x8, addend: 0x0, symName: _simplifiedValidURLRegexp.onceToken, symObjAddr: 0x14D70, symBinAddr: 0x17B968, symSize: 0x0 }
   - { offsetInCU: 0x40F, offset: 0x95006, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText URLRegexpForValidation]', symObjAddr: 0x2C80, symBinAddr: 0x7EDB4, symSize: 0x80 }
-  - { offsetInCU: 0x43B, offset: 0x95032, size: 0x8, addend: 0x0, symName: _URLRegexpForValidation.regexp, symObjAddr: 0x334C8, symBinAddr: 0x17B970, symSize: 0x0 }
-  - { offsetInCU: 0x452, offset: 0x95049, size: 0x8, addend: 0x0, symName: _URLRegexpForValidation.onceToken, symObjAddr: 0x334D0, symBinAddr: 0x17B978, symSize: 0x0 }
+  - { offsetInCU: 0x43B, offset: 0x95032, size: 0x8, addend: 0x0, symName: _URLRegexpForValidation.regexp, symObjAddr: 0x14D78, symBinAddr: 0x17B970, symSize: 0x0 }
+  - { offsetInCU: 0x452, offset: 0x95049, size: 0x8, addend: 0x0, symName: _URLRegexpForValidation.onceToken, symObjAddr: 0x14D80, symBinAddr: 0x17B978, symSize: 0x0 }
   - { offsetInCU: 0x49C, offset: 0x95093, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validASCIIDomainRegexp]', symObjAddr: 0x2D5C, symBinAddr: 0x7EE90, symSize: 0x80 }
-  - { offsetInCU: 0x4C8, offset: 0x950BF, size: 0x8, addend: 0x0, symName: _validASCIIDomainRegexp.regexp, symObjAddr: 0x334D8, symBinAddr: 0x17B980, symSize: 0x0 }
-  - { offsetInCU: 0x4DF, offset: 0x950D6, size: 0x8, addend: 0x0, symName: _validASCIIDomainRegexp.onceToken, symObjAddr: 0x334E0, symBinAddr: 0x17B988, symSize: 0x0 }
+  - { offsetInCU: 0x4C8, offset: 0x950BF, size: 0x8, addend: 0x0, symName: _validASCIIDomainRegexp.regexp, symObjAddr: 0x14D88, symBinAddr: 0x17B980, symSize: 0x0 }
+  - { offsetInCU: 0x4DF, offset: 0x950D6, size: 0x8, addend: 0x0, symName: _validASCIIDomainRegexp.onceToken, symObjAddr: 0x14D90, symBinAddr: 0x17B988, symSize: 0x0 }
   - { offsetInCU: 0x529, offset: 0x95120, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText invalidShortDomainRegexp]', symObjAddr: 0x2E38, symBinAddr: 0x7EF6C, symSize: 0x80 }
-  - { offsetInCU: 0x555, offset: 0x9514C, size: 0x8, addend: 0x0, symName: _invalidShortDomainRegexp.regexp, symObjAddr: 0x334E8, symBinAddr: 0x17B990, symSize: 0x0 }
-  - { offsetInCU: 0x56C, offset: 0x95163, size: 0x8, addend: 0x0, symName: _invalidShortDomainRegexp.onceToken, symObjAddr: 0x334F0, symBinAddr: 0x17B998, symSize: 0x0 }
+  - { offsetInCU: 0x555, offset: 0x9514C, size: 0x8, addend: 0x0, symName: _invalidShortDomainRegexp.regexp, symObjAddr: 0x14D98, symBinAddr: 0x17B990, symSize: 0x0 }
+  - { offsetInCU: 0x56C, offset: 0x95163, size: 0x8, addend: 0x0, symName: _invalidShortDomainRegexp.onceToken, symObjAddr: 0x14DA0, symBinAddr: 0x17B998, symSize: 0x0 }
   - { offsetInCU: 0x5B6, offset: 0x951AD, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validSpecialShortDomainRegexp]', symObjAddr: 0x2F14, symBinAddr: 0x7F048, symSize: 0x80 }
-  - { offsetInCU: 0x5E2, offset: 0x951D9, size: 0x8, addend: 0x0, symName: _validSpecialShortDomainRegexp.regexp, symObjAddr: 0x334F8, symBinAddr: 0x17B9A0, symSize: 0x0 }
-  - { offsetInCU: 0x5F9, offset: 0x951F0, size: 0x8, addend: 0x0, symName: _validSpecialShortDomainRegexp.onceToken, symObjAddr: 0x33500, symBinAddr: 0x17B9A8, symSize: 0x0 }
+  - { offsetInCU: 0x5E2, offset: 0x951D9, size: 0x8, addend: 0x0, symName: _validSpecialShortDomainRegexp.regexp, symObjAddr: 0x14DA8, symBinAddr: 0x17B9A0, symSize: 0x0 }
+  - { offsetInCU: 0x5F9, offset: 0x951F0, size: 0x8, addend: 0x0, symName: _validSpecialShortDomainRegexp.onceToken, symObjAddr: 0x14DB0, symBinAddr: 0x17B9A8, symSize: 0x0 }
   - { offsetInCU: 0x643, offset: 0x9523A, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validTCOURLRegexp]', symObjAddr: 0x2FF0, symBinAddr: 0x7F124, symSize: 0x80 }
-  - { offsetInCU: 0x66F, offset: 0x95266, size: 0x8, addend: 0x0, symName: _validTCOURLRegexp.regexp, symObjAddr: 0x33508, symBinAddr: 0x17B9B0, symSize: 0x0 }
-  - { offsetInCU: 0x686, offset: 0x9527D, size: 0x8, addend: 0x0, symName: _validTCOURLRegexp.onceToken, symObjAddr: 0x33510, symBinAddr: 0x17B9B8, symSize: 0x0 }
+  - { offsetInCU: 0x66F, offset: 0x95266, size: 0x8, addend: 0x0, symName: _validTCOURLRegexp.regexp, symObjAddr: 0x14DB8, symBinAddr: 0x17B9B0, symSize: 0x0 }
+  - { offsetInCU: 0x686, offset: 0x9527D, size: 0x8, addend: 0x0, symName: _validTCOURLRegexp.onceToken, symObjAddr: 0x14DC0, symBinAddr: 0x17B9B8, symSize: 0x0 }
   - { offsetInCU: 0x6D0, offset: 0x952C7, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validHashtagRegexp]', symObjAddr: 0x30CC, symBinAddr: 0x7F200, symSize: 0x80 }
-  - { offsetInCU: 0x6FC, offset: 0x952F3, size: 0x8, addend: 0x0, symName: _validHashtagRegexp.regexp, symObjAddr: 0x33518, symBinAddr: 0x17B9C0, symSize: 0x0 }
-  - { offsetInCU: 0x713, offset: 0x9530A, size: 0x8, addend: 0x0, symName: _validHashtagRegexp.onceToken, symObjAddr: 0x33520, symBinAddr: 0x17B9C8, symSize: 0x0 }
+  - { offsetInCU: 0x6FC, offset: 0x952F3, size: 0x8, addend: 0x0, symName: _validHashtagRegexp.regexp, symObjAddr: 0x14DC8, symBinAddr: 0x17B9C0, symSize: 0x0 }
+  - { offsetInCU: 0x713, offset: 0x9530A, size: 0x8, addend: 0x0, symName: _validHashtagRegexp.onceToken, symObjAddr: 0x14DD0, symBinAddr: 0x17B9C8, symSize: 0x0 }
   - { offsetInCU: 0x75D, offset: 0x95354, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText endHashtagRegexp]', symObjAddr: 0x31A8, symBinAddr: 0x7F2DC, symSize: 0x80 }
-  - { offsetInCU: 0x789, offset: 0x95380, size: 0x8, addend: 0x0, symName: _endHashtagRegexp.regexp, symObjAddr: 0x33528, symBinAddr: 0x17B9D0, symSize: 0x0 }
-  - { offsetInCU: 0x7A0, offset: 0x95397, size: 0x8, addend: 0x0, symName: _endHashtagRegexp.onceToken, symObjAddr: 0x33530, symBinAddr: 0x17B9D8, symSize: 0x0 }
+  - { offsetInCU: 0x789, offset: 0x95380, size: 0x8, addend: 0x0, symName: _endHashtagRegexp.regexp, symObjAddr: 0x14DD8, symBinAddr: 0x17B9D0, symSize: 0x0 }
+  - { offsetInCU: 0x7A0, offset: 0x95397, size: 0x8, addend: 0x0, symName: _endHashtagRegexp.onceToken, symObjAddr: 0x14DE0, symBinAddr: 0x17B9D8, symSize: 0x0 }
   - { offsetInCU: 0x7EA, offset: 0x953E1, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validSymbolRegexp]', symObjAddr: 0x3284, symBinAddr: 0x7F3B8, symSize: 0x80 }
-  - { offsetInCU: 0x816, offset: 0x9540D, size: 0x8, addend: 0x0, symName: _validSymbolRegexp.regexp, symObjAddr: 0x33538, symBinAddr: 0x17B9E0, symSize: 0x0 }
-  - { offsetInCU: 0x82D, offset: 0x95424, size: 0x8, addend: 0x0, symName: _validSymbolRegexp.onceToken, symObjAddr: 0x33540, symBinAddr: 0x17B9E8, symSize: 0x0 }
+  - { offsetInCU: 0x816, offset: 0x9540D, size: 0x8, addend: 0x0, symName: _validSymbolRegexp.regexp, symObjAddr: 0x14DE8, symBinAddr: 0x17B9E0, symSize: 0x0 }
+  - { offsetInCU: 0x82D, offset: 0x95424, size: 0x8, addend: 0x0, symName: _validSymbolRegexp.onceToken, symObjAddr: 0x14DF0, symBinAddr: 0x17B9E8, symSize: 0x0 }
   - { offsetInCU: 0x877, offset: 0x9546E, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validMentionOrListRegexp]', symObjAddr: 0x3360, symBinAddr: 0x7F494, symSize: 0x80 }
-  - { offsetInCU: 0x8A3, offset: 0x9549A, size: 0x8, addend: 0x0, symName: _validMentionOrListRegexp.regexp, symObjAddr: 0x33548, symBinAddr: 0x17B9F0, symSize: 0x0 }
-  - { offsetInCU: 0x8BA, offset: 0x954B1, size: 0x8, addend: 0x0, symName: _validMentionOrListRegexp.onceToken, symObjAddr: 0x33550, symBinAddr: 0x17B9F8, symSize: 0x0 }
+  - { offsetInCU: 0x8A3, offset: 0x9549A, size: 0x8, addend: 0x0, symName: _validMentionOrListRegexp.regexp, symObjAddr: 0x14DF8, symBinAddr: 0x17B9F0, symSize: 0x0 }
+  - { offsetInCU: 0x8BA, offset: 0x954B1, size: 0x8, addend: 0x0, symName: _validMentionOrListRegexp.onceToken, symObjAddr: 0x14E00, symBinAddr: 0x17B9F8, symSize: 0x0 }
   - { offsetInCU: 0x904, offset: 0x954FB, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validReplyRegexp]', symObjAddr: 0x343C, symBinAddr: 0x7F570, symSize: 0x80 }
-  - { offsetInCU: 0x930, offset: 0x95527, size: 0x8, addend: 0x0, symName: _validReplyRegexp.regexp, symObjAddr: 0x33558, symBinAddr: 0x17BA00, symSize: 0x0 }
-  - { offsetInCU: 0x947, offset: 0x9553E, size: 0x8, addend: 0x0, symName: _validReplyRegexp.onceToken, symObjAddr: 0x33560, symBinAddr: 0x17BA08, symSize: 0x0 }
+  - { offsetInCU: 0x930, offset: 0x95527, size: 0x8, addend: 0x0, symName: _validReplyRegexp.regexp, symObjAddr: 0x14E08, symBinAddr: 0x17BA00, symSize: 0x0 }
+  - { offsetInCU: 0x947, offset: 0x9553E, size: 0x8, addend: 0x0, symName: _validReplyRegexp.onceToken, symObjAddr: 0x14E10, symBinAddr: 0x17BA08, symSize: 0x0 }
   - { offsetInCU: 0x991, offset: 0x95588, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText endMentionRegexp]', symObjAddr: 0x3518, symBinAddr: 0x7F64C, symSize: 0x80 }
-  - { offsetInCU: 0x9BD, offset: 0x955B4, size: 0x8, addend: 0x0, symName: _endMentionRegexp.regexp, symObjAddr: 0x33568, symBinAddr: 0x17BA10, symSize: 0x0 }
-  - { offsetInCU: 0x9D4, offset: 0x955CB, size: 0x8, addend: 0x0, symName: _endMentionRegexp.onceToken, symObjAddr: 0x33570, symBinAddr: 0x17BA18, symSize: 0x0 }
+  - { offsetInCU: 0x9BD, offset: 0x955B4, size: 0x8, addend: 0x0, symName: _endMentionRegexp.regexp, symObjAddr: 0x14E18, symBinAddr: 0x17BA10, symSize: 0x0 }
+  - { offsetInCU: 0x9D4, offset: 0x955CB, size: 0x8, addend: 0x0, symName: _endMentionRegexp.onceToken, symObjAddr: 0x14E20, symBinAddr: 0x17BA18, symSize: 0x0 }
   - { offsetInCU: 0xA1E, offset: 0x95615, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText invalidURLWithoutProtocolPrecedingCharSet]', symObjAddr: 0x35F4, symBinAddr: 0x7F728, symSize: 0x80 }
-  - { offsetInCU: 0xA4A, offset: 0x95641, size: 0x8, addend: 0x0, symName: _invalidURLWithoutProtocolPrecedingCharSet.charSet, symObjAddr: 0x33578, symBinAddr: 0x17BA20, symSize: 0x0 }
-  - { offsetInCU: 0xA61, offset: 0x95658, size: 0x8, addend: 0x0, symName: _invalidURLWithoutProtocolPrecedingCharSet.onceToken, symObjAddr: 0x33580, symBinAddr: 0x17BA28, symSize: 0x0 }
+  - { offsetInCU: 0xA4A, offset: 0x95641, size: 0x8, addend: 0x0, symName: _invalidURLWithoutProtocolPrecedingCharSet.charSet, symObjAddr: 0x14E28, symBinAddr: 0x17BA20, symSize: 0x0 }
+  - { offsetInCU: 0xA61, offset: 0x95658, size: 0x8, addend: 0x0, symName: _invalidURLWithoutProtocolPrecedingCharSet.onceToken, symObjAddr: 0x14E30, symBinAddr: 0x17BA28, symSize: 0x0 }
   - { offsetInCU: 0xAAB, offset: 0x956A2, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText validDomainSucceedingCharRegexp]', symObjAddr: 0x36C8, symBinAddr: 0x7F7FC, symSize: 0x80 }
-  - { offsetInCU: 0xAD7, offset: 0x956CE, size: 0x8, addend: 0x0, symName: _validDomainSucceedingCharRegexp.regexp, symObjAddr: 0x33588, symBinAddr: 0x17BA30, symSize: 0x0 }
-  - { offsetInCU: 0xAEE, offset: 0x956E5, size: 0x8, addend: 0x0, symName: _validDomainSucceedingCharRegexp.onceToken, symObjAddr: 0x33590, symBinAddr: 0x17BA38, symSize: 0x0 }
+  - { offsetInCU: 0xAD7, offset: 0x956CE, size: 0x8, addend: 0x0, symName: _validDomainSucceedingCharRegexp.regexp, symObjAddr: 0x14E38, symBinAddr: 0x17BA30, symSize: 0x0 }
+  - { offsetInCU: 0xAEE, offset: 0x956E5, size: 0x8, addend: 0x0, symName: _validDomainSucceedingCharRegexp.onceToken, symObjAddr: 0x14E40, symBinAddr: 0x17BA38, symSize: 0x0 }
   - { offsetInCU: 0xBE4, offset: 0x957DB, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText entitiesInText:]', symObjAddr: 0x0, symBinAddr: 0x7C134, symSize: 0x534 }
   - { offsetInCU: 0xD76, offset: 0x9596D, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText URLsInText:]', symObjAddr: 0x534, symBinAddr: 0x7C668, symSize: 0x91C }
   - { offsetInCU: 0x10B7, offset: 0x95CAE, size: 0x8, addend: 0x0, symName: '+[TWTRTwitterText hashtagsInText:checkingURLOverlap:]', symObjAddr: 0xE50, symBinAddr: 0x7CF84, symSize: 0x11C }
@@ -3197,8 +3197,8 @@ relocations:
   - { offsetInCU: 0x2C3B, offset: 0x9CC29, size: 0x8, addend: 0x0, symName: '-[TWTRTweetContentView .cxx_destruct]', symObjAddr: 0x1350, symBinAddr: 0x815CC, symSize: 0x100 }
   - { offsetInCU: 0x27, offset: 0x9D241, size: 0x8, addend: 0x0, symName: '-[TWTRVideoCTAView initWithFrame:deeplinkConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x816CC, symSize: 0x314 }
   - { offsetInCU: 0x6D, offset: 0x9D287, size: 0x8, addend: 0x0, symName: '+[TWTRVideoCTAView borderImage]', symObjAddr: 0x558, symBinAddr: 0x81C24, symSize: 0x80 }
-  - { offsetInCU: 0x96, offset: 0x9D2B0, size: 0x8, addend: 0x0, symName: _borderImage.borderImage, symObjAddr: 0x20390, symBinAddr: 0x17BA40, symSize: 0x0 }
-  - { offsetInCU: 0xAB, offset: 0x9D2C5, size: 0x8, addend: 0x0, symName: _borderImage.onceToken, symObjAddr: 0x20398, symBinAddr: 0x17BA48, symSize: 0x0 }
+  - { offsetInCU: 0x96, offset: 0x9D2B0, size: 0x8, addend: 0x0, symName: _borderImage.borderImage, symObjAddr: 0xB6B8, symBinAddr: 0x17BA40, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0x9D2C5, size: 0x8, addend: 0x0, symName: _borderImage.onceToken, symObjAddr: 0xB6C0, symBinAddr: 0x17BA48, symSize: 0x0 }
   - { offsetInCU: 0x2CE4, offset: 0x9FEFE, size: 0x8, addend: 0x0, symName: '-[TWTRVideoCTAView initWithFrame:deeplinkConfiguration:]', symObjAddr: 0x0, symBinAddr: 0x816CC, symSize: 0x314 }
   - { offsetInCU: 0x2D38, offset: 0x9FF52, size: 0x8, addend: 0x0, symName: '-[TWTRVideoCTAView makeButtonWithTitle:]', symObjAddr: 0x314, symBinAddr: 0x819E0, symSize: 0x1F8 }
   - { offsetInCU: 0x2D8B, offset: 0x9FFA5, size: 0x8, addend: 0x0, symName: _UIEdgeInsetsMake, symObjAddr: 0x50C, symBinAddr: 0x81BD8, symSize: 0x4C }
@@ -3213,13 +3213,13 @@ relocations:
   - { offsetInCU: 0x3067, offset: 0xA0281, size: 0x8, addend: 0x0, symName: '-[TWTRVideoCTAView .cxx_destruct]', symObjAddr: 0xA0C, symBinAddr: 0x820D8, symSize: 0x6C }
   - { offsetInCU: 0x27, offset: 0xA0370, size: 0x8, addend: 0x0, symName: '+[TWTRAPIClient registerSharedSessionStore:]', symObjAddr: 0x0, symBinAddr: 0x82144, symSize: 0x5C }
   - { offsetInCU: 0x40, offset: 0xA0389, size: 0x8, addend: 0x0, symName: _TWTRTweetsNotLoadedKey, symObjAddr: 0xB9E0, symBinAddr: 0x136928, symSize: 0x0 }
-  - { offsetInCU: 0xB8, offset: 0xA0401, size: 0x8, addend: 0x0, symName: _TWTRSharedSessionStore, symObjAddr: 0x5C578, symBinAddr: 0x17BA50, symSize: 0x0 }
+  - { offsetInCU: 0xB8, offset: 0xA0401, size: 0x8, addend: 0x0, symName: _TWTRSharedSessionStore, symObjAddr: 0x1EA80, symBinAddr: 0x17BA50, symSize: 0x0 }
   - { offsetInCU: 0xEE, offset: 0xA0437, size: 0x8, addend: 0x0, symName: '+[TWTRAPIClient networkingPipeline]', symObjAddr: 0x468, symBinAddr: 0x825AC, symSize: 0xB4 }
-  - { offsetInCU: 0x117, offset: 0xA0460, size: 0x8, addend: 0x0, symName: _networkingPipeline.pipeline, symObjAddr: 0x5C580, symBinAddr: 0x17BA58, symSize: 0x0 }
-  - { offsetInCU: 0x12C, offset: 0xA0475, size: 0x8, addend: 0x0, symName: _networkingPipeline.onceToken, symObjAddr: 0x5C588, symBinAddr: 0x17BA60, symSize: 0x0 }
+  - { offsetInCU: 0x117, offset: 0xA0460, size: 0x8, addend: 0x0, symName: _networkingPipeline.pipeline, symObjAddr: 0x1EA88, symBinAddr: 0x17BA58, symSize: 0x0 }
+  - { offsetInCU: 0x12C, offset: 0xA0475, size: 0x8, addend: 0x0, symName: _networkingPipeline.onceToken, symObjAddr: 0x1EA90, symBinAddr: 0x17BA60, symSize: 0x0 }
   - { offsetInCU: 0x1BD, offset: 0xA0506, size: 0x8, addend: 0x0, symName: '+[TWTRAPIClient URLSession]', symObjAddr: 0x5D0, symBinAddr: 0x82714, symSize: 0x80 }
-  - { offsetInCU: 0x1E6, offset: 0xA052F, size: 0x8, addend: 0x0, symName: _URLSession.URLSession, symObjAddr: 0x5C590, symBinAddr: 0x17BA68, symSize: 0x0 }
-  - { offsetInCU: 0x1FB, offset: 0xA0544, size: 0x8, addend: 0x0, symName: _URLSession.onceToken, symObjAddr: 0x5C598, symBinAddr: 0x17BA70, symSize: 0x0 }
+  - { offsetInCU: 0x1E6, offset: 0xA052F, size: 0x8, addend: 0x0, symName: _URLSession.URLSession, symObjAddr: 0x1EA98, symBinAddr: 0x17BA68, symSize: 0x0 }
+  - { offsetInCU: 0x1FB, offset: 0xA0544, size: 0x8, addend: 0x0, symName: _URLSession.onceToken, symObjAddr: 0x1EAA0, symBinAddr: 0x17BA70, symSize: 0x0 }
   - { offsetInCU: 0xD05, offset: 0xA104E, size: 0x8, addend: 0x0, symName: '-[TWTRAPIClient sendTweetWithText:videoData:completion:]', symObjAddr: 0x2510, symBinAddr: 0x844F4, symSize: 0x3C4 }
   - { offsetInCU: 0x1124, offset: 0xA146D, size: 0x8, addend: 0x0, symName: '+[TWTRAPIClient registerSharedSessionStore:]', symObjAddr: 0x0, symBinAddr: 0x82144, symSize: 0x5C }
   - { offsetInCU: 0x1165, offset: 0xA14AE, size: 0x8, addend: 0x0, symName: '-[TWTRAPIClient init]', symObjAddr: 0x5C, symBinAddr: 0x821A0, symSize: 0x64 }
@@ -3311,8 +3311,8 @@ relocations:
   - { offsetInCU: 0x3C2E, offset: 0xA3F77, size: 0x8, addend: 0x0, symName: '-[TWTRAPIClient .cxx_destruct]', symObjAddr: 0xA754, symBinAddr: 0x8C590, symSize: 0x68 }
   - { offsetInCU: 0x27, offset: 0xA602B, size: 0x8, addend: 0x0, symName: '-[TWTRUser initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0x8C5F8, symSize: 0xD8 }
   - { offsetInCU: 0x34, offset: 0xA6038, size: 0x8, addend: 0x0, symName: '+[TWTRUser JSONValidator]', symObjAddr: 0xA20, symBinAddr: 0x8D018, symSize: 0x80 }
-  - { offsetInCU: 0x5D, offset: 0xA6061, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x132E0, symBinAddr: 0x17BA78, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xA6076, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x132E8, symBinAddr: 0x17BA80, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xA6061, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x53B8, symBinAddr: 0x17BA78, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xA6076, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x53C0, symBinAddr: 0x17BA80, symSize: 0x0 }
   - { offsetInCU: 0x57B, offset: 0xA657F, size: 0x8, addend: 0x0, symName: '-[TWTRUser initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0x8C5F8, symSize: 0xD8 }
   - { offsetInCU: 0x5CE, offset: 0xA65D2, size: 0x8, addend: 0x0, symName: '-[TWTRUser initWithValidatedDictionary:]', symObjAddr: 0xD8, symBinAddr: 0x8C6D0, symSize: 0xF4 }
   - { offsetInCU: 0x612, offset: 0xA6616, size: 0x8, addend: 0x0, symName: '-[TWTRUser setPropertiesFromValidatedDictionary:]', symObjAddr: 0x1CC, symBinAddr: 0x8C7C4, symSize: 0x1F8 }
@@ -3539,7 +3539,7 @@ relocations:
   - { offsetInCU: 0x19C0, offset: 0xBADF4, size: 0x8, addend: 0x0, symName: '-[TWTRProfileView setMetrics:]', symObjAddr: 0x2C0, symBinAddr: 0x9774C, symSize: 0x3C }
   - { offsetInCU: 0x1A00, offset: 0xBAE34, size: 0x8, addend: 0x0, symName: '-[TWTRProfileView .cxx_destruct]', symObjAddr: 0x2FC, symBinAddr: 0x97788, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xBAEAB, size: 0x8, addend: 0x0, symName: '+[TWTRSEImageProvider imageProviderWithItemProvider:]', symObjAddr: 0x0, symBinAddr: 0x977C0, symSize: 0x144 }
-  - { offsetInCU: 0x40, offset: 0xBAEC4, size: 0x8, addend: 0x0, symName: _sProviders, symObjAddr: 0x1C620, symBinAddr: 0x17BA88, symSize: 0x0 }
+  - { offsetInCU: 0x40, offset: 0xBAEC4, size: 0x8, addend: 0x0, symName: _sProviders, symObjAddr: 0x9BE0, symBinAddr: 0x17BA88, symSize: 0x0 }
   - { offsetInCU: 0xE90, offset: 0xBBD14, size: 0x8, addend: 0x0, symName: '+[TWTRSEImageProvider imageProviderWithItemProvider:]', symObjAddr: 0x0, symBinAddr: 0x977C0, symSize: 0x144 }
   - { offsetInCU: 0xEE3, offset: 0xBBD67, size: 0x8, addend: 0x0, symName: '+[TWTRSEImageProvider existingImageProviderForItemProvider:]', symObjAddr: 0x144, symBinAddr: 0x97904, symSize: 0x228 }
   - { offsetInCU: 0xF41, offset: 0xBBDC5, size: 0x8, addend: 0x0, symName: '+[TWTRSEImageProvider reset]', symObjAddr: 0x36C, symBinAddr: 0x97B2C, symSize: 0x30 }
@@ -3568,7 +3568,7 @@ relocations:
   - { offsetInCU: 0x1819, offset: 0xBC69D, size: 0x8, addend: 0x0, symName: '-[TWTRSEImageProvider setCachedImage:]', symObjAddr: 0x233C, symBinAddr: 0x99884, symSize: 0x34 }
   - { offsetInCU: 0x1859, offset: 0xBC6DD, size: 0x8, addend: 0x0, symName: '-[TWTRSEImageProvider .cxx_destruct]', symObjAddr: 0x2370, symBinAddr: 0x998B8, symSize: 0x48 }
   - { offsetInCU: 0x27, offset: 0xBCF64, size: 0x8, addend: 0x0, symName: '+[TWTRSETweet setTwitterText:]', symObjAddr: 0x0, symBinAddr: 0x99900, symSize: 0x24 }
-  - { offsetInCU: 0x40, offset: 0xBCF7D, size: 0x8, addend: 0x0, symName: _sTwitterTextClass, symObjAddr: 0xC7B0, symBinAddr: 0x17BA90, symSize: 0x0 }
+  - { offsetInCU: 0x40, offset: 0xBCF7D, size: 0x8, addend: 0x0, symName: _sTwitterTextClass, symObjAddr: 0x3938, symBinAddr: 0x17BA90, symSize: 0x0 }
   - { offsetInCU: 0x2D5, offset: 0xBD212, size: 0x8, addend: 0x0, symName: '+[TWTRSETweet setTwitterText:]', symObjAddr: 0x0, symBinAddr: 0x99900, symSize: 0x24 }
   - { offsetInCU: 0x316, offset: 0xBD253, size: 0x8, addend: 0x0, symName: '+[TWTRSETweet twitterText]', symObjAddr: 0x24, symBinAddr: 0x99924, symSize: 0x1C }
   - { offsetInCU: 0x34D, offset: 0xBD28A, size: 0x8, addend: 0x0, symName: '-[TWTRSETweet initWithInReplyToTweetID:text:attachment:place:usernames:hashtags:]', symObjAddr: 0x40, symBinAddr: 0x99940, symSize: 0x1DC }
@@ -3708,9 +3708,9 @@ relocations:
   - { offsetInCU: 0x31E0, offset: 0xCA5AB, size: 0x8, addend: 0x0, symName: '-[TWTRSETweetComposerTableViewDataSource setLocationSelectionCell:]', symObjAddr: 0x1594, symBinAddr: 0x9FE84, symSize: 0x34 }
   - { offsetInCU: 0x3220, offset: 0xCA5EB, size: 0x8, addend: 0x0, symName: '-[TWTRSETweetComposerTableViewDataSource .cxx_destruct]', symObjAddr: 0x15C8, symBinAddr: 0x9FEB8, symSize: 0x9C }
   - { offsetInCU: 0x27, offset: 0xCB10D, size: 0x8, addend: 0x0, symName: '+[TWTRMoPubAdConfiguration initialize]', symObjAddr: 0x0, symBinAddr: 0x9FF54, symSize: 0x8C }
-  - { offsetInCU: 0xCA, offset: 0xCB1B0, size: 0x8, addend: 0x0, symName: _TWTRNativeAdRequestTargetingClass, symObjAddr: 0xE0D0, symBinAddr: 0x17BA98, symSize: 0x0 }
-  - { offsetInCU: 0xDF, offset: 0xCB1C5, size: 0x8, addend: 0x0, symName: _TWTRStaticNativeAdRendererSettings, symObjAddr: 0xE0D8, symBinAddr: 0x17BAA0, symSize: 0x0 }
-  - { offsetInCU: 0xF4, offset: 0xCB1DA, size: 0x8, addend: 0x0, symName: _TWTRStaticNativeAdRenderer, symObjAddr: 0xE0E0, symBinAddr: 0x17BAA8, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0xCB1B0, size: 0x8, addend: 0x0, symName: _TWTRNativeAdRequestTargetingClass, symObjAddr: 0x41D8, symBinAddr: 0x17BA98, symSize: 0x0 }
+  - { offsetInCU: 0xDF, offset: 0xCB1C5, size: 0x8, addend: 0x0, symName: _TWTRStaticNativeAdRendererSettings, symObjAddr: 0x41E0, symBinAddr: 0x17BAA0, symSize: 0x0 }
+  - { offsetInCU: 0xF4, offset: 0xCB1DA, size: 0x8, addend: 0x0, symName: _TWTRStaticNativeAdRenderer, symObjAddr: 0x41E8, symBinAddr: 0x17BAA8, symSize: 0x0 }
   - { offsetInCU: 0x504, offset: 0xCB5EA, size: 0x8, addend: 0x0, symName: '+[TWTRMoPubAdConfiguration initialize]', symObjAddr: 0x0, symBinAddr: 0x9FF54, symSize: 0x8C }
   - { offsetInCU: 0x537, offset: 0xCB61D, size: 0x8, addend: 0x0, symName: '-[TWTRMoPubAdConfiguration initWithAdUnitID:keywords:]', symObjAddr: 0x8C, symBinAddr: 0x9FFE0, symSize: 0x134 }
   - { offsetInCU: 0x589, offset: 0xCB66F, size: 0x8, addend: 0x0, symName: '-[TWTRMoPubAdConfiguration setupMoPubClassesIfPossible]', symObjAddr: 0x1C0, symBinAddr: 0xA0114, symSize: 0x220 }
@@ -3765,7 +3765,7 @@ relocations:
   - { offsetInCU: 0x214F, offset: 0xD128E, size: 0x8, addend: 0x0, symName: '-[TWTRImagePresentationContext .cxx_destruct]', symObjAddr: 0x1124, symBinAddr: 0xA2418, symSize: 0x58 }
   - { offsetInCU: 0x27, offset: 0xD134C, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRWordRange) _tfs_wordRangeExpandLeft:]', symObjAddr: 0x0, symBinAddr: 0xA2470, symSize: 0x1B0 }
   - { offsetInCU: 0x60, offset: 0xD1385, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRWordRange) wordRangeForIndex:]', symObjAddr: 0x37C, symBinAddr: 0xA27EC, symSize: 0x3DC }
-  - { offsetInCU: 0x89, offset: 0xD13AE, size: 0x8, addend: 0x0, symName: '_wordRangeForIndex:.tokenizer', symObjAddr: 0x7D80, symBinAddr: 0x17BAB0, symSize: 0x0 }
+  - { offsetInCU: 0x89, offset: 0xD13AE, size: 0x8, addend: 0x0, symName: '_wordRangeForIndex:.tokenizer', symObjAddr: 0x29B0, symBinAddr: 0x17BAB0, symSize: 0x0 }
   - { offsetInCU: 0x33A, offset: 0xD165F, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRWordRange) _tfs_wordRangeExpandLeft:]', symObjAddr: 0x0, symBinAddr: 0xA2470, symSize: 0x1B0 }
   - { offsetInCU: 0x3DB, offset: 0xD1700, size: 0x8, addend: 0x0, symName: '-[NSString(TWTRWordRange) _tfs_wordRangeExpandRight:]', symObjAddr: 0x1B0, symBinAddr: 0xA2620, symSize: 0x1CC }
   - { offsetInCU: 0x4BF, offset: 0xD17E4, size: 0x8, addend: 0x0, symName: _CFRangeMake, symObjAddr: 0x758, symBinAddr: 0xA2BC8, symSize: 0x2C }
@@ -3790,8 +3790,8 @@ relocations:
   - { offsetInCU: 0x62A, offset: 0xD1F81, size: 0x8, addend: 0x0, symName: '-[TWTRLoginURLParser .cxx_destruct]', symObjAddr: 0xE68, symBinAddr: 0xA3B58, symSize: 0x48 }
   - { offsetInCU: 0x27, offset: 0xD24BD, size: 0x8, addend: 0x0, symName: '+[TWTRHTMLEntityUtil unescapedHTMLEntitiesStringWithString:]', symObjAddr: 0x0, symBinAddr: 0xA3BA0, symSize: 0x470 }
   - { offsetInCU: 0x60, offset: 0xD24F6, size: 0x8, addend: 0x0, symName: _FindHTMLEntity, symObjAddr: 0x470, symBinAddr: 0xA4010, symSize: 0x2F4 }
-  - { offsetInCU: 0x86, offset: 0xD251C, size: 0x8, addend: 0x0, symName: _FindHTMLEntity.ampSet, symObjAddr: 0x12788, symBinAddr: 0x17BAB8, symSize: 0x0 }
-  - { offsetInCU: 0x9B, offset: 0xD2531, size: 0x8, addend: 0x0, symName: _FindHTMLEntity.semicolonSet, symObjAddr: 0x12790, symBinAddr: 0x17BAC0, symSize: 0x0 }
+  - { offsetInCU: 0x86, offset: 0xD251C, size: 0x8, addend: 0x0, symName: _FindHTMLEntity.ampSet, symObjAddr: 0x5900, symBinAddr: 0x17BAB8, symSize: 0x0 }
+  - { offsetInCU: 0x9B, offset: 0xD2531, size: 0x8, addend: 0x0, symName: _FindHTMLEntity.semicolonSet, symObjAddr: 0x5908, symBinAddr: 0x17BAC0, symSize: 0x0 }
   - { offsetInCU: 0x37E, offset: 0xD2814, size: 0x8, addend: 0x0, symName: _escapeSequenceMap, symObjAddr: 0x1298, symBinAddr: 0x179CA0, symSize: 0x0 }
   - { offsetInCU: 0x46A, offset: 0xD2900, size: 0x8, addend: 0x0, symName: '+[TWTRHTMLEntityUtil unescapedHTMLEntitiesStringWithString:]', symObjAddr: 0x0, symBinAddr: 0xA3BA0, symSize: 0x470 }
   - { offsetInCU: 0x5B4, offset: 0xD2A4A, size: 0x8, addend: 0x0, symName: _CFStringGetSurrogatePairForLongCharacter, symObjAddr: 0x764, symBinAddr: 0xA4304, symSize: 0xD4 }
@@ -3913,8 +3913,8 @@ relocations:
   - { offsetInCU: 0x3DF1, offset: 0xDEC82, size: 0x8, addend: 0x0, symName: '-[TWTRLikeButton .cxx_destruct]', symObjAddr: 0x1D8C, symBinAddr: 0xA9640, symSize: 0x84 }
   - { offsetInCU: 0x27, offset: 0xDF19C, size: 0x8, addend: 0x0, symName: _tse_requireContentCompressionResistanceAndHuggingPriority, symObjAddr: 0x0, symBinAddr: 0xA96C4, symSize: 0xA0 }
   - { offsetInCU: 0x5B, offset: 0xDF1D0, size: 0x8, addend: 0x0, symName: _TWTRSEUIIsIOS11OrGreater, symObjAddr: 0xA0, symBinAddr: 0xA9764, symSize: 0x7C }
-  - { offsetInCU: 0x81, offset: 0xDF1F6, size: 0x8, addend: 0x0, symName: _TWTRSEUIIsIOS11OrGreater.sIsIOS11OrGreater, symObjAddr: 0x7AF0, symBinAddr: 0x17BAC8, symSize: 0x0 }
-  - { offsetInCU: 0x96, offset: 0xDF20B, size: 0x8, addend: 0x0, symName: _TWTRSEUIIsIOS11OrGreater.onceToken, symObjAddr: 0x7AF8, symBinAddr: 0x17BAD0, symSize: 0x0 }
+  - { offsetInCU: 0x81, offset: 0xDF1F6, size: 0x8, addend: 0x0, symName: _TWTRSEUIIsIOS11OrGreater.sIsIOS11OrGreater, symObjAddr: 0x2E00, symBinAddr: 0x17BAC8, symSize: 0x0 }
+  - { offsetInCU: 0x96, offset: 0xDF20B, size: 0x8, addend: 0x0, symName: _TWTRSEUIIsIOS11OrGreater.onceToken, symObjAddr: 0x2E08, symBinAddr: 0x17BAD0, symSize: 0x0 }
   - { offsetInCU: 0x1D8, offset: 0xDF34D, size: 0x8, addend: 0x0, symName: _tse_requireContentCompressionResistanceAndHuggingPriority, symObjAddr: 0x0, symBinAddr: 0xA96C4, symSize: 0xA0 }
   - { offsetInCU: 0x299, offset: 0xDF40E, size: 0x8, addend: 0x0, symName: ___TWTRSEUIIsIOS11OrGreater_block_invoke, symObjAddr: 0x11C, symBinAddr: 0xA97E0, symSize: 0x114 }
   - { offsetInCU: 0x27, offset: 0xDFC87, size: 0x8, addend: 0x0, symName: '-[TWTRSELocationSelectionTableViewController initWithCurrentLocation:geoTagging:currentlySelectedPlace:delegate:]', symObjAddr: 0x0, symBinAddr: 0xA98F4, symSize: 0x3B8 }
@@ -3982,8 +3982,8 @@ relocations:
   - { offsetInCU: 0xA6E, offset: 0xE6007, size: 0x8, addend: 0x0, symName: '___93+[TWTRButtonAnimator _performImageSequenceOnButton:forImageSequenceConfiguration:completion:]_block_invoke', symObjAddr: 0x694, symBinAddr: 0xACC24, symSize: 0x94 }
   - { offsetInCU: 0x27, offset: 0xE855B, size: 0x8, addend: 0x0, symName: '+[TWTRRuntime isRunningUnitTests]', symObjAddr: 0x0, symBinAddr: 0xACCB8, symSize: 0x84 }
   - { offsetInCU: 0x34, offset: 0xE8568, size: 0x8, addend: 0x0, symName: '+[TWTRRuntime isRunningUnitTests]', symObjAddr: 0x0, symBinAddr: 0xACCB8, symSize: 0x84 }
-  - { offsetInCU: 0x5D, offset: 0xE8591, size: 0x8, addend: 0x0, symName: _isRunningUnitTests.onceToken, symObjAddr: 0x4A10, symBinAddr: 0x17BAD8, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0xE85A6, size: 0x8, addend: 0x0, symName: _isRunningUnitTests.isTesting, symObjAddr: 0x4A18, symBinAddr: 0x17BAE0, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xE8591, size: 0x8, addend: 0x0, symName: _isRunningUnitTests.onceToken, symObjAddr: 0x1518, symBinAddr: 0x17BAD8, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0xE85A6, size: 0x8, addend: 0x0, symName: _isRunningUnitTests.isTesting, symObjAddr: 0x1520, symBinAddr: 0x17BAE0, symSize: 0x0 }
   - { offsetInCU: 0x1F3, offset: 0xE8727, size: 0x8, addend: 0x0, symName: '___33+[TWTRRuntime isRunningUnitTests]_block_invoke', symObjAddr: 0x84, symBinAddr: 0xACD3C, symSize: 0xF0 }
   - { offsetInCU: 0x27, offset: 0xE884E, size: 0x8, addend: 0x0, symName: '-[TWTRSEAccountTableViewCellAvatarImageView layoutSubviews]', symObjAddr: 0x0, symBinAddr: 0xACE2C, symSize: 0x9C }
   - { offsetInCU: 0x24A1, offset: 0xEACC8, size: 0x8, addend: 0x0, symName: '-[TWTRSEAccountTableViewCellAvatarImageView layoutSubviews]', symObjAddr: 0x0, symBinAddr: 0xACE2C, symSize: 0x9C }
@@ -4025,9 +4025,9 @@ relocations:
   - { offsetInCU: 0x9C8, offset: 0xEE627, size: 0x8, addend: 0x0, symName: '-[TWTRSETweetAttachmentView .cxx_destruct]', symObjAddr: 0x904, symBinAddr: 0xB11B8, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xEE6A7, size: 0x8, addend: 0x0, symName: '+[TWTRSEFonts systemFontLight]', symObjAddr: 0x0, symBinAddr: 0xB11F0, symSize: 0x80 }
   - { offsetInCU: 0x34, offset: 0xEE6B4, size: 0x8, addend: 0x0, symName: '+[TWTRSEFonts systemFontLight]', symObjAddr: 0x0, symBinAddr: 0xB11F0, symSize: 0x80 }
-  - { offsetInCU: 0x5D, offset: 0xEE6DD, size: 0x8, addend: 0x0, symName: _systemFontLight.onceToken, symObjAddr: 0x13CD0, symBinAddr: 0x17BAE8, symSize: 0x0 }
-  - { offsetInCU: 0x347, offset: 0xEE9C7, size: 0x8, addend: 0x0, symName: _sFontDictionary, symObjAddr: 0x13CE0, symBinAddr: 0x17BAF8, symSize: 0x0 }
-  - { offsetInCU: 0x3BA, offset: 0xEEA3A, size: 0x8, addend: 0x0, symName: _sSystemFontLight, symObjAddr: 0x13CD8, symBinAddr: 0x17BAF0, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0xEE6DD, size: 0x8, addend: 0x0, symName: _systemFontLight.onceToken, symObjAddr: 0x6B80, symBinAddr: 0x17BAE8, symSize: 0x0 }
+  - { offsetInCU: 0x347, offset: 0xEE9C7, size: 0x8, addend: 0x0, symName: _sFontDictionary, symObjAddr: 0x6B90, symBinAddr: 0x17BAF8, symSize: 0x0 }
+  - { offsetInCU: 0x3BA, offset: 0xEEA3A, size: 0x8, addend: 0x0, symName: _sSystemFontLight, symObjAddr: 0x6B88, symBinAddr: 0x17BAF0, symSize: 0x0 }
   - { offsetInCU: 0xA85, offset: 0xEF105, size: 0x8, addend: 0x0, symName: '___30+[TWTRSEFonts systemFontLight]_block_invoke', symObjAddr: 0x80, symBinAddr: 0xB1270, symSize: 0x5C }
   - { offsetInCU: 0xAAF, offset: 0xEF12F, size: 0x8, addend: 0x0, symName: '+[TWTRSEFonts fontDictionary]', symObjAddr: 0xDC, symBinAddr: 0xB12CC, symSize: 0x1C }
   - { offsetInCU: 0xAE6, offset: 0xEF166, size: 0x8, addend: 0x0, symName: '+[TWTRSEFonts setFontDictionary:]', symObjAddr: 0xF8, symBinAddr: 0xB12E8, symSize: 0x5C }
@@ -4069,8 +4069,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xF38FB, size: 0x8, addend: 0x0, symName: '-[TWTRTweet initWithJSONDictionaryV2:]', symObjAddr: 0x0, symBinAddr: 0xB2E64, symSize: 0x148 }
   - { offsetInCU: 0x40, offset: 0xF3914, size: 0x8, addend: 0x0, symName: _TWTRTweetPerspectivalUserID, symObjAddr: 0x2AB8, symBinAddr: 0x137168, symSize: 0x0 }
   - { offsetInCU: 0xBA, offset: 0xF398E, size: 0x8, addend: 0x0, symName: '+[TWTRTweet JSONValidator]', symObjAddr: 0x19D8, symBinAddr: 0xB483C, symSize: 0x80 }
-  - { offsetInCU: 0xE6, offset: 0xF39BA, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x24800, symBinAddr: 0x17BB00, symSize: 0x0 }
-  - { offsetInCU: 0xFD, offset: 0xF39D1, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x24808, symBinAddr: 0x17BB08, symSize: 0x0 }
+  - { offsetInCU: 0xE6, offset: 0xF39BA, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0xA450, symBinAddr: 0x17BB00, symSize: 0x0 }
+  - { offsetInCU: 0xFD, offset: 0xF39D1, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0xA458, symBinAddr: 0x17BB08, symSize: 0x0 }
   - { offsetInCU: 0x8C3, offset: 0xF4197, size: 0x8, addend: 0x0, symName: '-[TWTRTweet initWithJSONDictionaryV2:]', symObjAddr: 0x0, symBinAddr: 0xB2E64, symSize: 0x148 }
   - { offsetInCU: 0x907, offset: 0xF41DB, size: 0x8, addend: 0x0, symName: '-[TWTRTweet initWithJSONDictionary:]', symObjAddr: 0x148, symBinAddr: 0xB2FAC, symSize: 0xD8 }
   - { offsetInCU: 0x95A, offset: 0xF422E, size: 0x8, addend: 0x0, symName: '-[TWTRTweet initWithValidatedDictionary:]', symObjAddr: 0x220, symBinAddr: 0xB3084, symSize: 0xF8 }
@@ -4303,7 +4303,7 @@ relocations:
   - { offsetInCU: 0x3DD, offset: 0x102E55, size: 0x8, addend: 0x0, symName: '-[TWTRSEThrottledProperty .cxx_destruct]', symObjAddr: 0x3C0, symBinAddr: 0xBD84C, symSize: 0x54 }
   - { offsetInCU: 0x27, offset: 0x102ED5, size: 0x8, addend: 0x0, symName: '+[TWTRTwitter kitDisplayVersion]', symObjAddr: 0x0, symBinAddr: 0xBD8A0, symSize: 0x20 }
   - { offsetInCU: 0x40, offset: 0x102EEE, size: 0x8, addend: 0x0, symName: _TWTRInvalidInitializationException, symObjAddr: 0x3808, symBinAddr: 0x137278, symSize: 0x0 }
-  - { offsetInCU: 0xDA, offset: 0x102F88, size: 0x8, addend: 0x0, symName: _sharedTwitter, symObjAddr: 0x4B420, symBinAddr: 0x17BB10, symSize: 0x0 }
+  - { offsetInCU: 0xDA, offset: 0x102F88, size: 0x8, addend: 0x0, symName: _sharedTwitter, symObjAddr: 0x1A0B0, symBinAddr: 0x17BB10, symSize: 0x0 }
   - { offsetInCU: 0x129A, offset: 0x104148, size: 0x8, addend: 0x0, symName: '+[TWTRTwitter kitDisplayVersion]', symObjAddr: 0x0, symBinAddr: 0xBD8A0, symSize: 0x20 }
   - { offsetInCU: 0x12D1, offset: 0x10417F, size: 0x8, addend: 0x0, symName: '+[TWTRTwitter bundleIdentifier]', symObjAddr: 0x20, symBinAddr: 0xBD8C0, symSize: 0x20 }
   - { offsetInCU: 0x1308, offset: 0x1041B6, size: 0x8, addend: 0x0, symName: '-[TWTRTwitter version]', symObjAddr: 0x40, symBinAddr: 0xBD8E0, symSize: 0x34 }
@@ -4805,8 +4805,8 @@ relocations:
   - { offsetInCU: 0x3C4, offset: 0x12A3C4, size: 0x8, addend: 0x0, symName: '-[TWTRTwitterAPIConfiguration .cxx_destruct]', symObjAddr: 0x3A4, symBinAddr: 0xD8BAC, symSize: 0x48 }
   - { offsetInCU: 0x27, offset: 0x12A45D, size: 0x8, addend: 0x0, symName: '+[TWTRComposer sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD8BF4, symSize: 0xF8 }
   - { offsetInCU: 0x34, offset: 0x12A46A, size: 0x8, addend: 0x0, symName: '+[TWTRComposer sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD8BF4, symSize: 0xF8 }
-  - { offsetInCU: 0x5D, offset: 0x12A493, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x1CC68, symBinAddr: 0x17BB18, symSize: 0x0 }
-  - { offsetInCU: 0xE17, offset: 0x12B24D, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x1CC70, symBinAddr: 0x17BB20, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x12A493, size: 0x8, addend: 0x0, symName: _sharedInstance.sharedInstance, symObjAddr: 0x9A88, symBinAddr: 0x17BB18, symSize: 0x0 }
+  - { offsetInCU: 0xE17, offset: 0x12B24D, size: 0x8, addend: 0x0, symName: _onceToken, symObjAddr: 0x9A90, symBinAddr: 0x17BB20, symSize: 0x0 }
   - { offsetInCU: 0x1078, offset: 0x12B4AE, size: 0x8, addend: 0x0, symName: '___30+[TWTRComposer sharedInstance]_block_invoke', symObjAddr: 0xF8, symBinAddr: 0xD8CEC, symSize: 0x6C }
   - { offsetInCU: 0x10B8, offset: 0x12B4EE, size: 0x8, addend: 0x0, symName: '+[TWTRComposer allocWithZone:]', symObjAddr: 0x164, symBinAddr: 0xD8D58, symSize: 0x34 }
   - { offsetInCU: 0x10FC, offset: 0x12B532, size: 0x8, addend: 0x0, symName: '-[TWTRComposer setText:]', symObjAddr: 0x198, symBinAddr: 0xD8D8C, symSize: 0x7C }
@@ -4859,8 +4859,8 @@ relocations:
   - { offsetInCU: 0xB8, offset: 0x12D4B8, size: 0x8, addend: 0x0, symName: _TWTRCardEntityBindingValueStringTransformerName, symObjAddr: 0x1420, symBinAddr: 0x137648, symSize: 0x0 }
   - { offsetInCU: 0xCD, offset: 0x12D4CD, size: 0x8, addend: 0x0, symName: _TWTRCardEntityBindingValueImageTransformerName, symObjAddr: 0x1428, symBinAddr: 0x137650, symSize: 0x0 }
   - { offsetInCU: 0x102, offset: 0x12D502, size: 0x8, addend: 0x0, symName: '+[TWTRCardEntity cardEntityClasses]', symObjAddr: 0x6C8, symBinAddr: 0xDAD58, symSize: 0x80 }
-  - { offsetInCU: 0x12B, offset: 0x12D52B, size: 0x8, addend: 0x0, symName: _cardEntityClasses.classes, symObjAddr: 0x149A8, symBinAddr: 0x17BB28, symSize: 0x0 }
-  - { offsetInCU: 0x140, offset: 0x12D540, size: 0x8, addend: 0x0, symName: _cardEntityClasses.onceToken, symObjAddr: 0x149B0, symBinAddr: 0x17BB30, symSize: 0x0 }
+  - { offsetInCU: 0x12B, offset: 0x12D52B, size: 0x8, addend: 0x0, symName: _cardEntityClasses.classes, symObjAddr: 0x5CF8, symBinAddr: 0x17BB28, symSize: 0x0 }
+  - { offsetInCU: 0x140, offset: 0x12D540, size: 0x8, addend: 0x0, symName: _cardEntityClasses.onceToken, symObjAddr: 0x5D00, symBinAddr: 0x17BB30, symSize: 0x0 }
   - { offsetInCU: 0x2D1, offset: 0x12D6D1, size: 0x8, addend: 0x0, symName: '+[TWTRCardEntity initialize]', symObjAddr: 0x0, symBinAddr: 0xDA6F4, symSize: 0x78 }
   - { offsetInCU: 0x304, offset: 0x12D704, size: 0x8, addend: 0x0, symName: '-[TWTRCardEntity initWithURLString:]', symObjAddr: 0x78, symBinAddr: 0xDA76C, symSize: 0xE4 }
   - { offsetInCU: 0x348, offset: 0x12D748, size: 0x8, addend: 0x0, symName: '-[TWTRCardEntity initWithCoder:]', symObjAddr: 0x15C, symBinAddr: 0xDA850, symSize: 0xE4 }
@@ -4926,7 +4926,7 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x131932, size: 0x8, addend: 0x0, symName: '+[TWTROSVersionInfo majorVersion]', symObjAddr: 0x0, symBinAddr: 0xDD860, symSize: 0x7C }
   - { offsetInCU: 0x55, offset: 0x131960, size: 0x8, addend: 0x0, symName: '+[TWTROSVersionInfo majorVersion]', symObjAddr: 0x0, symBinAddr: 0xDD860, symSize: 0x7C }
   - { offsetInCU: 0x27, offset: 0x131A2A, size: 0x8, addend: 0x0, symName: '+[TWTRTableViewAdPlacer initialize]', symObjAddr: 0x0, symBinAddr: 0xDD8DC, symSize: 0x64 }
-  - { offsetInCU: 0x40, offset: 0x131A43, size: 0x8, addend: 0x0, symName: _TWTRTableViewAdPlacerClass, symObjAddr: 0x17DE8, symBinAddr: 0x17BB38, symSize: 0x0 }
+  - { offsetInCU: 0x40, offset: 0x131A43, size: 0x8, addend: 0x0, symName: _TWTRTableViewAdPlacerClass, symObjAddr: 0x9658, symBinAddr: 0x17BB38, symSize: 0x0 }
   - { offsetInCU: 0xB1E, offset: 0x132521, size: 0x8, addend: 0x0, symName: '+[TWTRTableViewAdPlacer initialize]', symObjAddr: 0x0, symBinAddr: 0xDD8DC, symSize: 0x64 }
   - { offsetInCU: 0xB51, offset: 0x132554, size: 0x8, addend: 0x0, symName: '-[TWTRTableViewAdPlacer initWithTableView:viewController:adConfiguration:]', symObjAddr: 0x64, symBinAddr: 0xDD940, symSize: 0x26C }
   - { offsetInCU: 0xBC8, offset: 0x1325CB, size: 0x8, addend: 0x0, symName: '-[TWTRTableViewAdPlacer loadAdUnitIfConfigured]', symObjAddr: 0x2D0, symBinAddr: 0xDDBAC, symSize: 0xCC }
@@ -4971,8 +4971,8 @@ relocations:
   - { offsetInCU: 0x358, offset: 0x13718A, size: 0x8, addend: 0x0, symName: '-[TWTROAuthSigning .cxx_destruct]', symObjAddr: 0xBA4, symBinAddr: 0xE0BA4, symSize: 0x48 }
   - { offsetInCU: 0x27, offset: 0x137349, size: 0x8, addend: 0x0, symName: '-[TWTREntityCollection initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0xE0BEC, symSize: 0xD8 }
   - { offsetInCU: 0x34, offset: 0x137356, size: 0x8, addend: 0x0, symName: '+[TWTREntityCollection JSONValidator]', symObjAddr: 0x674, symBinAddr: 0xE1260, symSize: 0x80 }
-  - { offsetInCU: 0x5D, offset: 0x13737F, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x10010, symBinAddr: 0x17BB40, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x137394, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x10018, symBinAddr: 0x17BB48, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x13737F, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x42C0, symBinAddr: 0x17BB40, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x137394, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x42C8, symBinAddr: 0x17BB48, symSize: 0x0 }
   - { offsetInCU: 0x235, offset: 0x137557, size: 0x8, addend: 0x0, symName: '-[TWTREntityCollection initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0xE0BEC, symSize: 0xD8 }
   - { offsetInCU: 0x288, offset: 0x1375AA, size: 0x8, addend: 0x0, symName: '-[TWTREntityCollection initWithValidatedDictionary:]', symObjAddr: 0xD8, symBinAddr: 0xE0CC4, symSize: 0xF4 }
   - { offsetInCU: 0x2CC, offset: 0x1375EE, size: 0x8, addend: 0x0, symName: '-[TWTREntityCollection setPropertiesFromValidatedDictionary:]', symObjAddr: 0x1CC, symBinAddr: 0xE0DB8, symSize: 0x1B4 }
@@ -4993,11 +4993,11 @@ relocations:
   - { offsetInCU: 0x723, offset: 0x137A45, size: 0x8, addend: 0x0, symName: '-[TWTREntityCollection .cxx_destruct]', symObjAddr: 0xCEC, symBinAddr: 0xE18D8, symSize: 0x88 }
   - { offsetInCU: 0x27, offset: 0x137B93, size: 0x8, addend: 0x0, symName: '-[TWTRPlayerCardEntityBindingValues initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0xE1960, symSize: 0xD8 }
   - { offsetInCU: 0x92, offset: 0x137BFE, size: 0x8, addend: 0x0, symName: '+[TWTRPlayerCardEntityBindingValues JSONValidator]', symObjAddr: 0x750, symBinAddr: 0xE20B0, symSize: 0x80 }
-  - { offsetInCU: 0xBB, offset: 0x137C27, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x1A588, symBinAddr: 0x17BB50, symSize: 0x0 }
-  - { offsetInCU: 0xD0, offset: 0x137C3C, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x1A590, symBinAddr: 0x17BB58, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x137C27, size: 0x8, addend: 0x0, symName: _JSONValidator.validator, symObjAddr: 0x7560, symBinAddr: 0x17BB50, symSize: 0x0 }
+  - { offsetInCU: 0xD0, offset: 0x137C3C, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken, symObjAddr: 0x7568, symBinAddr: 0x17BB58, symSize: 0x0 }
   - { offsetInCU: 0x154, offset: 0x137CC0, size: 0x8, addend: 0x0, symName: '+[TWTRPlayerCardEntity JSONValidator]', symObjAddr: 0x1548, symBinAddr: 0xE2EA8, symSize: 0x80 }
-  - { offsetInCU: 0x180, offset: 0x137CEC, size: 0x8, addend: 0x0, symName: _JSONValidator.validator.130, symObjAddr: 0x1A598, symBinAddr: 0x17BB60, symSize: 0x0 }
-  - { offsetInCU: 0x197, offset: 0x137D03, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken.131, symObjAddr: 0x1A5A0, symBinAddr: 0x17BB68, symSize: 0x0 }
+  - { offsetInCU: 0x180, offset: 0x137CEC, size: 0x8, addend: 0x0, symName: _JSONValidator.validator.130, symObjAddr: 0x7570, symBinAddr: 0x17BB60, symSize: 0x0 }
+  - { offsetInCU: 0x197, offset: 0x137D03, size: 0x8, addend: 0x0, symName: _JSONValidator.onceToken.131, symObjAddr: 0x7578, symBinAddr: 0x17BB68, symSize: 0x0 }
   - { offsetInCU: 0x3D5, offset: 0x137F41, size: 0x8, addend: 0x0, symName: '-[TWTRPlayerCardEntityBindingValues initWithJSONDictionary:]', symObjAddr: 0x0, symBinAddr: 0xE1960, symSize: 0xD8 }
   - { offsetInCU: 0x428, offset: 0x137F94, size: 0x8, addend: 0x0, symName: '-[TWTRPlayerCardEntityBindingValues initWithValidatedDictionary:]', symObjAddr: 0xD8, symBinAddr: 0xE1A38, symSize: 0xE4 }
   - { offsetInCU: 0x46C, offset: 0x137FD8, size: 0x8, addend: 0x0, symName: '-[TWTRPlayerCardEntityBindingValues initWithCoder:]', symObjAddr: 0x1BC, symBinAddr: 0xE1B1C, symSize: 0xF4 }
@@ -5038,8 +5038,8 @@ relocations:
   - { offsetInCU: 0xE03, offset: 0x13896F, size: 0x8, addend: 0x0, symName: '-[TWTRPlayerCardEntity .cxx_destruct]', symObjAddr: 0x1918, symBinAddr: 0xE3278, symSize: 0x58 }
   - { offsetInCU: 0x27, offset: 0x138B4E, size: 0x8, addend: 0x0, symName: '+[TWTRBezierPaths twitterLogo]', symObjAddr: 0x0, symBinAddr: 0xE32D0, symSize: 0x88 }
   - { offsetInCU: 0x34, offset: 0x138B5B, size: 0x8, addend: 0x0, symName: '+[TWTRBezierPaths twitterLogo]', symObjAddr: 0x0, symBinAddr: 0xE32D0, symSize: 0x88 }
-  - { offsetInCU: 0x5D, offset: 0x138B84, size: 0x8, addend: 0x0, symName: _twitterLogo.onceToken, symObjAddr: 0x7210, symBinAddr: 0x17BB70, symSize: 0x0 }
-  - { offsetInCU: 0x72, offset: 0x138B99, size: 0x8, addend: 0x0, symName: _twitterLogo.logoPath, symObjAddr: 0x7218, symBinAddr: 0x17BB78, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x138B84, size: 0x8, addend: 0x0, symName: _twitterLogo.onceToken, symObjAddr: 0x26A8, symBinAddr: 0x17BB70, symSize: 0x0 }
+  - { offsetInCU: 0x72, offset: 0x138B99, size: 0x8, addend: 0x0, symName: _twitterLogo.logoPath, symObjAddr: 0x26B0, symBinAddr: 0x17BB78, symSize: 0x0 }
   - { offsetInCU: 0x37D, offset: 0x138EA4, size: 0x8, addend: 0x0, symName: '___30+[TWTRBezierPaths twitterLogo]_block_invoke', symObjAddr: 0x88, symBinAddr: 0xE3358, symSize: 0x924 }
   - { offsetInCU: 0x27, offset: 0x138F9E, size: 0x8, addend: 0x0, symName: '-[TWTRProfileHeaderView initWithStyle:]', symObjAddr: 0x0, symBinAddr: 0xE3C7C, symSize: 0x518 }
   - { offsetInCU: 0x2500, offset: 0x13B477, size: 0x8, addend: 0x0, symName: '-[TWTRProfileHeaderView initWithStyle:]', symObjAddr: 0x0, symBinAddr: 0xE3C7C, symSize: 0x518 }

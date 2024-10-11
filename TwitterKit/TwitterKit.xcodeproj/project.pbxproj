@@ -3520,6 +3520,19 @@
 					"$(BUILT_PRODUCTS_DIR)/Headers",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				"OTHER_CFLAGS[sdk=appletvos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
+				"OTHER_CFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
+				"OTHER_CFLAGS[sdk=watchos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
 			};
 			name = Debug;
 		};
@@ -3548,6 +3561,19 @@
 					"$(TARGET_BUILD_DIR)/Headers",
 					"$(BUILT_PRODUCTS_DIR)/Headers",
 				);
+				OTHER_CFLAGS = "";
+				"OTHER_CFLAGS[sdk=appletvos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
+				"OTHER_CFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
+				"OTHER_CFLAGS[sdk=watchos*]" = (
+					"$(inherited)",
+					"-Wno-error=unused-command-line-argument",
+				);
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
@@ -3557,7 +3583,6 @@
 			baseConfigurationReference = DB2241761C3DA603008A6DC7 /* libTwitterKit.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				BITCODE_GENERATION_MODE = bitcode;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../vendor",
 					"$(PROJECT_DIR)",
@@ -3571,7 +3596,6 @@
 			baseConfigurationReference = DB2241761C3DA603008A6DC7 /* libTwitterKit.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				BITCODE_GENERATION_MODE = bitcode;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../vendor",
 					"$(PROJECT_DIR)",
@@ -3585,9 +3609,8 @@
 			baseConfigurationReference = 37510DA81D3EC1080048227C /* TwitterKit.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				MARKETING_VERSION = 5.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -3604,9 +3627,8 @@
 			baseConfigurationReference = 37510DA81D3EC1080048227C /* TwitterKit.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				MARKETING_VERSION = 5.1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
