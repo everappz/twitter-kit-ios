@@ -150,7 +150,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KbhvoHwRqOBhHumNe0Fxg/uy9Xc=
+		5Vvrz/SPL6Y4pO4mo9za+cIayvQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -870,10 +870,6 @@
 	<dict>
 		<key>Headers/TWTRAPIClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+oAgv8yig2z5nJQxyUMjTT7K9RE=
-			</data>
 			<key>hash2</key>
 			<data>
 			x48MY50dU2LxLEvELruTa/AXzmRz6Rj2PmWtRg262X4=
@@ -881,10 +877,6 @@
 		</dict>
 		<key>Headers/TWTRCollectionTimelineDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L+i6AlcVZ93QftVBYZMWQOf1p78=
-			</data>
 			<key>hash2</key>
 			<data>
 			LmyVjkdtHi/RTaV+0aNNIH9cmardjDbDy9ZM7S85n/Y=
@@ -892,10 +884,6 @@
 		</dict>
 		<key>Headers/TWTRComposer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NYEnnHFS5h+rlt6OO92+IOpEGhw=
-			</data>
 			<key>hash2</key>
 			<data>
 			1GAV3guacepgKOnDcKsnf06+XjrLX8lyun2GV9uz41c=
@@ -903,10 +891,6 @@
 		</dict>
 		<key>Headers/TWTRComposerViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IWb032tVuofcnXHsm7SWjjvJjBo=
-			</data>
 			<key>hash2</key>
 			<data>
 			4ZaZaLhk22AIwE/xTKGktc4vLnD9xzLUGvGKcy/rnbI=
@@ -914,10 +898,6 @@
 		</dict>
 		<key>Headers/TWTRJSONConvertible.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w/BlpKThSoN8iZ+Io1TQQjkzb/E=
-			</data>
 			<key>hash2</key>
 			<data>
 			aKDRMSwjZ8aFsXXqDefxrUsu5TAcZuI3YRMuHPNwbqk=
@@ -925,10 +905,6 @@
 		</dict>
 		<key>Headers/TWTRKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Wrd1VwhwMXyOagMuRT2q9XrkvY=
-			</data>
 			<key>hash2</key>
 			<data>
 			UytnHLHPUg8oTme2iQ8z38VxGucAa4A+wgTFBrCMMes=
@@ -936,10 +912,6 @@
 		</dict>
 		<key>Headers/TWTRListTimelineDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lQXzGADkuSufPAX8NMCVJvzKNuA=
-			</data>
 			<key>hash2</key>
 			<data>
 			By5VYbsCAbv+oTLgDyI1hVF3JhFyHalRhHtTOjY41Ag=
@@ -947,10 +919,6 @@
 		</dict>
 		<key>Headers/TWTRLogInButton.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/qqVnZMHrfralDOEQ4sKfV/RlFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			JnEILkeEilRsKUpeGt29M5TdYO0h4r/jTth37vV3OwM=
@@ -958,10 +926,6 @@
 		</dict>
 		<key>Headers/TWTRMediaEntitySize.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2qEL443aMKnCh8Hd6dnmo9cdFnY=
-			</data>
 			<key>hash2</key>
 			<data>
 			0lwRBy3X69hxytx6hYeOlAqrXOuj79hEghUqmtkgN/M=
@@ -969,10 +933,6 @@
 		</dict>
 		<key>Headers/TWTRMoPubAdConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yTawu1u73/afHTYjH33tJ2Gg3N0=
-			</data>
 			<key>hash2</key>
 			<data>
 			j+XA1/kO2lTMHKCP8c7QK7BN8Iu5S5/WzZT/ubdVp80=
@@ -980,10 +940,6 @@
 		</dict>
 		<key>Headers/TWTRMoPubNativeAdContainerView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nasMMlRoDSkdpAYJJTiylwv37LA=
-			</data>
 			<key>hash2</key>
 			<data>
 			vndBTHPou5drAjz+VSDurS2qfKckcot6UAKl9hPr6n4=
@@ -991,10 +947,6 @@
 		</dict>
 		<key>Headers/TWTRNotificationConstants.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CK827rcR1RMG18X0drV2iaJSB6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			UB0Uv9/NiPFJfwGjZpsIZCW+Kss8zusiJ4shj2W9IbY=
@@ -1002,10 +954,6 @@
 		</dict>
 		<key>Headers/TWTROAuthSigning.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3tY6ovECpAq9S0OYXQP4G2Ee0hg=
-			</data>
 			<key>hash2</key>
 			<data>
 			AD6nGmAy7psbiYY9FpA06b8OX5NnLbTuJckaAxpN05U=
@@ -1013,10 +961,6 @@
 		</dict>
 		<key>Headers/TWTRSearchTimelineDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PSiMtA6Xs5IJfRf2m3SaDd0Gbkw=
-			</data>
 			<key>hash2</key>
 			<data>
 			LeLRjZAFlhEqnawcVNghjP8FU87iHIJ3tACka/0qzh4=
@@ -1024,10 +968,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineCursor.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5riCMR6iEDIk7EfJ5kJd1l4ku08=
-			</data>
 			<key>hash2</key>
 			<data>
 			UMHcinHQcS7Enq2ibUSEiUBb1iswdJz6BCLn/76Jp54=
@@ -1035,10 +975,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E9aPTNqfA7fmY2PttVNlv2i3oiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			xY9d6dF7UB4JQr9g3YWRuW9NGskArL/cSk/9oNoHXzU=
@@ -1046,10 +982,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hwn68uVpalomqyxu4GHafBAZde8=
-			</data>
 			<key>hash2</key>
 			<data>
 			7dDZZE3cKKyM8GZ/+7xs3un/LjA3XYmaALX+VpXoOs8=
@@ -1057,10 +989,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineFilter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ffWe2SaCgotC+N5fkHD8TxD3j0c=
-			</data>
 			<key>hash2</key>
 			<data>
 			s1WxxoQc2jK/xx8XaBvbXNzLNcuF1OsyYhO58wRpiVc=
@@ -1068,10 +996,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HsJhG1AOVcRsAwoaZm71eVQ/V/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gqlqc/TezCHnnAA2vDACx46wc1QXYwEHFeENkncYCfQ=
@@ -1079,10 +1003,6 @@
 		</dict>
 		<key>Headers/TWTRTimelineViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZtRm14q47aCIpvuzWkqQCZoNGHo=
-			</data>
 			<key>hash2</key>
 			<data>
 			uAM1VK0UAh6KRc6rX/5KCuud891A0OoWEJSOWXtda+w=
@@ -1090,10 +1010,6 @@
 		</dict>
 		<key>Headers/TWTRTweet.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ABRCiKN3qqxs5zjf6pCsxVXuE5w=
-			</data>
 			<key>hash2</key>
 			<data>
 			p3JLNv3lh4KqxtRcNqWbaHeudg63mR57zGg5NvBQV/g=
@@ -1101,10 +1017,6 @@
 		</dict>
 		<key>Headers/TWTRTweetCashtagEntity.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2AMt6Qxe+W4tSCfRb8isI3lv3iQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			VwRapgOYOLRierUdOqBAdSOGdXQziEQHt6rTylGX8Jg=
@@ -1112,10 +1024,6 @@
 		</dict>
 		<key>Headers/TWTRTweetEntity.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UfnxZIsgdvFuM0kW/gK7zWSzpeM=
-			</data>
 			<key>hash2</key>
 			<data>
 			97OOPV1LCnWCpWtu4G37yD1ugyX2EMsWg7rfSUwZ+oA=
@@ -1123,10 +1031,6 @@
 		</dict>
 		<key>Headers/TWTRTweetHashtagEntity.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9jdcTKpHjftFjiT5bjema5Zinbs=
-			</data>
 			<key>hash2</key>
 			<data>
 			bqd2wLxEB0CGEowOhCWNjBUbvfVyiQSj4Z96IJoYrmI=
@@ -1134,10 +1038,6 @@
 		</dict>
 		<key>Headers/TWTRTweetTableViewCell.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YvP7Xs1Psu0MpgwBLaYXzCv7WI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ti+4Rv1hKYi7+kWXn2BVmglyiFbS777lRRR6BTiqXE0=
@@ -1145,10 +1045,6 @@
 		</dict>
 		<key>Headers/TWTRTweetUrlEntity.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Tdspb/YXuQgNRFs9F8pA5n2aCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xz2yDC+z+0bwhrdOJpWs7HU+LegFVtlzh5NcXXpxPJA=
@@ -1156,10 +1052,6 @@
 		</dict>
 		<key>Headers/TWTRTweetUserMentionEntity.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nCOinlL0rxkxzTLZEKSpVaERqjY=
-			</data>
 			<key>hash2</key>
 			<data>
 			lT8Woe8RHDf7iSCja6IgFVMU5uFa1mO0M5pGiWj04QQ=
@@ -1167,10 +1059,6 @@
 		</dict>
 		<key>Headers/TWTRTweetView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oeTZ98uVfCiPdPBB4cUgkCPL7T4=
-			</data>
 			<key>hash2</key>
 			<data>
 			IEBvikfamft0UlyZjs9dKkZbj2Tq6KK2s2wrgWWiLLA=
@@ -1178,10 +1066,6 @@
 		</dict>
 		<key>Headers/TWTRTweetViewDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1pMr7i9YKqM8CY+ZcE6fEqPaVS0=
-			</data>
 			<key>hash2</key>
 			<data>
 			hM2sEgfKmo/GYZRZYJqEkCJgc67Ztzlip6wYVmhM/Ws=
@@ -1189,10 +1073,6 @@
 		</dict>
 		<key>Headers/TWTRTwitter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0QzLA9nCCtFvgq4wYpYSusvF+lM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Y66LathhyWKQM4zzC2ag1lbKQIgqreZ/qBbSUobvgeE=
@@ -1200,10 +1080,6 @@
 		</dict>
 		<key>Headers/TWTRUser.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i410ULh4tbBcsfFfaVCMQgcpCC0=
-			</data>
 			<key>hash2</key>
 			<data>
 			Uq0iwB8jBm7BfrqhEpmG8KudxxZJwAWy4pBthAGnSQA=
@@ -1211,10 +1087,6 @@
 		</dict>
 		<key>Headers/TWTRUserTimelineDataSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xajpDtK4Up1QFL7zVDlrGzkQwug=
-			</data>
 			<key>hash2</key>
 			<data>
 			K8S2HXcaNCmFg9LrkPfrc7HXIaQUXgQikU68t+bSPl0=
@@ -1222,10 +1094,6 @@
 		</dict>
 		<key>Headers/TWTRVideoMetaData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			L1/ewjhN3TuTyJhUORIvrN8Bp7s=
-			</data>
 			<key>hash2</key>
 			<data>
 			LA1XQT4M6JKhGMa0jjyQ3AFcuFeoQkFYsEBKoykpmr4=
@@ -1233,10 +1101,6 @@
 		</dict>
 		<key>Headers/TWTRVideoPlaybackState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wnGEpzwY4sfyRceFYWQ5OLrWuPg=
-			</data>
 			<key>hash2</key>
 			<data>
 			jUwE13mJl5qs9u/MmZoHgzGcptDNGok+puQDVDkkiHA=
@@ -1244,10 +1108,6 @@
 		</dict>
 		<key>Headers/TwitterKit-Prefix.pch</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPeY/Beqtp2aoVNUYib3L1eW19w=
-			</data>
 			<key>hash2</key>
 			<data>
 			DOIzeeN0oIa8J5T2PKcP9ffOQQwF98IdVcbrIo60/NE=
@@ -1255,10 +1115,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dLQ+v55DgmerFG77Qcd03lFauxI=
-			</data>
 			<key>hash2</key>
 			<data>
 			pHA9QLJmpoJNW4WFe6DxmVAKGZKy9ZgIQBBYgG4Qu2c=
@@ -1266,10 +1122,6 @@
 		</dict>
 		<key>PrivateHeaders/TWTRConstants_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RNpr8CPM20xJ0G5OllH2umqMyl8=
-			</data>
 			<key>hash2</key>
 			<data>
 			muZ7T9+LXFtFWNh1B8j2Fbv1apJeI5ZkmdthxOOpS2w=
@@ -1277,10 +1129,6 @@
 		</dict>
 		<key>PrivateHeaders/TWTRDateFormatter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F4/7mJr6eFLYysZ4L+jSMxdSyms=
-			</data>
 			<key>hash2</key>
 			<data>
 			iwn3fMmPCkkTPGpST5MPFHssdFg5AYqwdCaVr8WSTC0=
@@ -1288,10 +1136,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/TFSScribe.momd/TFSScribe.mom</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IOTY7Zo0gXgcr+oNo5IBfTSaoak=
-			</data>
 			<key>hash2</key>
 			<data>
 			hgOAf6pEIESUWPR8TFLYeqrjGL5zv4JvqzOT5UJY/jw=
@@ -1299,10 +1143,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/TFSScribe.momd/VersionInfo.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gJKkIp8RmNJN60x1Q9xdtDFqeOE=
-			</data>
 			<key>hash2</key>
 			<data>
 			kScfLEYO21unBjTawwYsiZw+zRZ6ErU1zcAbhsx0XA8=
@@ -1310,10 +1150,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ar.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h2/KGH9FwPkPFBUiX58WQryJXbk=
-			</data>
 			<key>hash2</key>
 			<data>
 			VC3hgMNvxc+6UvELC1azGLugxY/TzPZHdTPJ6isltSM=
@@ -1323,10 +1159,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/bg.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mnsu729RLG3pv1kpFQdUmaIsJxM=
-			</data>
 			<key>hash2</key>
 			<data>
 			1SO/i8fVGr4cDiYaWAqhYGuwCeVExR/AOffZtQLfD4M=
@@ -1336,10 +1168,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/bn.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ff5kZp73aQ+HbOhl6jhsw5ZEIOc=
-			</data>
 			<key>hash2</key>
 			<data>
 			GTCyYjNUgKAkDna082IJo1JaUh/V3uomrWtZ4B2v8Bk=
@@ -1349,10 +1177,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ca.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+sadJJQLIwsxDit3cV+Be/QCS/c=
-			</data>
 			<key>hash2</key>
 			<data>
 			tFIKAEAfgJ7U1xmHLHsZnObWnSmipf4td8SeOf/8ezY=
@@ -1362,10 +1186,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/cs.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qlsJUFaOEDxYtvCtyu/VVim4UPc=
-			</data>
 			<key>hash2</key>
 			<data>
 			BBoX9EFI0jVvb9FrpcilxE7zBYej8B1TQ76y2ADKpII=
@@ -1375,10 +1195,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/da.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2jNbFBbnvlazy1ww47/SOLPdcRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			uM1J8oSMAaEprecu8g7vTIWo9fJD7ak8+ghFlgokPxg=
@@ -1388,10 +1204,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/de.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Tp+vgtiM060YOPhp9HPLreWh0fc=
-			</data>
 			<key>hash2</key>
 			<data>
 			uRwIkiMPuZjhv3KonPpkQO+exU2bkGSqRegUtZUqF7Y=
@@ -1401,10 +1213,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/el.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			asGtTKI2VuSkxMZkinFslLpsEfc=
-			</data>
 			<key>hash2</key>
 			<data>
 			RMYqBa8wfM31SKde0zvqgiyeJjqdkJJyYRr0Ak05jr0=
@@ -1414,10 +1222,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/emailshare.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l3uxVnXNSSF2yIQ+I46tcyyS0UI=
-			</data>
 			<key>hash2</key>
 			<data>
 			rnO1nRfNrNbOCB0uh5ZdaAlIQkKDLRjdMY3Om9p6uRk=
@@ -1425,10 +1229,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/emailshare@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1YAAV7REX5dtQGAsvMWV4JHA5YQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Jtim7LgK3mOnU9Af/oN2sJXzyPXAq7bmN7KurOMpUQs=
@@ -1436,10 +1236,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/emailshare@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aVSPrFVlTl9GcEG5hCuRLRZSmeE=
-			</data>
 			<key>hash2</key>
 			<data>
 			sG7apKkVaPzZQXH2WY4WOLP91j0yqMyo3vJc19YUtLU=
@@ -1447,10 +1243,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/en-gb.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			10728axcTfIHcIRrItqYZR6kF3w=
-			</data>
 			<key>hash2</key>
 			<data>
 			QoKc9ljsoAOlGg0cabd98wS1WVWOaE8WnKsAiISar2Y=
@@ -1460,10 +1252,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/en.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jf0UldY5f1i4kBinPy55zCirRfU=
-			</data>
 			<key>hash2</key>
 			<data>
 			wuXzV03zA5JztGnVA4KGptlcv/2exzbixfEr50gXU0E=
@@ -1473,10 +1261,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/es-MX.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zMvJUp09gx8venGKP4ULGk57EPo=
-			</data>
 			<key>hash2</key>
 			<data>
 			JBlSWZh2BtL8CRkH9MNEnPA+sycObVn1IwlAYZDbvXg=
@@ -1486,10 +1270,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/es.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zMvJUp09gx8venGKP4ULGk57EPo=
-			</data>
 			<key>hash2</key>
 			<data>
 			JBlSWZh2BtL8CRkH9MNEnPA+sycObVn1IwlAYZDbvXg=
@@ -1499,10 +1279,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/fa.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Fe5D3bcTVPNNP4VwrWtvnAx7abU=
-			</data>
 			<key>hash2</key>
 			<data>
 			v+2ZNwthurVd0J2aLpxX8BSMTCl3JPX1JuimsBwFaak=
@@ -1512,10 +1288,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/fi.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			U+sIlPAjkUHEeKwARI+tD9xqlls=
-			</data>
 			<key>hash2</key>
 			<data>
 			230PyygVhQge5JzOGVtSOSGkE8O8zbMV8L/H+kpSeJ0=
@@ -1525,10 +1297,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/fr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vOKEetz2Syz7RhBbzHLNUch/PSU=
-			</data>
 			<key>hash2</key>
 			<data>
 			29svkTZfuRc+OihPb3wWK68O5y4DHuoCqS9ddkqaS1Y=
@@ -1538,10 +1306,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/gu.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			e3RIyRqZ9ibdcFFOKHO9DBYHPmI=
-			</data>
 			<key>hash2</key>
 			<data>
 			fvApk78JtYaNKtE9EdIM4H3kMxPJEf8QghDNurE30J8=
@@ -1551,10 +1315,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/he.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q7NG+XfhjflCUvKSQ9BXDTXW+So=
-			</data>
 			<key>hash2</key>
 			<data>
 			PSATYO2RSU0muK8atGKAEUFm36ir62lVbKTgb9NY6gc=
@@ -1564,10 +1324,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/hi.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IzS7AUq1UO0WUxczAXGwKQ0Is6M=
-			</data>
 			<key>hash2</key>
 			<data>
 			pTZRerxOI4tEu+YOp/yg42tvs8PqhfaVQBMfr9YeF8Q=
@@ -1577,10 +1333,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/hr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cJySpfwiujDGsd15VdKS0id9xX4=
-			</data>
 			<key>hash2</key>
 			<data>
 			AQIRJfTR1+6fOvcjEDW4rWsPyn1dvaKmd4h9xGJNeXQ=
@@ -1590,10 +1342,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/hu.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Xc50uFYi6tu6IRza7i2OR2QJKvI=
-			</data>
 			<key>hash2</key>
 			<data>
 			C1dM2fJO375Dga+TDtsJjAb0nwCYcjcYKECAgtm/kCw=
@@ -1603,10 +1351,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/icn_vine_badge.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rur71XOP9bwK+5h8Nf1v53SG66Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			fD9in00zIOy+49orkX4vuOk6edfSnjuoxjUEyaUZTzw=
@@ -1614,10 +1358,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/icn_vine_badge@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/ha2pigsiCM9YvFVm8xb6hmV6+U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qk9GThV8UHyJlReFAgZsyPmWhMNxCGZaqfP6ecsn0xY=
@@ -1625,10 +1365,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/icn_vine_badge@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9Aqe+eYSZZW62EeX3U9kOWJg054=
-			</data>
 			<key>hash2</key>
 			<data>
 			DlbGK4ERLj5zfFuIpLzR8GGb70lOvJe6cUa1o3IJFqU=
@@ -1636,10 +1372,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/id.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w4lDh4KShxRUO7Uskvku+Z1ljEE=
-			</data>
 			<key>hash2</key>
 			<data>
 			5j7kggG4+FBZ4XV3AZzQ5ilScZuUtzODYLHKohcP5gs=
@@ -1649,10 +1381,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/it.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a8OTu69ltJtNW0T2NGxBsPubrTo=
-			</data>
 			<key>hash2</key>
 			<data>
 			TaZp4PiPHQvsm6byalTa+mb2TPHeGa772AencqEsOu8=
@@ -1662,10 +1390,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ja.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GtB6u2FOl+LT1lckAdemazW/lGg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ljM0CmbTk06zOyahnDlv15Xv+wEz978xUjUkAUe/PO0=
@@ -1675,10 +1399,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/kn.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jdWEFQyPiVRSylJxt/gUioBAoCE=
-			</data>
 			<key>hash2</key>
 			<data>
 			aEQbrqf3hz7uecvznywnESCClycWOAZLnZLH7NtBz78=
@@ -1688,10 +1408,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ko.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			X5gvb1hnGRXvEEfKt9dLsRh0qEA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ry4eGrSNtkvyU3aha0+gBCHvOtlntwy2KSJ9Cki8Epc=
@@ -1701,10 +1417,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/mr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E0F4PholcUqvF7LblTvOuCKaHo0=
-			</data>
 			<key>hash2</key>
 			<data>
 			vKKniVZsNuB2ut/Midzi0Xrz/Z4dA+9qZ4dM2NulbV4=
@@ -1714,10 +1426,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ms.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZgIPb7eo0o9unvEe33qZiaEgwms=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zp7m+INAgJmfW+oxy2BCjV5zn7iilYF8ixOibGN+Px4=
@@ -1727,10 +1435,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/nb.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RzxbDM3XJt2JqihquwI/V8Ar2kA=
-			</data>
 			<key>hash2</key>
 			<data>
 			sBEHB1JcaCE9Ed3PYj2IVRtc3pFmqxw0zZrZMx55ZAU=
@@ -1740,10 +1444,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/nl.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9j+9vN30cCalZSErbEpKTS38Qc8=
-			</data>
 			<key>hash2</key>
 			<data>
 			BkgUxDRkK7/7o8OqzSsra+I3ndenar7NOCQqvBzwPgI=
@@ -1753,10 +1453,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/pl.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lJ6DTwpv5tQVeKeyHwVpIYGomdk=
-			</data>
 			<key>hash2</key>
 			<data>
 			IXsv7qLf5DhZ2Uh0b9gohFVWYlBtnPXeI1EiEiMzArg=
@@ -1766,10 +1462,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/pt.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KIzqdlEbNUIe0ItFcODJ+okpNVo=
-			</data>
 			<key>hash2</key>
 			<data>
 			mJY93SCazKabBa2nAatUMedbN7gumYy7oOtJ+PzOjm0=
@@ -1779,10 +1471,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ro.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QTNcbp9vCb529l11T2aC2KvzLqc=
-			</data>
 			<key>hash2</key>
 			<data>
 			e2uIaldzsLeKNp4DxNepPMVavyIhrFPoZgZISXbOh4Y=
@@ -1792,10 +1480,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ru.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V5j5UeKgdkfBGGGKliBZyLejtiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			wWndP8HPGup6uoev2JbZu9UBvWH8oEhJrtmx/wqYHJA=
@@ -1805,10 +1489,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/sk.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DMvivHHWHnPiIPHmLV18QnAUpLY=
-			</data>
 			<key>hash2</key>
 			<data>
 			hZOBQF9gv+j3D012iyHzeNLN1TuaIn9J004UNmYQBGY=
@@ -1818,10 +1498,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/sr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ccgkrf6RCovcho4pjKIj3mwgYiM=
-			</data>
 			<key>hash2</key>
 			<data>
 			cBWMSZ6JlNsJpM/MlWmT3O5QXeJZx9/6cVyMv8ESycE=
@@ -1831,10 +1507,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/sv.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jM31ZK1dfXu50834qXM59g62udQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			0qiLSwthXljZcWI6YZo27jVO9wtAXOzHg5CPtFM3SBU=
@@ -1844,10 +1516,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ta.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FMckN+XV3nTsmh8BrSEP10g8HVY=
-			</data>
 			<key>hash2</key>
 			<data>
 			f6MAGRkTozbrzXT6l7hJJeR49mAcyhk4m2EYXMkpyQI=
@@ -1857,10 +1525,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/th.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dgcTvv+Edo+loWfmcTkpJttx1H4=
-			</data>
 			<key>hash2</key>
 			<data>
 			tH36qQcmLLfi/y04gd12g3xqI7uM79bOLimpvojn15k=
@@ -1870,10 +1534,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/tl.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			q0SzXCFzZX1ITRHP0G5jdulfnq0=
-			</data>
 			<key>hash2</key>
 			<data>
 			hRv75iYdwWpvtt4O3tLabOLz4Bp/OUzylH094U/YdE8=
@@ -1883,10 +1543,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/tr.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KCvb5UNxldF4NinX6xGOeCBu/lg=
-			</data>
 			<key>hash2</key>
 			<data>
 			80nTmyTAyzoX6+yskHAjLXHwiUCozUZxRMfT8+BxeC4=
@@ -1896,10 +1552,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet-large.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Dy6zIoLR4iOfYHVUHSRg/+EpzCo=
-			</data>
 			<key>hash2</key>
 			<data>
 			fdB4lyYaGxvH83t4h6hUJATB3CbyowpPL6H35F7gd/w=
@@ -1907,10 +1559,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet-large@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cfy8/XQtnVx/ab2K+YqLSjB3RzU=
-			</data>
 			<key>hash2</key>
 			<data>
 			TUqfGXPvRfOGIDJs818YjU2v61GlYC9ZT9OQA7VG24U=
@@ -1918,10 +1566,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet-large@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lltP8Tq40heRL3hDXKiiibgKlk4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ix2nh2jjXCmc/gbmH3E/w23NBLN48K9N+cyXFHF13wE=
@@ -1929,10 +1573,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NP8wNbVP1mAq8o6DHXbZarUl7yY=
-			</data>
 			<key>hash2</key>
 			<data>
 			RnfPFNWWw6md+cEM8BFtkwjYYVPdJDPvsxSriCejbYA=
@@ -1940,10 +1580,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mkTZoq32FiHxBtlM59xe8ekGwNs=
-			</data>
 			<key>hash2</key>
 			<data>
 			7WQTtmWKMNIh+uwO0udDHBjRrCUKliDTjEL8CzdSsK0=
@@ -1951,10 +1587,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-heart-animation-sheet@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tdSsgXPxkaeKUi3EotQ0E7oM1fA=
-			</data>
 			<key>hash2</key>
 			<data>
 			jZ0rruAQQ32r3ax3Itl3JG3csP6uxJ1ieMFw0AqMO90=
@@ -1962,10 +1594,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off-large.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wq1SLjHpNnWdDNSpXvgwb2X+vPU=
-			</data>
 			<key>hash2</key>
 			<data>
 			YL4MMXr2p0qWXvjfNcEbzamMn65DoQjuiJCv/ssBL1o=
@@ -1973,10 +1601,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off-large@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mbB8RRTiHQE4mnI5Ypnkf+akQG0=
-			</data>
 			<key>hash2</key>
 			<data>
 			h+pGZvRzV/WEsQRttonnuo7xieYfUaCbrsR5aWeNSzw=
@@ -1984,10 +1608,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off-large@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			og7urSjRktkiyogGJJyz7zwc1tk=
-			</data>
 			<key>hash2</key>
 			<data>
 			e/Cd9ktOnP0uHevXmHS6kFvgGKsvjyN3xycNKtLZIGs=
@@ -1995,10 +1615,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			exW/FmqpMIwXRTG0VhZQQuPfWsk=
-			</data>
 			<key>hash2</key>
 			<data>
 			eM3lBOf8I5FIFw2KbmbV/PQGs2CruVP1WAwNVZIFmFs=
@@ -2006,10 +1622,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r9bfAFfiP3fqW80PwZW4+mtFZbw=
-			</data>
 			<key>hash2</key>
 			<data>
 			42uFnotEjHAA60UsLYZ3/1gY41hOpu0zhJO7wqa7Lso=
@@ -2017,10 +1629,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-off@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yY68AMwbmWZTAJSv+idV7QUnX5o=
-			</data>
 			<key>hash2</key>
 			<data>
 			a9ZI97q9RMt8hx4yqwKvBebUGBIfhogx8Zb6Ci5eCLM=
@@ -2028,10 +1636,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-on.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p7isFvuYIUxIFMhiHCsqL4GdO1o=
-			</data>
 			<key>hash2</key>
 			<data>
 			aAQjf2SusUGesVuoEzaejPtCIrkUOvPOWqWqkpuHLNw=
@@ -2039,10 +1643,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-on@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yRQArdTtu7is4UCh5HP2V0hm1Qg=
-			</data>
 			<key>hash2</key>
 			<data>
 			2xsBrFy1QcBqTfPmfZzsiNIXnNENtfopoXreIqzgmXI=
@@ -2050,10 +1650,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-heart-on@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lvaVAsVeusfqSsurKiHYNMwRsFg=
-			</data>
 			<key>hash2</key>
 			<data>
 			ELBBpLrZeHSBvCjJzUlrGs1YeoFZGDUM6lJDZZWLrCE=
@@ -2061,10 +1657,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo-white.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DGyTpSVPrGp6XWy01a2V+TuIWGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ToglWxfJnDPEH66KWg9eQ342owFtgbRKoysiOs4ndCQ=
@@ -2072,10 +1664,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo-white@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nzZd8l2kfvGZcZ+yuwGmJly0ZuU=
-			</data>
 			<key>hash2</key>
 			<data>
 			AdXQSRg8Tr0lAvariMhz+Gfsb7WOXrcGAHNAeE01Y9M=
@@ -2083,10 +1671,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo-white@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FVD3TYqcCf48FZMod5bDH4ugNxA=
-			</data>
 			<key>hash2</key>
 			<data>
 			b65+ygsrnE6PV3VgAkgsVm7S6pFZXVQyoAtksOWsv7Q=
@@ -2094,10 +1678,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Xnr6m9RFzhrJpmOLThLmbbCu2E=
-			</data>
 			<key>hash2</key>
 			<data>
 			42bNo/FVIGtkvAmGnuogJ2+KXsPYWCbMNMqZbHtQ7nw=
@@ -2105,10 +1685,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9TcIKb0YopE0OlZF2JykyLNoZXc=
-			</data>
 			<key>hash2</key>
 			<data>
 			K68mNHV8C7m3mVvxNXNESqzvyfzXYBjnaKmoZd0OBdM=
@@ -2116,10 +1692,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-logo@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2yyo7Wdo2zOBD0e2mVNShUlpVvI=
-			</data>
 			<key>hash2</key>
 			<data>
 			K2jk+v1v8Is7ckMxznJgk9NpYSrMvnsI7P9eFp5RR18=
@@ -2127,10 +1699,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-pause.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Hn1Thd2AZaUADz2SLMoASdmfChE=
-			</data>
 			<key>hash2</key>
 			<data>
 			pHSfmd9WUz+HEdqHBfoOIgDKPwaiif8IwYVkrNUg+HA=
@@ -2138,10 +1706,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-pause@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2205ey1RvkuDUoCKv2UsO/fBoRU=
-			</data>
 			<key>hash2</key>
 			<data>
 			9IeBKdDlBR3kWYznYcSRsSX2l5yhxBkkJ9XJucdLHKE=
@@ -2149,10 +1713,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-pause@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1IHNpH5KWqsljo6KcJv5Qz6ZXtM=
-			</data>
 			<key>hash2</key>
 			<data>
 			htYWSz5BkvOzPxGYJt3PM42jaPETApuq/IDqKnqUjJQ=
@@ -2160,10 +1720,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-play.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OB0caRjzqJbXqiuidf2fGBFxhME=
-			</data>
 			<key>hash2</key>
 			<data>
 			+9xIrITUtpoMtWb2u2zLRI/JP85t3pFVV9wxQ+Sbs/4=
@@ -2171,10 +1727,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-play@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EnIBX6FG3nWkte+AFoqeBHnQCvw=
-			</data>
 			<key>hash2</key>
 			<data>
 			gvJ6uXkh2F2ciN2E215FDitCrzicdiD5gh5LNUR2MWE=
@@ -2182,10 +1734,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-play@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZpdGXuudTSV04PrI6wF0siL/AsA=
-			</data>
 			<key>hash2</key>
 			<data>
 			0ub/WyqjcJz2IHq/R6WxqelZQX11s1E6U8D1OW6ojxg=
@@ -2193,10 +1741,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-replay.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EIkYIfCrRAQMgkmhPxcxPUFijR0=
-			</data>
 			<key>hash2</key>
 			<data>
 			y1CD/cYMhsMAT/2FgTz7sqyTFuC7dji4A8f+v5w3cHY=
@@ -2204,10 +1748,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-replay@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yS9fMPSjbNTLvhZRO0VFZ/QomN0=
-			</data>
 			<key>hash2</key>
 			<data>
 			D2yHv8xU9KHx6tOJLqiZtAqfj4D0s84Ks+LPKz8B7BI=
@@ -2215,10 +1755,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-replay@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WKls/L/hdu0FILjQDN9GXKucmH4=
-			</data>
 			<key>hash2</key>
 			<data>
 			dgfrlFO4fkpSsNr1TaurBfj4CbRQoKUelpyL4L5ks28=
@@ -2226,10 +1762,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-scrubber.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wsQVO9slht+FspHzDE3ekAT+3jw=
-			</data>
 			<key>hash2</key>
 			<data>
 			p1EKbzg4NtDda1i4+OYX6/ejycTuoSLeBlDydPhZXJU=
@@ -2237,10 +1769,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-scrubber@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hGE/SjAxjwPN4tyAlseWJZfTARs=
-			</data>
 			<key>hash2</key>
 			<data>
 			Bu1oZ+CFq7PGgTESMi33sH0c2af+LomgubmX2KOXVEI=
@@ -2248,10 +1776,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-media-scrubber@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PKhnWN2flxnz9QDs6ASzgY5KJsk=
-			</data>
 			<key>hash2</key>
 			<data>
 			6P+hgIEbqB4qvnv8UXj7Y72mZpZRFLrSK4sJ0SkySos=
@@ -2259,10 +1783,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-dark.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yPjMAaYvhYw2fRqpn+rcwalHREc=
-			</data>
 			<key>hash2</key>
 			<data>
 			Uu6xTKVeXguhK2tZfIxjndyyqloH83dItnjIHxWhRIA=
@@ -2270,10 +1790,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-dark@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zNYxwYjXGtRZfG+ysInIAKeFOc8=
-			</data>
 			<key>hash2</key>
 			<data>
 			vu08Z70MSDJv72gYgTTdEGf24A6cuXZjCqro+mtD8Rs=
@@ -2281,10 +1797,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-dark@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dBADlNtw67OVHNs78USw5pIYEgw=
-			</data>
 			<key>hash2</key>
 			<data>
 			sAIQ67yPvIDLdPPvU6xZ1Rdl8ZFddP1UUn3B9xNeHpE=
@@ -2292,10 +1804,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-light.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			A/0HM16Ed45g67C6Lzo+El0OGGc=
-			</data>
 			<key>hash2</key>
 			<data>
 			PlgOGJq6hWcy63XtyKd5nuDDpkRsYnQTi+74LUtT6Jg=
@@ -2303,10 +1811,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-light@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GVi/U+Vfp9XG7RR/Gfkro9s8uLw=
-			</data>
 			<key>hash2</key>
 			<data>
 			PmFRNDi5a2z8L7RCdqe4XO/7xxflpPb4A70DhtnAdi8=
@@ -2314,10 +1818,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-retweeted-by-light@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XFSXWKWnV3B+dcztfxnLaYF2350=
-			</data>
 			<key>hash2</key>
 			<data>
 			JB3ZcXXpRiXkciDKEE3/K4oiC9Gf4UnAO2LXifs+ZUM=
@@ -2325,10 +1825,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-verified.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Dr1DclGLhLfmu8zDWzzKLzT5k4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			cACPkeRBGeBn5OFDkhvIeCN/luiL/YB7XRM2BAzn3zU=
@@ -2336,10 +1832,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-verified@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JL5MmZlkptAmGKqQW8ylTs34mwI=
-			</data>
 			<key>hash2</key>
 			<data>
 			0qDs6EsSF0DoZ15il9bhMmah7kWeVHSoVJNmhIQA+kE=
@@ -2347,10 +1839,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn-tweet-verified@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vL9iQNwWkx729WgHiAJ+5nxtsDA=
-			</data>
 			<key>hash2</key>
 			<data>
 			C9irMC1qJBdO3B5HjDZKa/pI0Tt9xsHp9ImYMUpwf1c=
@@ -2358,10 +1846,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn_close.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			834NIQlOxszd524chIQ74WUcDyM=
-			</data>
 			<key>hash2</key>
 			<data>
 			2FFHlE3EVHWy2f/VZGTV91NFc0KhiLaORICSTAOAWYY=
@@ -2369,10 +1853,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn_close@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UKxAdpnJ1pAeZHDKc8nF8jYeY+o=
-			</data>
 			<key>hash2</key>
 			<data>
 			L3ZJeYX6dbs7u1HDpFRwwuYKjCr0QA+7aBuflMNhv/8=
@@ -2380,10 +1860,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icn_close@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ssZY/MqH+x8M/EvHFjf7tiIacK4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ad4OE/USxywq7ptS6qRDfa0d7E1qjJ616JNrSLUPO34=
@@ -2391,10 +1867,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icon-heart-on-large.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YVrRTV9SXsC/vsuTbasYhdM+U9E=
-			</data>
 			<key>hash2</key>
 			<data>
 			+EJyp1q6tDaK71//zoQaTLmlXhgysu9oUrMqVJSVJa8=
@@ -2402,10 +1874,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icon-heart-on-large@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xxTvhiSZWq51nE9SnjkAvJDkjVI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Yhelcj8A2trBWQqCYuCIBiJcCZp2QdRy3MJk26WwFqk=
@@ -2413,10 +1881,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-icon-heart-on-large@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			suX3ypVCCVjTnni7myFT9TMlL/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			HeFXbI2Wa29c7aCdjb2L36F53szIJfkt63oS2QwXISA=
@@ -2424,10 +1888,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-media-expand.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9r/q6SrzcGiflOXJp1ZZ62yyXSw=
-			</data>
 			<key>hash2</key>
 			<data>
 			3t/OpiX7ISTDc3qOIQR8fezthSB8vaJ2aSL3Xs62oCo=
@@ -2435,10 +1895,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-media-expand@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sMWg4l7tKZfnAoxUSXrz6D5MAro=
-			</data>
 			<key>hash2</key>
 			<data>
 			OURNJDvO0qs9cOVh9tapksTqNerJTOau3ONiXxwFi2k=
@@ -2446,10 +1902,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-media-expand@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DEPW2ftVwTBoongEwTxWX4Fp3tg=
-			</data>
 			<key>hash2</key>
 			<data>
 			2ROSOW49JzjDZi5Y9/vuhsgxSYc3MTyMj1kL9rQ9kY8=
@@ -2457,10 +1909,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-play.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/+Zx80imzTW/koOGvd4URMAjD9U=
-			</data>
 			<key>hash2</key>
 			<data>
 			nJ2IG/Ey74WBo+GUQUnpxSLFp2Cx5yCG0FZt+fzpcIY=
@@ -2468,10 +1916,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-play@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gUcEccpdN+vKyGnGp2fm/iSEF7E=
-			</data>
 			<key>hash2</key>
 			<data>
 			2qo4j/kcryUkKXctN01yHKjRBV0nWQD0YO0q6PTJ1yI=
@@ -2479,10 +1923,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-play@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F2V/5h9U5i7y8pklySd24kCkPjw=
-			</data>
 			<key>hash2</key>
 			<data>
 			eXAoGIVF4xYdd21giDg9/znVumNI2zyvLCwAqaKHVyE=
@@ -2490,10 +1930,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share-large.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKQtW+c8JRRjxmNLUYTrHfyBnlo=
-			</data>
 			<key>hash2</key>
 			<data>
 			QFehcbti3ycefnbLvaJLS3CZIxYBk8P3riosc1AEru8=
@@ -2501,10 +1937,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share-large@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fJJGGo4uF6a0JItHNJku+uIod84=
-			</data>
 			<key>hash2</key>
 			<data>
 			g8y/YK4WSZJ2Peg9Om56OIcqjP+go25sIPLDzGilh5I=
@@ -2512,10 +1944,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share-large@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ljtvd9KzgJyH8Iee3HJVOgdM1Fg=
-			</data>
 			<key>hash2</key>
 			<data>
 			p/waVZO/xw5fIA5rhCUM0xamn8R68RfemBbyFT9/5vc=
@@ -2523,10 +1951,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tGqJttClrcSc9EEMbuAVv6Dzx8U=
-			</data>
 			<key>hash2</key>
 			<data>
 			tZsdyx11RjfbBtfJbJy1xEOy6XdTFSASaba4orJWC3U=
@@ -2534,10 +1958,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PSJK2+rE4tAPiZ6ds5O6mGmcmM4=
-			</data>
 			<key>hash2</key>
 			<data>
 			iLZBnBu/S7APNuyIseUSHuK8hJCqzxvgQfTRgD8qwRI=
@@ -2545,10 +1965,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twtr-share@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LOFNjccX/akTcQ8B6lBjD/LWRZo=
-			</data>
 			<key>hash2</key>
 			<data>
 			xE0fCmshtzb9we2jcBFlJH1rUX3YEBvqqXMVLd+OFMs=
@@ -2556,10 +1972,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo-error.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uwd2dGsVZy2NYMT21dETR/vLDqo=
-			</data>
 			<key>hash2</key>
 			<data>
 			7X11gGMW9qkpYqPXpranRsPk14wJ/pV89fafXG5VTDE=
@@ -2567,10 +1979,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo-error@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			O/3ru94fFmxoxtp8GD8H/PKgl1o=
-			</data>
 			<key>hash2</key>
 			<data>
 			8K6FpuD0YRDNBHuspv3RaLaCJ5crjgphw/uWkmbkU6M=
@@ -2578,10 +1986,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo-error@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			V8WEwBCVhOPJS3wpwiAR3aGlKj0=
-			</data>
 			<key>hash2</key>
 			<data>
 			pvWcrk/UgJbbaUvGBZ/YSywLYrpgKGoqXJq6uOek6YE=
@@ -2589,10 +1993,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o7u51OM8PPJ7z6z5BhWZQnnahy8=
-			</data>
 			<key>hash2</key>
 			<data>
 			BeXiKKtek+X4+NNZ6wuKL3yZy2BSJFHPq+PKRIeBy0M=
@@ -2600,10 +2000,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo@2x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cE6P1xPvhukNRFt5uPZTXXoO4U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Re7EiBc7Sm4tnasfVqoRB5C4VxTfrUeZdnAw5LKwmNs=
@@ -2611,10 +2007,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/twttr-icn-tweet-place-holder-photo@3x.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9EUKsFKV2TDh1+djQ2F3qbVW2BM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gri1QovvMhihGeGI/t2uKdQhLNTgstgSPgf9Q02gXts=
@@ -2622,10 +2014,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/uk.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W0tIzjQjyPsN6NKuUMD9mvztVvY=
-			</data>
 			<key>hash2</key>
 			<data>
 			s0i7THDQy8VHJWCqSliDAogWVzWHyCg8uP032ikq+0s=
@@ -2635,10 +2023,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/ur.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0X7zpGGYhc08X1eIwhkk+xKATB0=
-			</data>
 			<key>hash2</key>
 			<data>
 			XFUdymduMyjRfq9do5jBhk+O6xtJFyuEVPMV7vCjWDU=
@@ -2648,10 +2032,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/vi.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i7LRnoTjw20BcSwYiB3B8o3rjGc=
-			</data>
 			<key>hash2</key>
 			<data>
 			tIh6AALviAJWOan27KWO3lpRkAAIb12HF9pbkPTVQ9I=
@@ -2661,10 +2041,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QYu+xffTGh3rU0CqlFtRex1e90I=
-			</data>
 			<key>hash2</key>
 			<data>
 			viIqek/QUQOkoNv9phylFN9x73SXVpNmdhyd6DiJhXI=
@@ -2674,10 +2050,6 @@
 		</dict>
 		<key>TwitterKitResources.bundle/zh-Hant.lproj/Localizable.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Khm9mU2WT2D4rZgUJKWSR9OYoWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			muCwa1+OPnAO/GBav27M2XaZgT6kdrkykd0518J5Wws=

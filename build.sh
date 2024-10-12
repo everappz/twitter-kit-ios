@@ -9,6 +9,7 @@ xcodebuild \
     -sdk "iphonesimulator" \
     HEADER_SEARCH_PATHS="$(pwd)/TwitterCore/iphonesimulator/Headers $(pwd)/TwitterCore/iphonesimulator/PrivateHeaders"  \
     CONFIGURATION_BUILD_DIR=./iphonesimulator \
+	ENABLE_BITCODE=NO \
     clean build
 
 ## From: https://developer.apple.com/library/archive/qa/qa1940/_index.html
@@ -25,6 +26,7 @@ xcodebuild \
     -sdk "iphoneos" \
     HEADER_SEARCH_PATHS="$(pwd)/TwitterCore/iphoneos/Headers $(pwd)/TwitterCore/iphoneos/PrivateHeaders"  \
     CONFIGURATION_BUILD_DIR=./iphoneos \
+	ENABLE_BITCODE=NO \
     clean build
 
 ## Merge into one TwitterKit.framework with x86_64, armv7, arm64
