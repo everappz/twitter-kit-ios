@@ -16,7 +16,7 @@
  */
 
 #import "TWTRVideoViewController.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRNotificationConstants.h"
 #import "TWTRTweet.h"
 #import "TWTRTwitter_Private.h"

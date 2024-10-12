@@ -15,7 +15,7 @@
  *
  */
 
-@import MapKit;
+#import <MapKit/MapKit.h>
 #import "TWTRSELocationMapTableViewHeaderView.h"
 
 static const CLLocationDistance kMapHorizontalPadding = 3000;

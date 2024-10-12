@@ -15,7 +15,7 @@
  *
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface TWTRSEFonts : NSObject
 @property (nonatomic, nullable, class) NSDictionary<NSString *, NSDictionary<NSString *, id> *> *fontDictionary;

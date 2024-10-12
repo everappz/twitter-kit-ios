@@ -15,18 +15,18 @@
  *
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 /// Using a C function instead of a category on UIView because categories may not be loaded in apps
 /// importing this framework if they don't have the -ObjC flag, which Fabric/TwitterKit can't control;
-FOUNDATION_EXTERN void tse_requireContentCompressionResistanceAndHuggingPriority(UIView *view);
+extern void tse_requireContentCompressionResistanceAndHuggingPriority(UIView *view);
 
 // TODO: post-drop-iOS10-dead-code
 // - remove #if/#else/#endif AND all code within
 // - once removed, address all build issues regarding logic depending upon TFNIsIOS11OrGreater
 // Safe to use anytime
 #if __IPHONE_11_0 > __IPHONE_OS_VERSION_MIN_REQUIRED
-FOUNDATION_EXTERN BOOL TWTRSEUIIsIOS11OrGreater(void);
+extern BOOL TWTRSEUIIsIOS11OrGreater(void);
 #else
 NS_INLINE BOOL TWTRSEUIIsIOS11OrGreater()
 {

@@ -33,7 +33,7 @@ NSArray *tse_map(NSArray *array, TSEArrayMapBlock block)
     return newArray;
 }
 
-FOUNDATION_EXTERN NSArray *_Nonnull tse_filter(NSArray *_Nonnull array, _Nonnull TSEArrayFilterBlock block)
+extern NSArray *_Nonnull tse_filter(NSArray *_Nonnull array, _Nonnull TSEArrayFilterBlock block)
 {
     NSMutableArray *newArray = [NSMutableArray arrayWithCapacity:array.count];
 

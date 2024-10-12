@@ -19,8 +19,8 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import <TwitterCore/TWTRNetworking.h>
-#import <TwitterCore/TWTRUserSessionVerifier.h>
+#import "TWTRNetworking.h"
+#import "TWTRUserSessionVerifier.h"
 #import "TWTRImageLoader.h"
 #import "TWTRTwitter.h"
 

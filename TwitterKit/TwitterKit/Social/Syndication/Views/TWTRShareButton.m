@@ -16,8 +16,8 @@
  */
 
 #import "TWTRShareButton.h"
-#import <TwitterCore/TWTRColorUtil.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRColorUtil.h"
+#import "TWTRUtils.h"
 #import "TWTRFontUtil.h"
 #import "TWTRImages.h"
 #import "TWTRNotificationCenter.h"

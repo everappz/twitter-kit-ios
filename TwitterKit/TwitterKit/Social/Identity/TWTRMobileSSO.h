@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import <TwitterCore/TWTRAuthConfig.h>
+#import "TWTRAuthConfig.h"
 #import "TWTRLoginURLParser.h"
 #import "TWTRTwitter.h"
 

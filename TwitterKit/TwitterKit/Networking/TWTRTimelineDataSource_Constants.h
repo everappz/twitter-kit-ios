@@ -21,6 +21,6 @@
 
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXTERN const NSUInteger TWTRTimelineDataSourceDefaultMaxTweetsPerRequest;
-FOUNDATION_EXTERN const BOOL TWTRTimelineDataSourceDefaultIncludeReplies;
-FOUNDATION_EXTERN const BOOL TWTRTimelineDataSourceDefaultIncludeRetweets;
+extern const NSUInteger TWTRTimelineDataSourceDefaultMaxTweetsPerRequest;
+extern const BOOL TWTRTimelineDataSourceDefaultIncludeReplies;
+extern const BOOL TWTRTimelineDataSourceDefaultIncludeRetweets;

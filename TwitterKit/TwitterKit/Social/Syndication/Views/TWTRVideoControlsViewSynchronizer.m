@@ -16,7 +16,7 @@
  */
 
 #import "TWTRVideoControlsViewSynchronizer.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRStringUtil.h"
 #import "TWTRVideoControlsView.h"
 #import "TWTRVideoPlaybackState.h"

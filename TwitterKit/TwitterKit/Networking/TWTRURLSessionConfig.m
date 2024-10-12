@@ -16,8 +16,8 @@
  */
 
 #import "TWTRURLSessionConfig.h"
-#import <TwitterCore/TWTRNetworkingConstants.h>
-#import <TwitterCore/TWTRResourcesUtil.h>
+#import "TWTRNetworkingConstants.h"
+#import "TWTRResourcesUtil.h"
 
 @implementation TWTRURLSessionConfig
 

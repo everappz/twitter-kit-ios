@@ -15,7 +15,7 @@
  *
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #import "TWTRSEBaseTableViewCell.h"
 

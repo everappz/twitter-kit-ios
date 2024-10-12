@@ -17,7 +17,7 @@
 //  Lay out 1-4 views in a grid
 
 #import "TWTRMultiPhotoLayout.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import <UIKit/UIKit.h>
 #import "TWTRViewUtil.h"
 

@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSObject;
+#import <Foundation/Foundation.h>
 
 @class NSItemProvider;
 @class NSURL;
@@ -26,7 +26,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXTERN NSString *const TWTRSETweetShareExtensionErrorDomain;
+extern NSString *const TWTRSETweetShareExtensionErrorDomain;
 
 #pragma mark -
 

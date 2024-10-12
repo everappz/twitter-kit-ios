@@ -16,8 +16,8 @@
  */
 
 #import "TWTRNetworkingPipelineQueue.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRConstants.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRConstants.h"
 #import "TWTRAPIDateSync.h"
 #import "TWTRNetworkingPipelinePackage.h"
 #import "TWTRRequestSigningOperation.h"

@@ -17,15 +17,15 @@
 
 #import "TWTRWebAuthenticationViewController.h"
 #import <SafariServices/SafariServices.h>
-#import <TwitterCore/TWTRAPIServiceConfig.h>
-#import <TwitterCore/TWTRAPIServiceConfigRegistry.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthConfig.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
-#import <TwitterCore/TWTRSession.h>
-#import <TwitterCore/TWTRSession_Private.h>
-#import <TwitterCore/TWTRUserAPIClient.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAPIServiceConfig.h"
+#import "TWTRAPIServiceConfigRegistry.h"
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthConfig.h"
+#import "TWTRAuthenticationConstants.h"
+#import "TWTRSession.h"
+#import "TWTRSession_Private.h"
+#import "TWTRUserAPIClient.h"
+#import "TWTRUtils.h"
 #import "TWTRErrors.h"
 #import "TWTRLoginURLParser.h"
 #import "TWTRTwitter_Private.h"

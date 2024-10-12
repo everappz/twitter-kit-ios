@@ -15,13 +15,13 @@
  *
  */
 
-@import UIKit.UIView;
+#import <UIKit/UIKit.h>
 
 @class TWTRSETweetAttachmentURL;
 @class UILabel;
 @protocol TWTRSENetworking;
 
-FOUNDATION_EXTERN const CGFloat TWTRSETweetURLAttachmentViewPreferredViewHeight;
+extern const CGFloat TWTRSETweetURLAttachmentViewPreferredViewHeight;
 
 NS_ASSUME_NONNULL_BEGIN
 

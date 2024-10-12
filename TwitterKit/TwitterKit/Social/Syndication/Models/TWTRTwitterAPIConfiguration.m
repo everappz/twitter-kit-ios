@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTwitterAPIConfiguration.h"
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRDictUtil.h"
 
 @implementation TWTRTwitterAPIConfiguration
 

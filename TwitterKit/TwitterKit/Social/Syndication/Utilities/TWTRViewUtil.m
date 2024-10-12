@@ -16,8 +16,8 @@
  */
 
 #import "TWTRViewUtil.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 #import "TWTRMediaEntitySize.h"
 #import "TWTRTweetMediaEntity.h"

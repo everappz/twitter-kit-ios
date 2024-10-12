@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-FOUNDATION_EXTERN NSString *const TWTRAPIConstantsCollectionsRetrievePath;
-FOUNDATION_EXTERN NSString *const TWTRAPIConstantsListsStatusesPath;
-FOUNDATION_EXTERN NSString *const TWTRAPIConstantsSearchTweetsPath;
-FOUNDATION_EXTERN NSString *const TWTRAPIConstantsUserTimelinePath;
+extern NSString *const TWTRAPIConstantsCollectionsRetrievePath;
+extern NSString *const TWTRAPIConstantsListsStatusesPath;
+extern NSString *const TWTRAPIConstantsSearchTweetsPath;
+extern NSString *const TWTRAPIConstantsUserTimelinePath;

@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSRange;
+#import <Foundation/Foundation.h>
 
 @protocol TWTRSEWordRangeCalculator
 

@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @class TWTRSETweet;
 @class TWTRSETweetURLAttachmentMetadata;

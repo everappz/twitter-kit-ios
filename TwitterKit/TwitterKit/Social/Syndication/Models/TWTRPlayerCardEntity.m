@@ -16,7 +16,7 @@
  */
 
 #import "TWTRPlayerCardEntity.h"
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRDictUtil.h"
 #import "TWTRCardEntity+Subclasses.h"
 #import "TWTRImages.h"
 #import "TWTRJSONKeyRequirement.h"

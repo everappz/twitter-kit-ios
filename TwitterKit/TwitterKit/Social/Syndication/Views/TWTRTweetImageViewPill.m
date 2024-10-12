@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTweetImageViewPill.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 #import "TWTRMediaEntityDisplayConfiguration.h"
 #import "TWTRViewUtil.h"
 

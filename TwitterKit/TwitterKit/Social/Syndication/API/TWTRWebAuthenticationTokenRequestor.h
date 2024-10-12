@@ -18,8 +18,8 @@
 /**
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
-
-#import <TwitterCore/TWTRAPIServiceConfig.h>
+#import <Foundation/Foundation.h>
+#import "TWTRAPIServiceConfig.h"
 
 @class TWTRAuthConfig;
 

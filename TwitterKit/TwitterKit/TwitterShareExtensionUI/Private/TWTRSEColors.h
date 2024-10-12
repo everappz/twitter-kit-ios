@@ -15,7 +15,7 @@
  *
  */
 
-@import UIKit.UIColor;
+#import <UIKit/UIKit.h>
 
 NS_INLINE const CGFloat TWTRSEUIHexColorElement(NSUInteger hexColorElement)
 {

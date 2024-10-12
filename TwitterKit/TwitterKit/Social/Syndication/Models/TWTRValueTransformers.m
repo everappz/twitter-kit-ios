@@ -16,9 +16,9 @@
  */
 
 #import "TWTRValueTransformers.h"
-#import <TwitterCore/TWTRAPIConstants.h>
-#import <TwitterCore/TWTRDateFormatters.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAPIConstants.h"
+#import "TWTRDateFormatters.h"
+#import "TWTRDictUtil.h"
 #import "TWTRCardEntity.h"
 #import "TWTRJSONConvertible.h"
 #import "TWTRViewUtil.h"

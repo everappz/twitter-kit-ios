@@ -24,8 +24,8 @@ typedef NS_ENUM(NSUInteger, TWTRMediaEntitySizeResizingMode) {
     TWTRMediaEntitySizeResizingModeCrop,
 };
 
-FOUNDATION_EXTERN NSString *NSStringFromTWTRMediaEntitySizeResizingMode(TWTRMediaEntitySizeResizingMode resizingMode);
-FOUNDATION_EXTERN TWTRMediaEntitySizeResizingMode TWTRMediaEntitySizeResizingModeFromString(NSString *resizingModeString);
+extern NSString *NSStringFromTWTRMediaEntitySizeResizingMode(TWTRMediaEntitySizeResizingMode resizingMode);
+extern TWTRMediaEntitySizeResizingMode TWTRMediaEntitySizeResizingModeFromString(NSString *resizingModeString);
 
 @interface TWTRMediaEntitySize : NSObject <NSCoding>
 

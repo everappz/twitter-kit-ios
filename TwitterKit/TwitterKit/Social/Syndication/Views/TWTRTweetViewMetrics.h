@@ -20,8 +20,8 @@
  */
 
 #import <UIKit/UIKit.h>
-FOUNDATION_EXTERN CGFloat const TWTRTweetViewMaxWidth;
-FOUNDATION_EXTERN CGFloat const TWTRTweetViewMinWidth;
+extern CGFloat const TWTRTweetViewMaxWidth;
+extern CGFloat const TWTRTweetViewMinWidth;
 
 @interface TWTRTweetViewMetrics : NSObject
 

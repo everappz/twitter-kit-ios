@@ -16,7 +16,7 @@
  */
 
 #import "TWTRImageScrollView.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 
 static CGFloat const TWTRPhoneMaxZoom = 3.0;
 static CGFloat const TWTRPadMaxZoom = 4.0;

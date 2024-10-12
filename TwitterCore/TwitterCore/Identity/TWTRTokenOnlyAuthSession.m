@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTokenOnlyAuthSession.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 
 static NSString *const TWTRTokenOnlyAuthSessionTokenKey = @"authToken";
 static NSString *const TWTRTokenOnlyAuthSessionSecretKey = @"authTokenSecret";

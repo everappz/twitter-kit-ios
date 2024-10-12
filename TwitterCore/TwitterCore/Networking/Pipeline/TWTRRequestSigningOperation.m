@@ -16,10 +16,10 @@
  */
 
 #import "TWTRRequestSigningOperation.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRGuestAuthRequestSigner.h>
-#import <TwitterCore/TWTRSession.h>
-#import <TwitterCore/TWTRUserAuthRequestSigner.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRGuestAuthRequestSigner.h"
+#import "TWTRSession.h"
+#import "TWTRUserAuthRequestSigner.h"
 #import "TWTRNetworkingPipelinePackage.h"
 
 @interface TWTRRequestSigningOperation ()

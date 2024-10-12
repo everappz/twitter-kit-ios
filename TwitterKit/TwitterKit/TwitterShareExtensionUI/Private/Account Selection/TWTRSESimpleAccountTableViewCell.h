@@ -6,7 +6,7 @@
 //  Copyright © 2023 Twitter. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #import "TWTRSEBaseTableViewCell.h"
 

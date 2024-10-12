@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTweetCashtagEntity.h"
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 
 @implementation TWTRTweetCashtagEntity

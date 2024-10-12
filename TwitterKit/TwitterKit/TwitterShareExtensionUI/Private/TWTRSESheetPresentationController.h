@@ -15,7 +15,7 @@
  *
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 /**
  A `UIViewControllerTransitioningDelegate` that can be used to present a controller modally in a sheet

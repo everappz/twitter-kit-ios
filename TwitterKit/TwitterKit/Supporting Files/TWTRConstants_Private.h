@@ -23,27 +23,27 @@
 
 #pragma mark - Twitter kit constants
 
-FOUNDATION_EXTERN NSString *const TWTRVersion;
-FOUNDATION_EXTERN NSString *const TWTRResourceBundleLocation;
-FOUNDATION_EXTERN NSString *const TWTRBundleID;
+extern NSString *const TWTRVersion;
+extern NSString *const TWTRResourceBundleLocation;
+extern NSString *const TWTRBundleID;
 
 #pragma mark - User messages
 
-FOUNDATION_EXTERN NSString *const TWTRMissingKitInfoMsg;
-FOUNDATION_EXTERN NSString *const TWTRMissingConsumerKeyMsg;
-FOUNDATION_EXTERN NSString *const TWTRMissingConsumerSecretMsg;
+extern NSString *const TWTRMissingKitInfoMsg;
+extern NSString *const TWTRMissingConsumerKeyMsg;
+extern NSString *const TWTRMissingConsumerSecretMsg;
 
 #pragma mark - Twitter API
 
-FOUNDATION_EXTERN NSString *const TWTRAPIRateLimitHeader;
-FOUNDATION_EXTERN NSString *const TWTRAPIRateLimitRemainingHeader;
-FOUNDATION_EXTERN NSString *const TWTRAPIRateLimitResetHeader;
+extern NSString *const TWTRAPIRateLimitHeader;
+extern NSString *const TWTRAPIRateLimitRemainingHeader;
+extern NSString *const TWTRAPIRateLimitResetHeader;
 
 #pragma mark - Kit Info
 
-FOUNDATION_EXTERN NSString *const TWTRKitInfoConsumerKeyKey;
-FOUNDATION_EXTERN NSString *const TWTRKitInfoConsumerSecretKey;
+extern NSString *const TWTRKitInfoConsumerKeyKey;
+extern NSString *const TWTRKitInfoConsumerSecretKey;
 
 #pragma mark - URL Referrer
 
-FOUNDATION_EXTERN NSString *const TWTRURLReferrer;
+extern NSString *const TWTRURLReferrer;

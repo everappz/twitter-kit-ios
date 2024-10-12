@@ -16,7 +16,7 @@
 #import "TWTRSETwitterUser.h"
 #import "TWTRSEUIBundle.h"
 #import "UIView+TSEExtensions.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 
 @interface TWTRSESimpleAccountTableViewCell ()
 

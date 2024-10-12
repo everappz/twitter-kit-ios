@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTimestampLabel.h"
-#import <TwitterCore/TWTRDateUtil.h>
+#import "TWTRDateUtil.h"
 #import "TWTRDateFormatter.h"
 
 static const NSTimeInterval TWTRRefreshInterval = 30.0;

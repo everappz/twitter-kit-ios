@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSObject;
+#import <Foundation/Foundation.h>
 
 @class TWTRSETweet;
 @protocol TWTRSEAccount;

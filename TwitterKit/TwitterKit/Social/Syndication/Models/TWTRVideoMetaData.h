@@ -20,8 +20,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXTERN NSString *const TWTRMediaTypeMP4;
-FOUNDATION_EXTERN NSString *const TWTRMediaTypeM3u8;
+extern NSString *const TWTRMediaTypeMP4;
+extern NSString *const TWTRMediaTypeM3u8;
 
 @interface TWTRVideoMetaDataVariant : NSObject <NSCoding, NSCopying, TWTRJSONConvertible>
 

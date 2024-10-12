@@ -15,7 +15,7 @@
  *
  */
 
-@import UIKit.UIViewController;
+#import <UIKit/UIKit.h>
 
 @class TWTRSETweetShareConfiguration;
 

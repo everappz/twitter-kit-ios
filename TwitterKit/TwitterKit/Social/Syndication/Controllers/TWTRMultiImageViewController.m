@@ -16,7 +16,7 @@
  */
 
 #import "TWTRMultiImageViewController.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRImageViewController.h"
 #import "TWTRTwitter_Private.h"
 

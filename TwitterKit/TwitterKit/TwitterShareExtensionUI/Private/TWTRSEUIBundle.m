@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRSEUIBundle.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@import Foundation;
-@import UIKit.UIImage;
+#import "TWTRSEUIBundle.h"
 
 static NSBundle *_TSEUIBundle()
 {

@@ -16,8 +16,8 @@
  */
 
 #import "TWTRVideoCTAView.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRColorUtil.h"
 #import "TWTRFontUtil.h"
 #import "TWTRImages.h"
 #import "TWTRVideoDeeplinkConfiguration.h"

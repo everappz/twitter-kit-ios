@@ -17,9 +17,9 @@
 
 #import "TWTRLoginURLParser.h"
 #import <SafariServices/SafariServices.h>
-#import <TwitterCore/TWTRAuthConfig.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
-#import <TwitterCore/TWTRNetworkingUtil.h>
+#import "TWTRAuthConfig.h"
+#import "TWTRAuthenticationConstants.h"
+#import "TWTRNetworkingUtil.h"
 #import "TWTRTwitter.h"
 #import "TWTRWebAuthenticationFlow.h"
 #import "TWTRWebAuthenticationViewController.h"

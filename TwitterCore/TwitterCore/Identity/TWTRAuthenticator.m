@@ -16,7 +16,7 @@
  */
 
 #import "TWTRAuthenticator.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRAuthenticationConstants.h"
 #import "TWTRAuthenticationProvider.h"
 #import "TWTRCoreConstants.h"

@@ -15,8 +15,9 @@
  *
  */
 
-@import CoreLocation;
-@import UIKit;
+#import <CoreLocation/CoreLocation.h>
+#import <UIKit/UIKit.h>
+
 
 @interface TWTRSELocationMapTableViewHeaderView : UIView
 

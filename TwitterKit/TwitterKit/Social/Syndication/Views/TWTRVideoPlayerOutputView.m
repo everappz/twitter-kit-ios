@@ -18,7 +18,7 @@
 #import "TWTRVideoPlayerOutputView.h"
 #import <AVFoundation/AVFoundation.h>
 #import <CoreMedia/CoreMedia.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRImages.h"
 #import "TWTRNotificationConstants.h"
 #import "TWTRVideoPlaybackConfiguration.h"

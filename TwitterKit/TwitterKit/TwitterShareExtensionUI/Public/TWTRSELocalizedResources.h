@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSString;
+#import <Foundation/Foundation.h>
 
 @protocol TWTRSELocalizedResources
 + (NSString *)localizedString:(NSString *)string;

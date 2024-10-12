@@ -26,7 +26,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXTERN NSString *const TWTRTweetsNotLoadedKey;
+extern NSString *const TWTRTweetsNotLoadedKey;
 
 /**
  *  @name Completion Block Types

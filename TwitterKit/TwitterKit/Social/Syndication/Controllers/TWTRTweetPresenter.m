@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTweetPresenter.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 #import "TWTRCardEntity.h"
 #import "TWTRDateFormatter.h"
 #import "TWTRFontUtil.h"

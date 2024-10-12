@@ -16,12 +16,12 @@
  */
 
 #import "TWTRSessionMigrator.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthenticator.h>
-#import <TwitterCore/TWTRGuestSession.h>
-#import <TwitterCore/TWTRSession.h>
-#import <TwitterCore/TWTRSessionStore.h>
-#import <TwitterCore/TWTRSessionStore_Private.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthenticator.h"
+#import "TWTRGuestSession.h"
+#import "TWTRSession.h"
+#import "TWTRSessionStore.h"
+#import "TWTRSessionStore_Private.h"
 
 @implementation TWTRSessionMigrator
 

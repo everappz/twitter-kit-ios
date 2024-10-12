@@ -16,8 +16,8 @@
  */
 
 #import "TWTRUserAPIClient.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthConfig.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthConfig.h"
 #import "TWTRGCOAuth.h"
 
 @interface TWTRUserAPIClient ()

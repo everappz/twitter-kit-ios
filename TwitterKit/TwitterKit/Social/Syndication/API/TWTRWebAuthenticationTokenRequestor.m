@@ -16,14 +16,14 @@
  */
 
 #import "TWTRWebAuthenticationTokenRequestor.h"
-#import <TwitterCore/TWTRAPIServiceConfig.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthConfig.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
-#import <TwitterCore/TWTRSessionStore.h>
-#import <TwitterCore/TWTRSessionStore_Private.h>
-#import <TwitterCore/TWTRUserAPIClient.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAPIServiceConfig.h"
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthConfig.h"
+#import "TWTRAuthenticationConstants.h"
+#import "TWTRSessionStore.h"
+#import "TWTRSessionStore_Private.h"
+#import "TWTRUserAPIClient.h"
+#import "TWTRUtils.h"
 #import "TWTRLoginURLParser.h"
 
 @interface TWTRWebAuthenticationTokenRequestor ()

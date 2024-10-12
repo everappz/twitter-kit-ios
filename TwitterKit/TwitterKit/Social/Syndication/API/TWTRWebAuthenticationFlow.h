@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import <TwitterCore/TWTRSession.h>
+#import "TWTRSession.h"
 #import <UIKit/UIKit.h>
 @class TWTRSessionStore;
 

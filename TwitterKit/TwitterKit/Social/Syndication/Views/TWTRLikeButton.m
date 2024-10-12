@@ -16,9 +16,9 @@
  */
 
 #import "TWTRLikeButton.h"
-#import <TwitterCore/TWTRAPIErrorCode.h>
-#import <TwitterCore/TWTRSessionStore.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAPIErrorCode.h"
+#import "TWTRSessionStore.h"
+#import "TWTRUtils.h"
 #import "TWTRAPIClient_Private.h"
 #import "TWTRAnimatableImageView.h"
 #import "TWTRButtonAnimator.h"

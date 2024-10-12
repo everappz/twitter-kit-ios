@@ -17,9 +17,9 @@
 
 #import "TWTRSELocalizedResources.h"
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
-FOUNDATION_EXTERN Class<TWTRSELocalizedResources> TSELocalized;
+extern Class<TWTRSELocalizedResources> TSELocalized;
 
 /*
  * Always start names with the "TSEUI_LOCALIZABLE_" prefix.

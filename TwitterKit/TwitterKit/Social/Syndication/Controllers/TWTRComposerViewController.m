@@ -45,7 +45,7 @@
 //
 
 #import "TWTRComposerViewController.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRSharedComposerWrapper.h"
 
 @implementation TWTRComposerViewController

@@ -19,9 +19,9 @@
 //  the image passed in.
 
 #import "TWTRTweetImageView.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRColorUtil.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRColorUtil.h"
+#import "TWTRUtils.h"
 #import "TWTRImageLoader.h"
 #import "TWTRMediaEntityDisplayConfiguration.h"
 #import "TWTRTweetImageViewPill.h"

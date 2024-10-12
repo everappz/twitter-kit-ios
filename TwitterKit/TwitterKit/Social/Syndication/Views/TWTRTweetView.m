@@ -16,10 +16,10 @@
  */
 
 #import "TWTRTweetView.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRColorUtil.h>
-#import <TwitterCore/TWTRDateUtil.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRColorUtil.h"
+#import "TWTRDateUtil.h"
+#import "TWTRUtils.h"
 #import "TWTRCardEntity.h"
 #import "TWTRConstants_Private.h"
 #import "TWTRFontUtil.h"

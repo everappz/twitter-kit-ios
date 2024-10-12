@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSBundle;
+#import <Foundation/Foundation.h>
 
 @class UIImage;
 

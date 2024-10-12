@@ -15,6 +15,8 @@
  *
  */
 
+#import <Foundation/Foundation.h>
+
 NSString *const TWTRAPIConstantsCollectionsRetrievePath = @"/1.1/collections/entries.json";
 NSString *const TWTRAPIConstantsListsStatusesPath = @"/1.1/lists/statuses.json";
 NSString *const TWTRAPIConstantsSearchTweetsPath = @"/1.1/search/tweets.json";

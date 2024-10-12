@@ -16,8 +16,8 @@
  */
 
 #import "TWTRCollectionTimelineDataSource.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRMultiThreadUtil.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRMultiThreadUtil.h"
 #import "TWTRAPIClient_Private.h"
 #import "TWTRTimelineCursor.h"
 #import "TWTRTimelineFilter.h"

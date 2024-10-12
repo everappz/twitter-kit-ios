@@ -15,4 +15,4 @@
  *
  */
 
-FOUNDATION_EXTERN void twtr_ensureFrameworksLoadedAtRuntime(void);
+extern void twtr_ensureFrameworksLoadedAtRuntime(void);

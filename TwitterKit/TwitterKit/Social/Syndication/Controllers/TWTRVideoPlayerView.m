@@ -17,7 +17,7 @@
 
 #import "TWTRVideoPlayerView.h"
 
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 
 #import "TWTRTweet.h"
 #import "TWTRTwitter_Private.h"

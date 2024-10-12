@@ -16,7 +16,7 @@
  */
 
 #import "TWTRComposerNetworking.h"
-#import <TwitterCore/TWTRSessionStore.h>
+#import "TWTRSessionStore.h"
 #import "TWTRAPIClient.h"
 #import "TWTRComposerAccount.h"
 #import "TWTRComposerUser.h"

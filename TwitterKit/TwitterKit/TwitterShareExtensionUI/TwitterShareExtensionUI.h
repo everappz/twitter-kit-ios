@@ -15,13 +15,13 @@
  *
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 //! Project version number for TwitterShareExtensionUI.
-FOUNDATION_EXTERN double TwitterShareExtensionUIVersionNumber;
+extern double TwitterShareExtensionUIVersionNumber;
 
 //! Project version string for TwitterShareExtensionUI.
-FOUNDATION_EXTERN const unsigned char TwitterShareExtensionUIVersionString[];
+extern const unsigned char TwitterShareExtensionUIVersionString[];
 
 #import "TWTRSEAccount.h"
 #import "TWTRSEAutoCompletion.h"

@@ -16,8 +16,8 @@
  */
 
 #import "TWTRCardEntity.h"
-#import <TwitterCore/TWTRDictUtil.h>
-#import <TwitterCore/TWTRMultiThreadUtil.h>
+#import "TWTRDictUtil.h"
+#import "TWTRMultiThreadUtil.h"
 #import "TWTRCardEntity+Subclasses.h"
 #import "TWTRPlayerCardEntity.h"
 

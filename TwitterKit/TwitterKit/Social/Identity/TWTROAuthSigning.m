@@ -16,14 +16,14 @@
  */
 
 #import "TWTROAuthSigning.h"
-#import <TwitterCore/TWTRAPIConstantsUser.h>
-#import <TwitterCore/TWTRAPIServiceConfig.h>
-#import <TwitterCore/TWTRAPIServiceConfigRegistry.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthConfig.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
-#import <TwitterCore/TWTRCoreOAuthSigning+Private.h>
-#import <TwitterCore/TWTRSession.h>
+#import "TWTRAPIConstantsUser.h"
+#import "TWTRAPIServiceConfig.h"
+#import "TWTRAPIServiceConfigRegistry.h"
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthConfig.h"
+#import "TWTRAuthenticationConstants.h"
+#import "TWTRCoreOAuthSigning+Private.h"
+#import "TWTRSession.h"
 
 @interface TWTROAuthSigning ()
 

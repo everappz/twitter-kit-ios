@@ -28,7 +28,7 @@
 #import "TWTRSELocationMapTableViewHeaderView.h"
 #import "UIView+TSEExtensions.h"
 
-@import MapKit;
+#import <MapKit/MapKit.h>
 
 #pragma mark -
 

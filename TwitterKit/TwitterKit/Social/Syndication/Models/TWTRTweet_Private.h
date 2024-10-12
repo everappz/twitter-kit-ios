@@ -30,8 +30,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-FOUNDATION_EXTERN NSString *const TWTRCompactTweetExpandedURLString;
-FOUNDATION_EXTERN NSString *const TWTRTweetPerspectivalUserID;
+extern NSString *const TWTRCompactTweetExpandedURLString;
+extern NSString *const TWTRTweetPerspectivalUserID;
 
 @interface TWTRTweet () <TWTRVersionedCacheable>
 

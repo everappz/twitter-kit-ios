@@ -17,7 +17,7 @@
 
 #import "TWTRTweetUserMentionEntity.h"
 
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 
 @implementation TWTRTweetUserMentionEntity

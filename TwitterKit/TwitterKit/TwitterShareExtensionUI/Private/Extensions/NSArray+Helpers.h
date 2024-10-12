@@ -20,5 +20,5 @@
 typedef _Nonnull id (^TSEArrayMapBlock)(_Nonnull id element);
 typedef BOOL (^TSEArrayFilterBlock)(_Nonnull id element);
 
-FOUNDATION_EXTERN NSArray *_Nonnull tse_map(NSArray *_Nonnull array, _Nonnull TSEArrayMapBlock block);
-FOUNDATION_EXTERN NSArray *_Nonnull tse_filter(NSArray *_Nonnull array, _Nonnull TSEArrayFilterBlock block);
+extern NSArray *_Nonnull tse_map(NSArray *_Nonnull array, _Nonnull TSEArrayMapBlock block);
+extern NSArray *_Nonnull tse_filter(NSArray *_Nonnull array, _Nonnull TSEArrayFilterBlock block);

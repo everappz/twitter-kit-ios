@@ -16,8 +16,8 @@
  */
 
 #import "TWTRVideoMetaData.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 #import "TWTRJSONKeyRequirement.h"
 #import "TWTRJSONValidator.h"

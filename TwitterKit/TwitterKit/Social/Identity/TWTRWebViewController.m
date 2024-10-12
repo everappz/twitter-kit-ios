@@ -16,7 +16,7 @@
  */
 
 #import "TWTRWebViewController.h"
-#import <TwitterCore/TWTRAuthenticationConstants.h>
+#import "TWTRAuthenticationConstants.h"
 
 @interface TWTRWebViewController () <WKNavigationDelegate>
 

@@ -16,8 +16,8 @@
  */
 
 #import "TWTRMediaEntitySize.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRDictUtil.h"
 
 static NSString *const TWTRMediaEntitySizeResizingModeCropString = @"crop";
 static NSString *const TWTRMediaEntitySizeResizingModeFitString = @"fit";

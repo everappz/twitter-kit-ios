@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTimelineMessageView.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 #import "TWTRFontUtil.h"
 #import "TWTRViewUtil.h"
 

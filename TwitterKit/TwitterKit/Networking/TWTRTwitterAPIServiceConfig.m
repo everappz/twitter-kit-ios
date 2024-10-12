@@ -16,8 +16,8 @@
  */
 
 #import "TWTRTwitterAPIServiceConfig.h"
-#import <TwitterCore/TWTRAPIServiceConfig.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
+#import "TWTRAPIServiceConfig.h"
+#import "TWTRAuthenticationConstants.h"
 
 static NSString *const TWTRTwitterAPIHost = @"api.twitter.com";
 static NSString *const TWTRHTTPSScheme = @"https";

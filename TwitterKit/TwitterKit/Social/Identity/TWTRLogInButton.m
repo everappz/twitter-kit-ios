@@ -16,7 +16,7 @@
  */
 
 #import "TWTRLogInButton.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 #import "TWTRBirdView.h"
 #import "TWTRTranslationsUtil.h"
 #import "TWTRTwitter.h"

@@ -17,8 +17,8 @@
 
 #import "TWTRSharedComposerWrapper.h"
 #import <AVFoundation/AVFoundation.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRSessionStore.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRSessionStore.h"
 #import <UIKit/UIKit.h>
 #import "TWTRComposerAccount.h"
 #import "TWTRComposerNetworking.h"

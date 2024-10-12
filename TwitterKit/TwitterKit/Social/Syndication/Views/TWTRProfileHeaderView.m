@@ -16,7 +16,7 @@
  */
 
 #import "TWTRProfileHeaderView.h"
-#import <TwitterCore/TWTRColorUtil.h>
+#import "TWTRColorUtil.h"
 #import "TWTRBirdView.h"
 #import "TWTRFontUtil.h"
 #import "TWTRProfileView.h"

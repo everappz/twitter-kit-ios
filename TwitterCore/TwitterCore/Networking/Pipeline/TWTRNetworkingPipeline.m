@@ -16,7 +16,7 @@
  */
 
 #import "TWTRNetworkingPipeline.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRNetworkingPipelinePackage.h"
 #import "TWTRNetworkingPipelineQueue.h"
 

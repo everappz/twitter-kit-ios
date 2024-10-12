@@ -19,7 +19,7 @@
 #import <Accounts/Accounts.h>
 #import <CoreMedia/CoreMedia.h>
 #import <Foundation/Foundation.h>
-#import <TwitterCore/TwitterCore.h>
+#import "TwitterCore.h"
 #import <UIKit/UIKit.h>
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 90000
@@ -34,8 +34,6 @@
 #import "TWTRListTimelineDataSource.h"
 #import "TWTRLogInButton.h"
 #import "TWTRMediaEntitySize.h"
-#import "TWTRMoPubAdConfiguration.h"
-#import "TWTRMoPubNativeAdContainerView.h"
 #import "TWTRNotificationConstants.h"
 #import "TWTROAuthSigning.h"
 #import "TWTRSearchTimelineDataSource.h"

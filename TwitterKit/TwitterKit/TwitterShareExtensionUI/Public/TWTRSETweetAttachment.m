@@ -19,8 +19,8 @@
 
 #import "TWTRSETweetAttachment.h"
 
-@import Foundation;
-@import MobileCoreServices.UTCoreTypes;
+#import <Foundation/Foundation.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
 #pragma mark - extern const definitions
 

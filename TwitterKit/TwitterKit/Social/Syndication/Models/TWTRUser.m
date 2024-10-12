@@ -16,8 +16,8 @@
  */
 
 #import "TWTRUser.h"
-#import <TwitterCore/TWTRAPIConstants.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAPIConstants.h"
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 #import "TWTRJSONKeyRequirement.h"
 #import "TWTRJSONValidator.h"

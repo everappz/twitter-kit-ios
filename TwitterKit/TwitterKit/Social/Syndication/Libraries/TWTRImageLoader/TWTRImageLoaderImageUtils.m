@@ -16,7 +16,7 @@
  */
 
 #import "TWTRImageLoaderImageUtils.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 
 @implementation TWTRImageLoaderImageUtils
 

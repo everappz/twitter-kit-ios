@@ -21,10 +21,10 @@
 
 #import "TWTRTweetShareItemProvider.h"
 
-FOUNDATION_EXTERN NSString *const TWTRTweetShareItemProviderPlaceholder;
+extern NSString *const TWTRTweetShareItemProviderPlaceholder;
 // For share activity types that take a subject e.g. Email
-FOUNDATION_EXTERN NSString *const TWTRTweetShareItemProviderTweetItemSubjectFormatString;
-FOUNDATION_EXTERN NSString *const TWTRTweetShareItemProviderItemFormatString;
+extern NSString *const TWTRTweetShareItemProviderTweetItemSubjectFormatString;
+extern NSString *const TWTRTweetShareItemProviderItemFormatString;
 
 @interface TWTRTweetShareItemProvider ()
 

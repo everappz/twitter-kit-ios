@@ -15,6 +15,9 @@
  *
  */
 
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Foundation/Foundation.h>
+
 #import "TWTRSETweetCocoaItemProviderAttachmentView.h"
 #import "TWTRSECardPreviewProvider.h"
 #import "TWTRSEImageDownloader.h"
@@ -22,8 +25,6 @@
 #import "TWTRSETweetAttachment.h"
 #import "TWTRSETweetAttachmentView.h"
 #import "TWTRSETweetURLAttachmentView.h"
-
-@import MobileCoreServices;
 
 static const CGFloat kSpinnerPadding = 15.0;
 

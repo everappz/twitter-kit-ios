@@ -19,6 +19,8 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
+#import <Foundation/Foundation.h>
+
 typedef NS_ENUM(NSUInteger, TWTRMediaType) { TWTRMediaTypeGIF, TWTRMediaTypePhoto, TWTRMediaTypeVideo, TWTRMediaTypeVine };
 
 TWTRMediaType TWTRMediaTypeFromStringContentType(NSString *contentType);

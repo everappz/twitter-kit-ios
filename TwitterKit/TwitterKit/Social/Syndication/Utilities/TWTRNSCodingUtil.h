@@ -22,7 +22,7 @@
 #import <Foundation/Foundation.h>
 
 // A common key used to encode validated dictionaries in model objects
-FOUNDATION_EXTERN NSString *const TWTRValidatedDictionaryEncoderKey;
+extern NSString *const TWTRValidatedDictionaryEncoderKey;
 
 @interface TWTRNSCodingUtil : NSObject
 

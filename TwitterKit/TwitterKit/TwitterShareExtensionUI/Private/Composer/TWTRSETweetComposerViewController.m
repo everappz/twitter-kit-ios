@@ -92,6 +92,9 @@
 
 #pragma mark imports
 
+#import <CoreLocation/CoreLocation.h>
+#import <Foundation/Foundation.h>
+
 #import "TWTRSETweetComposerViewController.h"
 #import "TWTRBirdView.h"
 #import "TWTRSEAccount.h"
@@ -113,10 +116,7 @@
 #import "UIView+TSEExtensions.h"
 #import "TWTRTwitter.h"
 #import "TWTRComposerAccount.h"
-
-#import <TwitterCore/TWTRColorUtil.h>
-
-@import CoreLocation;
+#import "TWTRColorUtil.h"
 
 #pragma mark - static const definitions
 

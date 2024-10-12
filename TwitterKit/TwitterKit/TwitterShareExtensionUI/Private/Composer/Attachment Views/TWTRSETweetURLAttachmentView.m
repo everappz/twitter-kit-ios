@@ -17,14 +17,15 @@
 
 #pragma mark imports
 
+#import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Foundation/Foundation.h>
+
 #import "TWTRSETweetURLAttachmentView.h"
 #import "TWTRSEColors.h"
 #import "TWTRSEFonts.h"
 #import "TWTRSETweetAttachment.h"
 #import "UIView+TSEExtensions.h"
-
-@import MobileCoreServices;
-@import UIKit;
 
 #pragma mark - extern const definitions
 

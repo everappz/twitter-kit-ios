@@ -17,8 +17,8 @@
 
 #import "TWTRSystemAccountSerializer.h"
 #import <Accounts/Accounts.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRAuthenticationConstants.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRAuthenticationConstants.h"
 
 @implementation TWTRSystemAccountSerializer
 

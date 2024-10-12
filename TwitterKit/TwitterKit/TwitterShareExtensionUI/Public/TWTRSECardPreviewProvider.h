@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation.NSItemProvider;
+#import <Foundation/Foundation.h>
 
 @class UIImage;
 

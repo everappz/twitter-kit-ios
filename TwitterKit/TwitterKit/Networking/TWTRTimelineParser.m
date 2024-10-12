@@ -16,9 +16,9 @@
  */
 
 #import "TWTRTimelineParser.h"
-#import <TwitterCore/TWTRAPIConstants.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRAPIConstants.h"
+#import "TWTRAssertionMacros.h"
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 #import "TWTRTweet.h"
 #import "TWTRTweet_Private.h"

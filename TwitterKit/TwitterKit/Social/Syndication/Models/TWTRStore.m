@@ -31,7 +31,7 @@
 //
 
 #import "TWTRStore.h"
-#import <TwitterCore/TWTRMultiThreadUtil.h>
+#import "TWTRMultiThreadUtil.h"
 #import "TWTRSubscriber.h"
 #import "TWTRSubscription.h"
 #import "TWTRTweet.h"

@@ -15,7 +15,7 @@
  *
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @protocol TWTRSETweetAttachment;
 @protocol TWTRSEGeoPlace;

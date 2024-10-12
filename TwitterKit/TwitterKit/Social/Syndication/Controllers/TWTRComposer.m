@@ -22,7 +22,7 @@
 //
 
 #import "TWTRComposer.h"
-#import <TwitterCore/TWTRConstants.h>
+#import "TWTRConstants.h"
 #import "TWTRComposerViewController.h"
 #import "TWTRTwitter.h"
 

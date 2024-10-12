@@ -19,7 +19,7 @@
 
 #import "TWTRSESelectionTableViewController.h"
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 #pragma mark -
 

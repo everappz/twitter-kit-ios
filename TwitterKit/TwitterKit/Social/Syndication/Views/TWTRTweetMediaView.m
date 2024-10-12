@@ -16,10 +16,10 @@
  */
 
 #import "TWTRTweetMediaView.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRColorUtil.h>
-#import <TwitterCore/TWTRResourcesUtil.h>
-#import <TwitterCore/TWTRUtils.h>
+#import "TWTRAssertionMacros.h"
+#import "TWTRColorUtil.h"
+#import "TWTRResourcesUtil.h"
+#import "TWTRUtils.h"
 #import "TWTRImageViewController.h"
 #import "TWTRMediaEntityDisplayConfiguration.h"
 #import "TWTRMultiImageViewController.h"

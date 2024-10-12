@@ -24,20 +24,22 @@
 //  for the TwitterKit customers who had stored the model objects we return because they
 //  conform to `NSCoding` protocol.
 
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldCreatedAt;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldCurrentUserRetweet;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldEntitiesHashtags;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldEntitiesMedia;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldEntitiesUrls;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldEntitiesUserMentions;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldLikeCount;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldLiked;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldID;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldInReplyToScreenName;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldInReplyToStatusID;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldInReplyToUserID;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldRetweetCount;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldRetweeted;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldRetweetedTweet;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldText;
-FOUNDATION_EXTERN NSString *const TWTRTweetCodingFieldUser;
+#import <Foundation/Foundation.h>
+
+extern NSString *const TWTRTweetCodingFieldCreatedAt;
+extern NSString *const TWTRTweetCodingFieldCurrentUserRetweet;
+extern NSString *const TWTRTweetCodingFieldEntitiesHashtags;
+extern NSString *const TWTRTweetCodingFieldEntitiesMedia;
+extern NSString *const TWTRTweetCodingFieldEntitiesUrls;
+extern NSString *const TWTRTweetCodingFieldEntitiesUserMentions;
+extern NSString *const TWTRTweetCodingFieldLikeCount;
+extern NSString *const TWTRTweetCodingFieldLiked;
+extern NSString *const TWTRTweetCodingFieldID;
+extern NSString *const TWTRTweetCodingFieldInReplyToScreenName;
+extern NSString *const TWTRTweetCodingFieldInReplyToStatusID;
+extern NSString *const TWTRTweetCodingFieldInReplyToUserID;
+extern NSString *const TWTRTweetCodingFieldRetweetCount;
+extern NSString *const TWTRTweetCodingFieldRetweeted;
+extern NSString *const TWTRTweetCodingFieldRetweetedTweet;
+extern NSString *const TWTRTweetCodingFieldText;
+extern NSString *const TWTRTweetCodingFieldUser;

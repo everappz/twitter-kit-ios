@@ -17,7 +17,7 @@
 
 #import "TWTRTweetEntity.h"
 
-#import <TwitterCore/TWTRDictUtil.h>
+#import "TWTRDictUtil.h"
 #import "TWTRAPIConstantsStatus.h"
 
 @implementation TWTRTweetEntity

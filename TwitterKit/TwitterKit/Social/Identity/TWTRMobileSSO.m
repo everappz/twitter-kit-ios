@@ -16,8 +16,8 @@
  */
 
 #import "TWTRMobileSSO.h"
-#import <TwitterCore/TWTRSession.h>
-#import <TwitterCore/TWTRSessionStore.h>
+#import "TWTRSession.h"
+#import "TWTRSessionStore.h"
 #import "TWTRErrors.h"
 #import "TWTRLoginURLParser.h"
 #import "TWTRTwitter.h"

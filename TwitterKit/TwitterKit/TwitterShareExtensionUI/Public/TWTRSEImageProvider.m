@@ -15,11 +15,11 @@
  *
  */
 
+#import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
 #import "TWTRSEImageProvider.h"
 #import "TWTRSETweetAttachment.h"
-
-@import MobileCoreServices;
-@import UIKit.UIImage;
 
 typedef NS_ENUM(NSInteger, TWTRSEItemProviderLoadImageMode) {
     TWTRSEItemProviderLoadImageModeLoadImageClass = 0,

@@ -16,7 +16,7 @@
  */
 
 #import "TWTRImageViewController.h"
-#import <TwitterCore/TWTRAssertionMacros.h>
+#import "TWTRAssertionMacros.h"
 #import "TWTRImageLoader.h"
 #import "TWTRImageScrollView.h"
 #import "TWTRTranslationsUtil.h"

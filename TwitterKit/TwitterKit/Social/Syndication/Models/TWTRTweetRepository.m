@@ -16,12 +16,12 @@
  */
 
 #import "TWTRTweetRepository.h"
-#import <TwitterCore/TWTRAPIConstants.h>
-#import <TwitterCore/TWTRAPIServiceConfig.h>
-#import <TwitterCore/TWTRAPIServiceConfigRegistry.h>
-#import <TwitterCore/TWTRAssertionMacros.h>
-#import <TwitterCore/TWTRConstants.h>
-#import <TwitterCore/TWTRSessionStore.h>
+#import "TWTRAPIConstants.h"
+#import "TWTRAPIServiceConfig.h"
+#import "TWTRAPIServiceConfigRegistry.h"
+#import "TWTRAssertionMacros.h"
+#import "TWTRConstants.h"
+#import "TWTRSessionStore.h"
 #import "TWTRAPIClient.h"
 #import "TWTRAPIConstantsStatus.h"
 #import "TWTRStore.h"
