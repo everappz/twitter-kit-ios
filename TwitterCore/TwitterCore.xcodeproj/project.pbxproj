@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -189,7 +189,7 @@
 		9D5917881BEAB23800706EF3 /* TwitterCore-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9D5A92651AAAA0970039EFCC /* TwitterCore-Prefix.pch */; };
 		9D5A922D1AAA89730039EFCC /* libTwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92211AAA89730039EFCC /* libTwitterCore.a */; };
 		9D5A924B1AAA8D600039EFCC /* TwitterCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5A924A1AAA8D600039EFCC /* TwitterCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D5A92631AAA8E7B0039EFCC /* libTwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92211AAA89730039EFCC /* libTwitterCore.a */; };
+		9D5A92631AAA8E7B0039EFCC /* libTwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92211AAA89730039EFCC /* libTwitterCore.a */; platformFilter = ios; };
 		9D5A92671AAAA2160039EFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92661AAAA2160039EFCC /* Foundation.framework */; };
 		9D5A926B1AAD0DB50039EFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92661AAAA2160039EFCC /* Foundation.framework */; };
 		9D5A92701AAD14C90039EFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A92661AAAA2160039EFCC /* Foundation.framework */; };
@@ -1582,6 +1582,7 @@
 		};
 		9D5A92601AAA8D740039EFCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 9D5A92201AAA89730039EFCC /* TwitterCore-static */;
 			targetProxy = 9D5A925F1AAA8D740039EFCC /* PBXContainerItemProxy */;
 		};
@@ -1593,6 +1594,7 @@
 			baseConfigurationReference = 24AC14491BE7B219000029B5 /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1638,6 +1640,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
@@ -1647,6 +1651,7 @@
 			baseConfigurationReference = 24AC14491BE7B219000029B5 /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1688,6 +1693,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1707,6 +1714,12 @@
 					"$(TARGET_BUILD_DIR)/Headers/",
 					"$(TARGET_BUILD_DIR)/PrivateHeaders/",
 				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1724,6 +1737,12 @@
 					"$(TARGET_BUILD_DIR)/Headers/",
 					"$(TARGET_BUILD_DIR)/PrivateHeaders/",
 				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1768,8 +1787,18 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "TwitterCore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(TWC_BUNDLE_IDENTIFIER)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1787,8 +1816,18 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = "TwitterCore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(TWC_BUNDLE_IDENTIFIER)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
