@@ -19,6 +19,7 @@
 
 #pragma mark Twitter API
 NSString *const TWTRTwitterDomain = @"twitter.com";
+NSString *const TWTRTwitterXDomain = @"x.com";
 
 #pragma mark - Authentication
 // DO NOT CHANGE THESE VALUES, IT WILL LOG USERS OUT.

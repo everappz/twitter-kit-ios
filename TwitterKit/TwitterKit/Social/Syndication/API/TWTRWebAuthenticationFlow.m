@@ -94,7 +94,12 @@
 
     // Otherwise present Safari
 
-    TWTRWebAuthenticationViewController *controller = [[TWTRWebAuthenticationViewController alloc] initWithAuthenticationToken:token authConfig:self.sessionStore.authConfig APIServiceConfig:self.sessionStore.APIServiceConfig hasExistingSession:self.sessionStore.hasLoggedInUsers];
+    TWTRWebAuthenticationViewController *controller =
+    [[TWTRWebAuthenticationViewController alloc] initWithAuthenticationToken:token
+                                                                  authConfig:self.sessionStore.authConfig
+                                                            APIServiceConfig:self.sessionStore.APIServiceConfig
+                                                                  forceLogin:NO
+                                                                  useWebFlow:YES];
 
     controller.completion = ^(TWTRSession *session, NSError *error) {
         if (session) {

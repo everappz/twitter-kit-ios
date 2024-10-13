@@ -750,7 +750,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "HEADERS_DIR=\"${PROJECT_DIR}/Headers\"\nmkdir -p \"$HEADERS_DIR\"\n\nfind \"${SRCROOT}\" -name '*.h' -exec cp {} \"$HEADERS_DIR\" \\;\n";
+			shellScript = "HEADERS_DIR=\"${PROJECT_DIR}/Headers\"\n# Create the directory if it doesn't exist\nmkdir -p \"$HEADERS_DIR\"\n\n# Remove all existing header files in the Headers directory\nfind \"$HEADERS_DIR\" -type f -name '*.h' -delete\n\n# Find and copy all header files from SRCROOT to HEADERS_DIR\nfind \"${SRCROOT}\" -name '*.h' -exec cp {} \"$HEADERS_DIR\" \\;\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

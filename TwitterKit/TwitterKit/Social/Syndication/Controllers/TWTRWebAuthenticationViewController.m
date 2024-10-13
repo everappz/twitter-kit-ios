@@ -44,7 +44,11 @@
 
 @implementation TWTRWebAuthenticationViewController
 
-- (instancetype)initWithAuthenticationToken:(NSString *)token authConfig:(TWTRAuthConfig *)authConfig APIServiceConfig:(id<TWTRAPIServiceConfig>)serviceConfig hasExistingSession:(BOOL)hasExistingSession
+- (instancetype)initWithAuthenticationToken:(NSString *)token
+                                 authConfig:(TWTRAuthConfig *)authConfig
+                           APIServiceConfig:(id<TWTRAPIServiceConfig>)serviceConfig
+                                 forceLogin:(BOOL)forceLogin
+                                 useWebFlow:(BOOL)useWebFlow
 {
     TWTRParameterAssertOrReturnValue(token, nil);
     TWTRParameterAssertOrReturnValue(authConfig, nil);
@@ -58,9 +62,9 @@
         _loginURLParser = [[TWTRLoginURLParser alloc] initWithAuthConfig:authConfig];
 
         // If TWTRSession exist, we use UIWeb flow that does force login. Otherwise, we don't have to
-        NSDictionary *queryDict = @{TWTRAuthOAuthTokenKey: token, @"force_login": hasExistingSession ? @"true" : @"false"};
+        NSDictionary *queryDict = @{TWTRAuthOAuthTokenKey: token, @"force_login": forceLogin ? @"true" : @"false"};
         _authURL = TWTRAPIURLWithParams(serviceConfig, TWTRTwitterAuthorizePath, queryDict);
-        _useWebFlow = hasExistingSession;
+        _useWebFlow = useWebFlow;
     }
     return self;
 }

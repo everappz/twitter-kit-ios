@@ -23,6 +23,7 @@
 
 #pragma mark Twitter API
 extern NSString *const TWTRTwitterDomain;
+extern NSString *const TWTRTwitterXDomain;
 
 #pragma mark - Authentication
 extern NSString *const TWTRAuthDirectoryLegacyName;

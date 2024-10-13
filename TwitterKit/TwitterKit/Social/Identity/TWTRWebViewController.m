@@ -96,12 +96,15 @@
 
 #pragma mark - WKWebview delegate
 
-- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+- (void)webView:(WKWebView *)webView
+decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction
+decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
+{
     NSURLRequest* request = navigationAction.request;
     if (![self whitelistedDomain:request]) {
         // Open in Safari if request is not whitelisted
         NSLog(@"Opening link in Safari browser, as the host is not whitelisted: %@", request.URL);
-        [[UIApplication sharedApplication] openURL:request.URL];
+        [[UIApplication sharedApplication] openURL:request.URL options:@{} completionHandler:nil];
         decisionHandler(WKNavigationActionPolicyCancel);
         return;
     }
@@ -112,6 +115,7 @@
         };
     }
 
+    NSLog(@"TWTR DecisionHandler %@, host: %@",@(decision), request.URL);
     decisionHandler(decision);
 }
 
@@ -127,9 +131,15 @@
 - (BOOL)whitelistedDomain:(NSURLRequest *)request
 {
     NSString *whitelistedHostWildcard = [@"." stringByAppendingString:TWTRTwitterDomain];
+    NSString *whitelistedHostXWildcard = [@"." stringByAppendingString:TWTRTwitterXDomain];
+    
     NSURL *url = request.URL;
     NSString *host = url.host;
-    return ([host isEqualToString:TWTRTwitterDomain] || [host hasSuffix:whitelistedHostWildcard] || ([TWTRSDKScheme isEqualToString:url.scheme] && [TWTRSDKRedirectHost isEqualToString:host]));
+    return ([host isEqualToString:TWTRTwitterDomain] ||
+            [host isEqualToString:TWTRTwitterXDomain] ||
+            [host hasSuffix:whitelistedHostWildcard] ||
+            [host hasSuffix:whitelistedHostXWildcard] ||
+            ([TWTRSDKScheme isEqualToString:url.scheme] && [TWTRSDKRedirectHost isEqualToString:host]));
 }
 
 - (void)cancel
